@@ -1,0 +1,165 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1422397351" lastUniqueIdentifier="15">
+  <timeline>
+    <DOMTimeline name="Gallery Page">
+      <layers>
+        <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+var number=1;
+var page=1;
+var pagechanged=false;
+var thingselected=0;
+
+this.addEventListener(Event.ENTER_FRAME, loadall1);
+function loadall1(e:Event):void {
+	trace(number);
+	if (this.number>=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página certa
+		this["mini"+(this.number-12*(page-1))].number=[this.number];
+		trace("adding...");//12*(page) é o fim da página
+		number=number+1;
+	} else if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
+		this["mini"+(this.number-12*(page-1))].number=[this.number];
+		trace("finish!");//12*(page-1)+1 é o início da página
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+	} else if (this.number<=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página anterior
+		number=number+1;
+		trace("not this...");
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, pagechangedf);
+function pagechangedf(e:Event):void {
+	if (pagechanged==true) {
+		pagechanged=false;
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+		number=12*(page-1)+1;
+		this.addEventListener(Event.ENTER_FRAME, loadall1);
+	}
+	if (mini1.thisselected==true){thingselected=mini1.number;mini1.thisselected=false;}
+	if (mini2.thisselected==true){thingselected=mini2.number;mini2.thisselected=false;}
+	if (mini3.thisselected==true){thingselected=mini3.number;mini3.thisselected=false;}
+	if (mini4.thisselected==true){thingselected=mini4.number;mini4.thisselected=false;}
+	if (mini5.thisselected==true){thingselected=mini5.number;mini5.thisselected=false;}
+	if (mini6.thisselected==true){thingselected=mini6.number;mini6.thisselected=false;}
+	if (mini7.thisselected==true){thingselected=mini7.number;mini7.thisselected=false;}
+	if (mini8.thisselected==true){thingselected=mini8.number;mini8.thisselected=false;}
+	if (mini9.thisselected==true){thingselected=mini9.number;mini9.thisselected=false;}
+	if (mini10.thisselected==true){thingselected=mini10.number;mini10.thisselected=false;}
+	if (mini11.thisselected==true){thingselected=mini11.number;mini11.thisselected=false;}
+	if (mini12.thisselected==true){thingselected=mini12.number;mini12.thisselected=false;}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" centerPoint3DX="-151.25" centerPoint3DY="-121.45">
+                  <matrix>
+                    <Matrix tx="-236.35" ty="-179.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini2" centerPoint3DX="-23.75" centerPoint3DY="-121.5">
+                  <matrix>
+                    <Matrix tx="-108.75" ty="-179.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini3" centerPoint3DX="105.95" centerPoint3DY="-121.5">
+                  <matrix>
+                    <Matrix tx="20.95" ty="-179.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
+                  <matrix>
+                    <Matrix tx="-236.35" ty="-61.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini4" centerPoint3DX="232.45" centerPoint3DY="-121.2">
+                  <matrix>
+                    <Matrix tx="147.45" ty="-179.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini6" centerPoint3DX="-23.75" centerPoint3DY="-3.05">
+                  <matrix>
+                    <Matrix tx="-108.75" ty="-61.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini7" centerPoint3DX="105.95" centerPoint3DY="-3.05">
+                  <matrix>
+                    <Matrix tx="20.95" ty="-61.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini8" centerPoint3DX="230.4" centerPoint3DY="-3.05">
+                  <matrix>
+                    <Matrix tx="145.4" ty="-61.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini9" centerPoint3DX="-152.4" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="-237.4" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini10" centerPoint3DX="-24.8" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="-109.8" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini11" centerPoint3DX="104.9" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="19.9" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini12" centerPoint3DX="229.35" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="144.35" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

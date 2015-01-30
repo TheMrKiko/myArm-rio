@@ -1,0 +1,105 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu Bar Assets/Menumain" itemID="5496f7ba-0000085d" lastModified="1419373093">
+  <timeline>
+    <DOMTimeline name="Menumain">
+      <layers>
+        <DOMLayer name="Text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="maintext" selected="true" fontRenderingMode="standard" width="147.5" height="28.1" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-73.5" ty="-14.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="19" bitmapSize="380" face="Arial-BoldMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Bar" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!1520 -331|-1519 -331!-1519 -331|-1519 332!-1519 332|1520 332!1520 332|1520 -331"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Arrow" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="!2110 -64|1890 156!1890 156|1670 -64!1670 -64|2110 -64"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1520 -331|2260 -331!2260 -331|2260 332!2260 332|1520 332"/>
+                    <Edge fillStyle1="1" edges="!1520 332|1520 -331"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var barmousein=false;
+
+this.addEventListener(MouseEvent.MOUSE_OUT, mouseoutbar);
+function mouseoutbar(e:Event):void {
+	barmousein=false;
+}
+
+this.addEventListener(MouseEvent.MOUSE_OVER, mouseoverbar);
+function mouseoverbar(e:Event):void {
+	barmousein=true;
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

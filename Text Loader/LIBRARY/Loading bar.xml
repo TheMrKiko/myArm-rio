@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Loading bar" itemID="5490d371-00000258" lastModified="1418951756" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="Loading bar">
+      <layers>
+        <DOMLayer name="Outline" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6980 1200|0 1200!0 1200|0 0!0 0|6980 0!6980 0|6980 1200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Bar" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Loading Bar Assets/Bar" name="bar" selected="true" centerPoint3DX="174.95" centerPoint3DY="30.5">
+                  <matrix>
+                    <Matrix tx="4" ty="30.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="170.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

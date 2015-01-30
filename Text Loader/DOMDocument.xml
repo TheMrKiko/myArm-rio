@@ -1,0 +1,1994 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" nextSceneIdentifier="172" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <folders>
+          <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
+          <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
+          <DOMFolderItem name="Date Assets" itemID="54c544c5-00000038"/>
+          <DOMFolderItem name="Loading Bar Assets" itemID="5496f53a-00000776"/>
+          <DOMFolderItem name="Menu Bar Assets" itemID="5496f920-00000916"/>
+          <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
+     </folders>
+     <fonts>
+          <DOMFontItem name="Font 2" itemID="5a7f74a6-000001f6" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518302374" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f74a6-000001f7" font="ArialMT" size="16" id="1" sourceLastImported="1518302374" embedRanges="3|5" bitmapSize="320"/>
+     </fonts>
+     <symbols>
+          <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
+          <Include href="Arrows Assets/Left Arrow.xml" loadImmediate="false" itemID="54aad79a-0000016f" lastModified="1420482567"/>
+          <Include href="Arrows Assets/Right Arrow.xml" loadImmediate="false" itemID="54aad7b7-00000174" lastModified="1420482571"/>
+          <Include href="btn.xml" itemIcon="0" loadImmediate="false" itemID="548e050b-00000016" lastModified="1418862042"/>
+          <Include href="Check Button Assets/Check out.xml" loadImmediate="false" itemID="54a8a0af-00000052" lastModified="1420337608"/>
+          <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1420326093"/>
+          <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1420337569"/>
+          <Include href="Check Button Assets/Symbol 1.xml" loadImmediate="false" itemID="54a987e7-00000036" lastModified="1420396522"/>
+          <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1422214224"/>
+          <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1421605388"/>
+          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1422403615"/>
+          <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
+          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1422397351"/>
+          <Include href="Loading bar.xml" loadImmediate="false" itemID="5490d371-00000258" lastModified="1418951756"/>
+          <Include href="Loading Bar Assets/Bar.xml" loadImmediate="false" itemID="5490d701-0000067a" lastModified="1418778369"/>
+          <Include href="Menu Bar.xml" loadImmediate="false" itemID="5496f917-00000912" lastModified="1420336338"/>
+          <Include href="Menu Bar Assets/Downcell.xml" loadImmediate="false" itemID="54970cfd-0000002c" lastModified="1419345244"/>
+          <Include href="Menu Bar Assets/Menumain.xml" loadImmediate="false" itemID="5496f7ba-0000085d" lastModified="1419373093"/>
+          <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1420227914"/>
+          <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
+          <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1422654409"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Loader">
+               <layers>
+                    <DOMLayer name="Text" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="txt" fontRenderingMode="standard" width="351.95" height="28.5" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="99" ty="234.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Bar" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Loading bar" name="bar" centerPoint3DX="288.95" centerPoint3DY="170">
+                                             <matrix>
+                                                  <Matrix a="1.00286865234375" tx="100" ty="170"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="174.5" y="29.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+var number:Number=1;
+var numbertotal:Number=0;
+var numberselected:Number=0;
+bar.bar.scaleX=0;
+var txtloaded:Boolean=false;
+var myTextLoader:URLLoader = new URLLoader();
+myTextLoader.dataFormat=URLLoaderDataFormat.VARIABLES;
+myTextLoader.load(new URLRequest("Clothes.txt"));
+
+myTextLoader.addEventListener(Event.COMPLETE, onLoaded);
+function onLoaded(e:Event):void {
+	numbertotal=myTextLoader.data["number"];
+	txtloaded=true;
+	this.addEventListener(Event.ENTER_FRAME, loadall);
+	myTextLoader.removeEventListener(Event.COMPLETE, onLoaded);
+}
+
+function loadall(e:Event):void {
+	if (number<numbertotal) {
+		this["load"+number] = new Loader();
+		this["item"+number]=myTextLoader.data["item"+number];
+		this["type"+number]=myTextLoader.data["type"+number];
+		this["subtype"+number]=myTextLoader.data["subtype"+number];
+		this["color"+number]=myTextLoader.data["color"+number];
+		this["style"+number]=myTextLoader.data["style"+number];
+		this["lastdate"+number]=myTextLoader.data["lastdate"+number];
+		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
+		this["img"+number]=myTextLoader.data["img"+number];
+		this["load"+number].load(new URLRequest(this["img"+number]));
+		number=number+1;
+
+	} else if (number==numbertotal) {
+		this["load"+number] = new Loader();
+		this["item"+number]=myTextLoader.data["item"+number];
+		this["type"+number]=myTextLoader.data["type"+number];
+		this["subtype"+number]=myTextLoader.data["subtype"+number];
+		this["color"+number]=myTextLoader.data["color"+number];
+		this["style"+number]=myTextLoader.data["style"+number];
+		this["lastdate"+number]=myTextLoader.data["lastdate"+number];
+		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
+		this["img"+number]=myTextLoader.data["img"+number];
+		this["load"+number].load(new URLRequest(this["img"+number]));
+		this.removeEventListener(Event.ENTER_FRAME, loadall);
+		this.removeEventListener(Event.ENTER_FRAME, loading);
+		gotoAndPlay(1, "Menu");
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, loading);
+function loading(e:Event):void {
+	if (txtloaded==true) {
+		bar.bar.scaleX=number/numbertotal;
+		txt.text="Carregando guarda-roupa... "+Number(Math.round(number/numbertotal*100))+"%";
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="Menu">
+               <layers>
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+newbtn.addEventListener(MouseEvent.CLICK, fnewbtn);
+function fnewbtn(e:Event):void {
+	newbtn.removeEventListener(MouseEvent.CLICK,fnewbtn);
+	gotoAndStop(1, "New");
+}
+editbtn.addEventListener(MouseEvent.CLICK,feditbtn);
+function feditbtn(e:Event):void {
+	editbtn.removeEventListener(MouseEvent.CLICK,feditbtn);
+	gotoAndStop(1, "Edit");
+}
+galbtn.addEventListener(MouseEvent.CLICK,fgalbtn);
+function fgalbtn(e:Event):void {
+	galbtn.removeEventListener(MouseEvent.CLICK,fgalbtn);
+	gotoAndStop(1, "Gallery");
+}
+combbtn.addEventListener(MouseEvent.CLICK,fcombbtn);
+function fcombbtn(e:Event):void {
+	combbtn.removeEventListener(MouseEvent.CLICK,fcombbtn);
+	gotoAndStop(1, "Combine");
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Loading bar" centerPoint3DX="276.3" centerPoint3DY="78">
+                                             <matrix>
+                                                  <Matrix tx="101.8" ty="48"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="174.5" y="30"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="newbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="183" ty="154"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText fontRenderingMode="standard" width="183" height="29.05" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="216.95" ty="138.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Novo Item</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="26" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="btn" name="editbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="183" ty="214.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText fontRenderingMode="standard" width="183" height="29.05" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="216.95" ty="199"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Editar Item</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="26" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="btn" name="galbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="183" ty="271.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText fontRenderingMode="standard" width="183" height="29.05" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="216.95" ty="256"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Galeria</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="26" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="btn" name="combbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="183" ty="330.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText fontRenderingMode="standard" width="183" height="29.05" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="216.95" ty="315"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Combinação</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="26" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="319.95" height="41.35" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="114.8" ty="58.45"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>O TEU ARMÁRIO</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="37" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="New">
+               <layers>
+                    <DOMLayer name="Button" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="426.95" ty="350.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn" name="loadbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="477.95" ty="268"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="15.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Item</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34" ty="58.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Tipo</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="256.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Imagem</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMInputText name="itemtxt" fontRenderingMode="standard" width="361.95" height="29">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="135.05" ty="15.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="180.95" y="14.5"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMInputText>
+                                        <DOMDynamicText name="imgtxt" fontRenderingMode="standard" width="361.95" height="29" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="138" ty="253.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="errortxt" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="159" ty="334"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34" ty="99.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Cores</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="137.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Ocasião</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="281.45" ty="58.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Sub-tipo</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="Slider" name="styleslider" centerPoint3DX="298.45" centerPoint3DY="162.6">
+                                             <matrix>
+                                                  <Matrix tx="200.95" ty="142.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60" y="5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck1" centerPoint3DX="195.15" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="133.65" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck2" centerPoint3DX="277.75" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="216.25" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck3" centerPoint3DX="398" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="336.5" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck4" centerPoint3DX="500.75" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="439.25" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="199.45" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="134.45" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="174.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Útima vez usado</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="308.45" ty="172.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Intervalo de Uso</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMInputText name="deltadaystxt" fontRenderingMode="standard" width="36.35" height="20.55" includeOutlines="true">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="411.05" ty="181"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.15" y="10.25"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMInputText>
+                                        <DOMDynamicText fontRenderingMode="standard" width="49.2" height="20.55" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="452" ty="181.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="24.6" y="10.25"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>dia(s)</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" lineSpacing="0" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="Date Insertor" centerPoint3DX="160.45" centerPoint3DY="174.45">
+                                             <matrix>
+                                                  <Matrix tx="136" ty="179"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="74.9" y="11"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+itemtxt.text="";
+imgtxt.text="";
+errortxt.text="";
+var numbercheck:Number=1;
+var numbernew:Number=numbertotal+1;
+var imglink:FileReference = new FileReference();
+var imagesFilter:FileFilter=new FileFilter("Imagens","*.jpg;*.gif;*.png");
+
+btn.addEventListener(MouseEvent.CLICK, additem);
+function additem(e:Event):void {
+	errortxt.text="Processando...";
+	this.addEventListener(Event.ENTER_FRAME, checknew);
+}
+function checknew(e:Event):void {
+	if (itemtxt.text!=this["item"+numbercheck]&&numbercheck<numbertotal) {
+		numbercheck=(numbercheck+1);
+	}
+	if (itemtxt.text==""||subtypemenu.choice==""||styleslider.val.text==""||deltadaystxt.text==""||imgtxt.text=="") {
+		errortxt.text="Preencha todos os campos.";
+		this.removeEventListener(Event.ENTER_FRAME, checknew);
+		numbercheck=1;
+	}
+	if (itemtxt.text==this["item"+numbercheck]) {
+		errortxt.text="Item repetido...";
+		this.removeEventListener(Event.ENTER_FRAME, checknew);
+		numbercheck=1;
+	}
+	if (itemtxt.text!=this["item"+numbercheck]&&numbercheck==numbertotal) {
+		errortxt.text="Item adicionado!";
+		numbertotal=numbernew;
+		this["item"+numbernew]=itemtxt.text;
+		this["type"+numbernew]=typemenu.choice;
+		this["subtype"+numbernew]=subtypemenu.choice;
+		this["color"+numbernew]=[];
+		this["color"+numbernew].push(colorcheck1.thischecked);
+		this["color"+numbernew].push(colorcheck2.thischecked);
+		this["color"+numbernew].push(colorcheck3.thischecked);
+		this["color"+numbernew].push(colorcheck4.thischecked);
+		this["style"+numbernew]=styleslider.val.text;
+		this["deltadays"+numbernew]=deltadaystxt.text;
+		this["img"+numbernew]=imgtxt.text;
+		trace("Item "+numbertotal);
+		trace(this["item"+numbernew]);
+		trace(this["type"+numbernew]);
+		trace(this["subtype"+numbernew]);
+		trace(this["color"+numbernew]);
+		trace((this["style"+numbernew])+"%");
+		trace((this["deltadays"+numbernew])+" dias");
+		trace(this["img"+numbernew]);
+		this.removeEventListener(Event.ENTER_FRAME, checknew);
+		this.removeEventListener(Event.ENTER_FRAME, givelabels);
+		loadbtn.removeEventListener(MouseEvent.CLICK, loadIt);
+		imglink.removeEventListener(Event.SELECT, selectImage);
+		btn.removeEventListener(MouseEvent.CLICK, additem);
+		numbercheck=1;
+		setTimeout(wait2,1000);
+		function wait2() {
+			gotoAndStop(1, "Save");
+		}
+	}
+}
+
+loadbtn.addEventListener(MouseEvent.CLICK, loadIt);
+function loadIt(e:Event):void {
+	imglink.browse([imagesFilter]);
+}
+
+imglink.addEventListener(Event.SELECT, selectImage);
+function selectImage(e:Event):void {
+	var extensionIndex:Number=imglink.name.lastIndexOf('.');
+	var extension:String=imglink.name.substr(extensionIndex,5);
+	trace(imglink.name);
+	if (extension==".jpeg"||extension==".jpg"||extension==".png") {
+		imgtxt.text=(imglink.name);
+	} else {
+		imgtxt.text="";
+		errortxt.text="Selecione uma imagem válida.";
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, givelabels);
+function givelabels(e:Event):void {
+	colorcheck1.thislabel="Azul";
+	colorcheck2.thislabel="Castanho";
+	colorcheck3.thislabel="Escuro";
+	colorcheck4.thislabel="Claro";
+	typemenu.labels=["Tronco","Pernas","Calçado"];
+	if (typemenu.choice=="Tronco") {
+		subtypemenu.labels=["Camisola","Sweatshirt","T-shirt","Camisa","Polo","Malha","Casaco"];
+	}
+	if (typemenu.choice=="Pernas") {
+		subtypemenu.labels=["Calças","Calções"];
+	}
+	if (typemenu.choice=="Calçado") {
+		subtypemenu.labels=["Sapatos","Sapatilhas","Botas","Chinelos"];
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="Edit">
+               <layers>
+                    <DOMLayer name="Button" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn" name="loadbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="477.95" ty="268"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Date Insertor" name="date" centerPoint3DX="160.45" centerPoint3DY="174.45">
+                                             <matrix>
+                                                  <Matrix tx="136" ty="179"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="74.9" y="11"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="426.95" ty="350.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Text" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMInputText name="no" fontRenderingMode="standard" width="22.5" height="21.45" includeOutlines="true">
+                                             <matrix>
+                                                  <Matrix tx="108.5" ty="340.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMInputText>
+                                        <DOMStaticText fontRenderingMode="standard" width="73.95" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="28.55" ty="344.1"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Item nº</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="15.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Item</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34" ty="58.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Tipo</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="256.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Imagem</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMInputText name="itemtxt" fontRenderingMode="standard" width="361.95" height="29">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="135.05" ty="15.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="180.95" y="14.5"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMInputText>
+                                        <DOMDynamicText name="imgtxt" fontRenderingMode="standard" width="361.95" height="29" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="138" ty="253.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="errortxt" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="159" ty="334"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" size="16" bitmapSize="320" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34" ty="99.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Cores</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="137.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Ocasião</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="33" ty="174.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Útima vez usado</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="308.45" ty="172.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Intervalo de Uso</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="281.45" ty="58.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Sub-tipo</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="16" face="Arial-BoldMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="Slider" name="styleslider" centerPoint3DX="298.45" centerPoint3DY="162.6">
+                                             <matrix>
+                                                  <Matrix tx="200.95" ty="142.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60" y="5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMInputText name="deltadaystxt" fontRenderingMode="standard" width="36.35" height="20.55" includeOutlines="true">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="411.05" ty="181"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.15" y="10.25"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMInputText>
+                                        <DOMDynamicText fontRenderingMode="standard" width="49.2" height="20.55" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix a="1.01638793945313" tx="452" ty="181.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="24.6" y="10.25"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>dia(s)</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" lineSpacing="0" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck1" centerPoint3DX="195.15" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="133.65" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck2" centerPoint3DX="277.75" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="216.25" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck3" centerPoint3DX="398" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="336.5" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck4" centerPoint3DX="500.75" centerPoint3DY="106">
+                                             <matrix>
+                                                  <Matrix tx="439.25" ty="93.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60.1" y="12.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Arrows" name="aw" centerPoint3DX="120.35" centerPoint3DY="351">
+                                             <matrix>
+                                                  <Matrix a="0" b="-1" c="1" d="0" tx="105.35" ty="381.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="30.5" y="15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="199.45" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="134.45" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+if (numberselected!=0) {
+	number=numberselected;
+}
+var numbero=number;
+no.text=numbero;
+var numberactual=number;
+var validnumber=true;
+setTimeout(wait3,100);
+itemtxt.text=this["item"+numberactual];
+styleslider.val.text=this["style"+numberactual];
+deltadaystxt.text=this["deltadays"+numberactual];
+imgtxt.text=this["img"+numberactual];
+errortxt.text="";
+numbercheck=1;
+
+this.addEventListener(Event.ENTER_FRAME, itemnumber);
+function itemnumber(e:Event):void {
+	if (no.text=="") {
+		errortxt.text="Insira um número válido.";
+		validnumber=false;
+	} else if (numberactual!=no.text) {
+		errortxt.text="";
+		numberactual=no.text;
+		if (numberactual>numbertotal||numberactual<=0) {
+			errortxt.text="Insira um número entre 1 e "+numbertotal+".";
+			itemtxt.text="";
+			typemenu.choice="";
+			imgtxt.text="";
+			validnumber=false;
+		} else if (numberactual<=numbertotal) {
+			itemtxt.text=this["item"+numberactual];
+			date.waitingforchoice=true;
+			if (this["lastdate"+numberactual]!="undefined") {
+				if (date.waitingforchoice==true) {
+					date.daynumbs=Number(this["lastdate"+numberactual][0]);
+					date.monthnumbs=Number(this["lastdate"+numberactual][1]);
+					date.yearnumbs=Number(this["lastdate"+numberactual][2]);
+					date.waitingforchoice=false;
+				}
+			} else {
+				var dateactual:Date=new Date();
+				date.daynumbs=dateactual.getDate();
+				date.monthnumbs=dateactual.getMonth();
+				date.yearnumbs=dateactual.getFullYear();
+				date.waitingforchoice=false;
+			}
+			typemenu.choicedefined=false;
+			subtypemenu.choicedefined=false;
+			if (this["type"+numberactual]!="undefined") {
+				typemenu.choicedefined=true;
+				typemenu.choice=this["type"+numberactual];
+			}
+			if (this["subtype"+numberactual]!="undefined") {
+				subtypemenu.choicedefined=true;
+				subtypemenu.choice=this["subtype"+numberactual];
+				styleslider.val.text=this["style"+numberactual];
+				deltadaystxt.text=this["deltadays"+numberactual];
+			}
+			if (this["color"+numberactual]!="undefined") {
+				colorcheck1.thischecked=this["color"+numberactual][0];
+				colorcheck1.justselected=true;
+				colorcheck2.thischecked=this["color"+numberactual][1];
+				colorcheck2.justselected=true;
+				colorcheck3.thischecked=this["color"+numberactual][2];
+				colorcheck3.justselected=true;
+				colorcheck4.thischecked=this["color"+numberactual][3];
+				colorcheck4.justselected=true;
+			} else {
+				this["color"+numberactual]=[0,0,0,0];
+				colorcheck1.thischecked=this["color"+numberactual][0];
+				colorcheck1.justselected=true;
+				colorcheck2.thischecked=this["color"+numberactual][1];
+				colorcheck2.justselected=true;
+				colorcheck3.thischecked=this["color"+numberactual][2];
+				colorcheck3.justselected=true;
+				colorcheck4.thischecked=this["color"+numberactual][3];
+				colorcheck4.justselected=true;
+			}
+			imgtxt.text=this["img"+numberactual];
+			validnumber=true;
+		}
+	}
+}
+
+var imglinko:FileReference = new FileReference();
+var imagesFiltero:FileFilter=new FileFilter("Imagens","*.jpg;*.gif;*.png");
+
+btn.addEventListener(MouseEvent.CLICK, submititem);
+function submititem(e:Event):void {
+	if (validnumber==true) {
+		errortxt.text="Processando...";
+		this.addEventListener(Event.ENTER_FRAME, checkname);
+	} else {
+		errortxt.text="Item não encontrado.";
+	}
+}
+
+function checkname(e:Event):void {
+	if (numbercheck<numbertotal && (numbercheck==numberactual || itemtxt.text!=this["item"+numbercheck])) {//Se o nome for diferente
+		trace("Checking "+numbercheck+" de "+numbertotal);
+		numbercheck=(numbercheck+1);
+	}
+	if (itemtxt.text==""||subtypemenu.choice==""||styleslider.val.text==""||deltadaystxt.text==""||imgtxt.text=="") {//Se algum campo estiver em branco
+		errortxt.text="Preencha todos os campos.";
+		this.removeEventListener(Event.ENTER_FRAME, checkname);
+		numbercheck=1;
+	}
+	if (itemtxt.text==this["item"+numbercheck]&&itemtxt.text!=this["item"+numberactual]) {//Se estiver repetido
+		errortxt.text="Item repetido...";
+		this.removeEventListener(Event.ENTER_FRAME, checkname);
+		numbercheck=1;
+	}
+	if (numbercheck==numbertotal && (itemtxt.text!=this["item"+numbercheck] || numbercheck==numberactual)) {//Se chegar ao final e não estiver repetido
+		trace("Checking "+numbercheck+" de "+numbertotal);
+		errortxt.text="Item editado!";
+		this["item"+numberactual]=itemtxt.text;
+		this["type"+numberactual]=typemenu.choice;
+		this["subtype"+numberactual]=subtypemenu.choice;
+		this["color"+numberactual]=[];
+		this["color"+numberactual].push(colorcheck1.thischecked);
+		this["color"+numberactual].push(colorcheck2.thischecked);
+		this["color"+numberactual].push(colorcheck3.thischecked);
+		this["color"+numberactual].push(colorcheck4.thischecked);
+		this["style"+numberactual]=styleslider.val.text;
+		this["lastdate"+numberactual]=[];
+		this["lastdate"+numberactual].push(date.daynumbs);
+		this["lastdate"+numberactual].push(date.monthnumbs);
+		this["lastdate"+numberactual].push(date.yearnumbs);
+		this["deltadays"+numberactual]=deltadaystxt.text;
+		this["img"+numberactual]=imgtxt.text;
+		trace("Item "+numberactual);
+		trace(this["item"+numberactual]);
+		trace(this["type"+numberactual]);
+		trace(this["subtype"+numberactual]);
+		trace(this["color"+numberactual]);
+		trace((this["style"+numberactual])+"%");
+		trace(this["lastdate"+numberactual]);
+		trace((this["deltadays"+numberactual])+" dias");
+		trace(this["img"+numberactual]);
+		this.removeEventListener(Event.ENTER_FRAME, checkname);
+		this.removeEventListener(Event.ENTER_FRAME, itemnumber);
+		btn.removeEventListener(MouseEvent.CLICK, submititem);
+		loadbtn.removeEventListener(MouseEvent.CLICK, loadIti);
+		imglinko.removeEventListener(Event.SELECT, selectImagee);
+		this.removeEventListener(Event.ENTER_FRAME, givelabelsedit);
+		numbercheck=1;
+		setTimeout(wait2,1000);
+		function wait2() {
+			gotoAndStop(1, "Save");
+		}
+	}
+}
+
+loadbtn.addEventListener(MouseEvent.CLICK, loadIti);
+function loadIti(e:Event):void {
+	imglinko.browse([imagesFiltero]);
+}
+
+imglinko.addEventListener(Event.SELECT, selectImagee);
+function selectImagee(e:Event):void {
+	var extensionIndex:Number=imglinko.name.lastIndexOf('.');
+	var extension:String=imglinko.name.substr(extensionIndex,5);
+	trace(imglinko.name);
+	if (extension==".jpeg"||extension==".jpg"||extension==".png") {
+		imgtxt.text=(imglinko.name);
+	} else {
+		imgtxt.text="";
+		errortxt.text="Selecione uma imagem válida.";
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, givelabelsedit);
+function givelabelsedit(e:Event):void {
+	colorcheck1.thislabel="Azul";
+	colorcheck2.thislabel="Castanho";
+	colorcheck3.thislabel="Escuro";
+	colorcheck4.thislabel="Claro";
+	typemenu.labels=["Tronco","Pernas","Calçado"];
+	if (typemenu.choice=="Tronco") {
+		subtypemenu.labels=["Camisola","Sweatshirt","T-shirt","Camisa","Polo","Malha","Casaco"];
+	}
+	if (typemenu.choice=="Pernas") {
+		subtypemenu.labels=["Calças","Calções"];
+	}
+	if (typemenu.choice=="Calçado") {
+		subtypemenu.labels=["Sapatos","Sapatilhas","Botas","Chinelos"];
+	}
+	if (aw.leftpressed==true) {
+		aw.leftpressed=false;
+		if (Number(no.text)>1) {
+			var newvalue=Number(no.text);
+			var vale=newvalue-1;
+			no.text=vale;
+		}
+	}
+	if (aw.rightpressed==true) {
+		aw.rightpressed=false;
+		if (Number(no.text)<numbertotal) {
+			newvalue=Number(no.text);
+			no.text=(newvalue+1);
+		}
+	}
+}
+
+function wait3() {
+	colorcheck1.thischecked=this["color"+numberactual][0];
+	colorcheck1.justselected=true;
+	colorcheck2.thischecked=this["color"+numberactual][1];
+	colorcheck2.justselected=true;
+	colorcheck3.thischecked=this["color"+numberactual][2];
+	colorcheck3.justselected=true;
+	colorcheck4.thischecked=this["color"+numberactual][3];
+	colorcheck4.justselected=true;
+	typemenu.choice=this["type"+numberactual];
+	typemenu.choicedefined=true;
+	subtypemenu.choice=this["subtype"+numberactual];
+	subtypemenu.choicedefined=true;
+	if (this["lastdate"+numberactual]!="undefined") {
+		if (date.waitingforchoice==true) {
+			date.daynumbs=Number(this["lastdate"+numberactual][0]);
+			date.monthnumbs=Number(this["lastdate"+numberactual][1]);
+			date.yearnumbs=Number(this["lastdate"+numberactual][2]);
+			date.waitingforchoice=false;
+		}
+	} else {
+		var dateactual:Date=new Date();
+		date.daynumbs=dateactual.getDate();
+		date.monthnumbs=dateactual.getMonth();
+		date.yearnumbs=dateactual.getFullYear();
+		date.waitingforchoice=false;
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="Gallery">
+               <layers>
+                    <DOMLayer name="Layer 4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Arrows" name="aw" centerPoint3DX="508.3" centerPoint3DY="19">
+                                             <matrix>
+                                                  <Matrix tx="477.8" ty="4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="30.5" y="15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Gallery Page" name="gal" centerPoint3DX="264.55" centerPoint3DY="213.5">
+                                             <matrix>
+                                                  <Matrix tx="264.55" ty="213.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-1.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+gal.number=this.number;
+gal.numbertotal=numbertotal;
+var pagen:Number=1;
+var totalpage=int(numbertotal/12)+1;
+if (int(numbertotal/12)==numbertotal/12) {
+	totalpage=totalpage-1;
+}
+trace(numbertotal);
+
+this.addEventListener(Event.ENTER_FRAME, givepage);
+function givepage(e:Event):void {
+	if (aw.leftpressed==true) {
+		aw.leftpressed=false;
+		if (pagen>1) {
+			pagen=pagen-1;
+		}
+	}
+	if (aw.rightpressed==true) {
+		aw.rightpressed=false;
+		if (pagen<totalpage) {
+			pagen=pagen+1;
+		}
+	}
+	if (gal.page!=pagen) {
+		gal.page=pagen;
+		gal.pagechanged=true;
+		gal.mini1.number=0;
+		gal.mini2.number=0;
+		gal.mini3.number=0;
+		gal.mini4.number=0;
+		gal.mini5.number=0;
+		gal.mini6.number=0;
+		gal.mini7.number=0;
+		gal.mini8.number=0;
+		gal.mini9.number=0;
+		gal.mini10.number=0;
+		gal.mini11.number=0;
+		gal.mini12.number=0;
+	}
+	if (gal.thingselected!=0) {
+		this.removeEventListener(Event.ENTER_FRAME, givepage);
+		numberselected=gal.thingselected;
+		gotoAndStop(1, "Edit");
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="Combine">
+               <layers>
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="ploader" centerPoint3DX="139.85" centerPoint3DY="223.25">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="76.35" ty="136.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="59.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Slider" name="slider" centerPoint3DX="396.1" centerPoint3DY="87.1">
+                                             <matrix>
+                                                  <Matrix tx="298.6" ty="67"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="99.3" y="18.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="tloader" selected="true" centerPoint3DX="139.85" centerPoint3DY="96.55">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="76.35" ty="9.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="60.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="cloader" centerPoint3DX="139.85" centerPoint3DY="350.15">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="76.35" ty="263.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="59.9"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="395.6" ty="294.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="eloader" centerPoint3DX="5.8" centerPoint3DY="96.55">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="-57.7" ty="9.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="60.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="check1" centerPoint3DX="335.95" centerPoint3DY="112.45">
+                                             <matrix>
+                                                  <Matrix tx="289.45" ty="100"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.65" y="12.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="check2" centerPoint3DX="335.95" centerPoint3DY="142.45">
+                                             <matrix>
+                                                  <Matrix tx="289.45" ty="130"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.65" y="12.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="check3" centerPoint3DX="335.95" centerPoint3DY="172.45">
+                                             <matrix>
+                                                  <Matrix tx="289.45" ty="160"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.65" y="12.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="check4" centerPoint3DX="335.95" centerPoint3DY="202.45">
+                                             <matrix>
+                                                  <Matrix tx="289.45" ty="190"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.65" y="12.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="checkrandom" centerPoint3DX="335.95" centerPoint3DY="232.45">
+                                             <matrix>
+                                                  <Matrix tx="289.45" ty="220"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.65" y="12.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Date Insertor" name="date" centerPoint3DX="392.95" centerPoint3DY="29">
+                                             <matrix>
+                                                  <Matrix tx="318.3" ty="18"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="74.9" y="11"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="edite" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="1.5" d="0.291671752929688" tx="503.65" ty="375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+number=1;
+var dateinterval:Number=0;
+var dateactuale:Date=new Date();
+var tronco:Array = new Array();
+var pernas:Array = new Array();
+var calçado:Array = new Array();
+var colorselect:Array = new Array();
+var typee1="Tronco";
+var typee2="Pernas";
+var typee3="Calçado";
+var dateactual:Date=new Date();
+var dateundefined:Date=new Date(dateactuale.fullYear-1,dateactuale.month,dateactuale.date);
+var percbackup=0;
+var colorselectbackup:Array=[];
+
+btn.addEventListener(MouseEvent.CLICK, generatecomb);
+function generatecomb(e:Event):void {
+	tloader.number=0;
+	ploader.number=0;
+	cloader.number=0;
+	colorselect=[];
+	number=1;
+	btn.removeEventListener(MouseEvent.CLICK, generatecomb);
+	if (checkrandom.thischecked==1) {
+		colorselect=["*","*","*","*"];
+	} else {
+		if (check1.thischecked==1) {
+			colorselect.push(1);
+		} else {
+			colorselect.push("*");
+		}
+		if (check2.thischecked==1) {
+			colorselect.push(1);
+		} else {
+			colorselect.push("*");
+		}
+		if (check3.thischecked==1) {
+			colorselect.push(1);
+		} else {
+			colorselect.push("*");
+		}
+		if (check4.thischecked==1) {
+			colorselect.push(1);
+		} else {
+			colorselect.push("*");
+		}
+	}
+	//if ((colorselectbackup[0]!=colorselect[0] || colorselectbackup[1]!=colorselect[1] || colorselectbackup[2]!=colorselect[2] || colorselectbackup[3]!=colorselect[3])||(percbackup!=slider.perc)||((dateactual.fullYear,dateactual.month,dateactual.date)!=(date.yearnumbs,date.monthnumbs,date.daynumbs)) ) {
+		trace(colorselect);
+		dateactual=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
+		tronco=[];
+		pernas=[];
+		calçado=[];
+
+		for (number; number<=numbertotal; number++) {
+			
+			if (this["lastdate"+number]!="undefined") {
+				var datethis:Date=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
+			} else {
+				datethis=dateundefined;
+			}
+			dateinterval=Math.abs( datethis.getTime() - dateactual.getTime() )/(1000*60*60*24);
+			if (this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40&&dateinterval>=this["deltadays"+number]) {
+				if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
+				((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
+				((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
+				((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
+					if (this["type"+number]==typee1) {
+						tronco.push(number);
+					} else if (this["type"+number]==typee2) {
+						pernas.push(number);
+					} else if (this["type"+number]==typee3) {
+						calçado.push(number);
+					}
+				}
+			}
+		//}
+	}
+	this.addEventListener(Event.ENTER_FRAME, loadalle);
+	
+}
+
+
+function loadalle(e:Event):void {
+	tloader.number=0;
+	ploader.number=0;
+	cloader.number=0;
+	for (var i:Number=1;i<10;i++){
+	
+	}
+	if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
+		//trace(calçado[int(Math.random()*calçado.length)]);
+		tloader.showname=false;
+		ploader.showname=false;
+		cloader.showname=false;
+		tloader.number=(tronco[int(Math.random()*tronco.length)]);
+		trace(this["item"+tloader.number]+" "+ tloader.number);
+		ploader.number=(pernas[int(Math.random()*pernas.length)]);
+		trace(this["item"+ploader.number]+" "+ ploader.number);
+		cloader.number=(calçado[int(Math.random()*calçado.length)]);
+		trace(this["item"+cloader.number]+" "+ cloader.number);
+	} else {
+		trace("Not enought");
+	}
+	percbackup=slider.perc;
+	colorselectbackup=colorselect;
+	trace("Itens de tronco "+tronco.toString());
+	trace("Itens de pernas "+pernas.toString());
+	trace("Itens de calçado "+calçado.toString());
+	this.removeEventListener(Event.ENTER_FRAME, loadalle);
+	btn.addEventListener(MouseEvent.CLICK, generatecomb);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//trace(this["item"+(randomRange(1, numbertotal))]);
+//trace(this["item"+(randomRange(1, numbertotal))]);
+
+function randomRange(minNum:Number, maxNum:Number):Number {
+	return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+}
+
+this.addEventListener(Event.ENTER_FRAME, givelabelscomb);
+function givelabelscomb(e:Event):void {
+	check1.thislabel="Azul";
+	check2.thislabel="Castanho";
+	check3.thislabel="Escuro";
+	check4.thislabel="Claro";
+	checkrandom.thislabel="Aleatório";
+	if ((check1.thischecked==1||check2.thischecked==1||check3.thischecked==1||check4.thischecked==1)&&(checkrandom.justselected==true&&checkrandom.thischecked==1)) {
+		check1.thischecked=0;
+		check2.thischecked=0;
+		check3.thischecked=0;
+		check4.thischecked=0;
+		check1.justselected=true;
+		check2.justselected=true;
+		check3.justselected=true;
+		check4.justselected=true;
+	}
+	if (((check1.thischecked==1&&check1.justselected==true)||(check2.thischecked==1&&check2.justselected==true)||(check3.thischecked==1&&check3.justselected==true)||(check4.thischecked==1&&check4.justselected==true))&&checkrandom.thischecked==1) {
+		checkrandom.justselected=true;
+		checkrandom.thischecked=0;
+	}
+	if (date.waitingforchoice==true) {
+		date.daynumbs=dateactuale.date;
+		date.monthnumbs=dateactuale.month;
+		date.yearnumbs=dateactuale.fullYear;
+		date.waitingforchoice=false;
+	}
+}
+
+edite.addEventListener(MouseEvent.CLICK, editesquares);
+function editesquares(e:Event):void {
+	tloader.editablee=true;
+	ploader.editablee=true;
+	cloader.editablee=true;
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[//var inii:Array = [1,2,3]
+//var prob:Array = [3,5,2]
+//number=number-1
+//
+//var i:Number=0
+//var finale:Array = new Array();
+
+
+/*for (i=1 ; i<=(prob[number]) ; i++){
+	finale.push(inii[number]);
+	//trace ("this "+finale)
+		if (i==(prob[number])) {
+		number=number+1;
+		i=0;
+	}
+}
+*/
+
+
+//OLD CODE
+/*btn.addEventListener(MouseEvent.CLICK, generatecomb);
+function generatecomb(e:Event):void {
+	tloader.number=0;
+	ploader.number=0;
+	cloader.number=0;
+	colorselect=[];
+	tronco=[];
+	pernas=[];
+	calçado=[];
+	number=1;
+		btn.removeEventListener(MouseEvent.CLICK, generatecomb);
+		if (checkrandom.thischecked==1) {
+			colorselect=["*","*","*","*"];
+		} else {
+			if (check1.thischecked==1) {
+				colorselect.push(1);
+			} else {
+				colorselect.push("*");
+			}
+			if (check2.thischecked==1) {
+				colorselect.push(1);
+			} else {
+				colorselect.push("*");
+			}
+			if (check3.thischecked==1) {
+				colorselect.push(1);
+			} else {
+				colorselect.push("*");
+			}
+			if (check4.thischecked==1) {
+				colorselect.push(1);
+			} else {
+				colorselect.push("*");
+			}
+		}		
+	
+		trace(colorselect);
+		dateactual=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
+		this.addEventListener(Event.ENTER_FRAME, loadalle);
+}
+
+
+function loadalle(e:Event):void {
+	if (number<numbertotal) {
+		if (this["lastdate"+number]!="undefined") {
+			var datethis:Date=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
+		} else {
+			datethis=dateundefined;
+		}
+		var one_day:Number=1000*60*60*24;
+		var datethis_ms:Number=datethis.getTime();
+		var dateactual_ms:Number=dateactual.getTime();
+		var difference_ms:Number=Math.abs(datethis_ms-dateactual_ms);
+		dateinterval=difference_ms/one_day;
+		if (this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40&&dateinterval>=this["deltadays"+number]) {
+			if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
+			((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
+			((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
+			((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
+				if (this["type"+number]==typee1) {
+					tronco.push(number);
+				} else if (this["type"+number]==typee2) {
+					pernas.push(number);
+				} else if (this["type"+number]==typee3) {
+					calçado.push(number);
+				}
+			}
+		}
+		number=number+1;
+	} else if (number==numbertotal) {
+		if (this["lastdate"+number]!="undefined") {
+			datethis=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
+		} else {
+			datethis=dateundefined;
+		}
+		one_day=1000*60*60*24;
+		datethis_ms=datethis.getTime();
+		dateactual_ms=dateactual.getTime();
+		difference_ms=Math.abs(datethis_ms-dateactual_ms);
+		dateinterval=difference_ms/one_day;
+		if (this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40&&dateinterval>=this["deltadays"+number]) {
+			if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
+			((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
+			((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
+			((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
+				if (this["type"+number]==typee1) {
+					tronco.push(number);
+				} else if (this["type"+number]==typee2) {
+					pernas.push(number);
+				} else if (this["type"+number]==typee3) {
+					calçado.push(number);
+				}
+			}
+		}
+		if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
+			//trace(calçado[int(Math.random()*calçado.length)]);
+			tloader.showname=false;
+			ploader.showname=false;
+			cloader.showname=false;
+			tloader.number=(tronco[int(Math.random()*tronco.length)]);
+			trace(this["item"+tloader.number]+" "+ tloader.number);
+			ploader.number=(pernas[int(Math.random()*pernas.length)]);
+			trace(this["item"+ploader.number]+" "+ ploader.number);
+			cloader.number=(calçado[int(Math.random()*calçado.length)]);
+			trace(this["item"+cloader.number]+" "+ cloader.number);
+		} else {
+			trace("Not enought");
+		}
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		trace("Itens de tronco "+tronco.toString());
+		trace("Itens de pernas "+pernas.toString());
+		trace("Itens de calçado "+calçado.toString());
+		btn.addEventListener(MouseEvent.CLICK, generatecomb);
+	}
+
+}*/]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="Save">
+               <layers>
+                    <DOMLayer name="Button" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="274.95" ty="200.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+number=1;
+var DataBase:FileReference = new FileReference();
+var TextVariables:URLVariables = new URLVariables();
+var pato:Array=[1,2,3,4];
+
+this.addEventListener(Event.ENTER_FRAME, saveall);
+function saveall(e:Event):void {
+	for (number; number<=numbertotal; number++) {
+		TextVariables["item"+number]=this["item"+number];
+		TextVariables["type"+number]=this["type"+number];
+		TextVariables["subtype"+number]=this["subtype"+number];
+		TextVariables["color"+number]=this["color"+number];
+		TextVariables["style"+number]=this["style"+number];
+		TextVariables["lastdate"+number]=this["lastdate"+number];
+		TextVariables["deltadays"+number]=this["deltadays"+number];
+		TextVariables["img"+number]=this["img"+number];
+		trace(" ");
+		trace(number);
+		trace(TextVariables["item"+number]);
+		trace(TextVariables["type"+number]);
+		trace(TextVariables["subtype"+number]);
+		trace(TextVariables["color"+number]);
+		trace(TextVariables["style"+number]);
+		trace(TextVariables["lastdate"+number]);
+		trace(TextVariables["deltadays"+number]);
+		trace(TextVariables["img"+number]);
+	}
+	TextVariables["number"]=numbertotal;
+	trace(" ");
+	trace("Total: "+TextVariables["number"]);
+	this.removeEventListener(Event.ENTER_FRAME,saveall);
+	btn.addEventListener(MouseEvent.CLICK,save);
+
+	/*if (number<numbertotal) {
+	TextVariables["item"+number]=this["item"+number];
+	TextVariables["type"+number]=this["type"+number];
+	TextVariables["subtype"+number]=this["subtype"+number];
+	TextVariables["color"+number]=this["color"+number];
+	TextVariables["style"+number]=this["style"+number];
+	TextVariables["lastdate"+number]=this["lastdate"+number];
+	TextVariables["deltadays"+number]=this["deltadays"+number];
+	TextVariables["img"+number]=this["img"+number];
+	trace (" ")
+	trace (number)
+	trace (TextVariables["item"+number])
+	trace (TextVariables["type"+number])
+	trace (TextVariables["subtype"+number])
+	trace (TextVariables["color"+number])
+	trace (TextVariables["style"+number])
+	trace (TextVariables["lastdate"+number])
+	trace (TextVariables["deltadays"+number])
+	trace (TextVariables["img"+number])
+	number=number+1;
+	} else if (number==numbertotal) {
+	TextVariables["number"]=numbertotal;
+	TextVariables["item"+number]=this["item"+number];
+	TextVariables["type"+number]=this["type"+number];
+	TextVariables["subtype"+number]=this["subtype"+number];
+	TextVariables["color"+number]=this["color"+number];
+	TextVariables["style"+number]=this["style"+number];
+	TextVariables["lastdate"+number]=this["lastdate"+number];
+	TextVariables["deltadays"+number]=this["deltadays"+number];
+	TextVariables["img"+number]=this["img"+number];
+	trace (" ")
+	trace (number)
+	trace (TextVariables["item"+number])
+	trace (TextVariables["type"+number])
+	trace (TextVariables["subtype"+number])
+	trace (TextVariables["color"+number])
+	trace (TextVariables["style"+number])
+	trace (TextVariables["lastdate"+number])
+	trace (TextVariables["deltadays"+number])
+	trace (TextVariables["img"+number])
+	trace (" ")
+	trace("Total: "+TextVariables["number"])
+	this.removeEventListener(Event.ENTER_FRAME,saveall);
+	btn.addEventListener(MouseEvent.CLICK,save);
+	}*/
+}
+
+function save(e:Event):void {
+	DataBase.save(TextVariables,"Clothes.txt");
+	DataBase.addEventListener(Event.COMPLETE, onSaved);
+	btn.removeEventListener(MouseEvent.CLICK,save);
+}
+
+function onSaved(e:Event):void {
+	gotoAndPlay(0, "Loader");
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+          <DOMTimeline name="etc">
+               <layers>
+                    <DOMLayer name="Layer 2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="item" fontRenderingMode="standard" width="241.95" height="36.85">
+                                             <matrix>
+                                                  <Matrix tx="186" ty="50.1"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="33" bitmapSize="660" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="season" fontRenderingMode="standard" width="351.95" height="54">
+                                             <matrix>
+                                                  <Matrix tx="136" ty="299.1"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" size="33" bitmapSize="660" face="Arial-BoldMT" fillColor="#FF9900"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="84" ty="69.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="img">
+                                             <matrix>
+                                                  <Matrix tx="146" ty="108.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[/*var myTextLoader:URLLoader = new URLLoader();
+myTextLoader.dataFormat=URLLoaderDataFormat.VARIABLES;
+var number=1;
+
+myTextLoader.addEventListener(Event.COMPLETE, onLoaded);
+function onLoaded(e:Event):void {
+	item.text=myTextLoader.data["item"+number];
+	type.text=myTextLoader.data["type"+number];
+}
+
+myTextLoader.load(new URLRequest("Cloths.txt"));
+
+var loader:Loader = new Loader();
+img.addChild(loader);
+loader.x=0;
+loader.y=0;
+
+btn.addEventListener(MouseEvent.CLICK,doLoad);
+function doLoad(e:MouseEvent):void {
+	loader.load(new URLRequest(myTextLoader.data["img"+number]));
+	img.scaleX=0.1;
+	img.scaleY=0.1;
+}*/
+
+//btn.addEventListener(MouseEvent.CLICK, savee);
+//function savee(evt:Event):void {
+//var myfile:FileReference = new FileReference();
+//var yourVariables:URLVariables = new URLVariables();
+//yourVariables.varInput01 = inpu1.text;
+//yourVariables.varInput02 = inpu2.text;
+//yourVariables.varInput03 = inpu3.text;
+//myfile.save(yourVariables, "12.txt");
+//}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>

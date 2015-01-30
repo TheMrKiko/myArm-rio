@@ -1,0 +1,121 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Slider" itemID="5495f167-0000001c" lastModified="1420227914" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Slider">
+      <layers>
+        <DOMLayer name="Pointer" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Slider Assets/Pointer" name="pointer" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Bar" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Slider Assets/Slider Bar" name="bar" centerPoint3DX="100">
+                  <transformationPoint>
+                    <Point x="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="val" fontRenderingMode="standard" width="40" height="21.25" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="-77.95" ty="-7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText fontRenderingMode="standard" width="16.9" height="21.25" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-33.95" ty="-7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Actions" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var perc=0;
+var percvalue=0;
+
+this.addEventListener(Event.ENTER_FRAME, updatestatus);
+function updatestatus(e:Event):void {
+	if (perc!=val.text) {
+		percvalue=val.text;
+		if (percvalue>=100) {
+			percvalue=100;
+		}
+		if (percvalue<=0) {
+			percvalue=0;
+		}
+		/*if (percvalue=="") {
+			percvalue=0;
+		}*/
+		val.text=percvalue;
+		perc=percvalue;
+		pointer.x=perc*2;
+	}
+}
+
+pointer.addEventListener(MouseEvent.MOUSE_DOWN, startdrag);
+function startdrag(e:Event):void {
+	stage.addEventListener(MouseEvent.MOUSE_MOVE, drag);
+	stage.addEventListener(MouseEvent.MOUSE_UP, stopdrag);
+}
+
+function drag(e:Event):void {
+	pointer.x=mouseX;
+	if (mouseX>=200) {
+		pointer.x=200;
+	}
+	if (mouseX<=0) {
+		pointer.x=0;
+	}
+	perc=int(pointer.x/2);
+	val.text=perc;
+}
+
+function stopdrag(e:Event):void {
+	stage.removeEventListener(MouseEvent.MOUSE_MOVE, drag);
+	stage.removeEventListener(MouseEvent.MOUSE_UP, stopdrag);
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
