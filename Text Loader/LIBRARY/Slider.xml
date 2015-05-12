@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Slider" itemID="5495f167-0000001c" lastModified="1420227914" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Slider" itemID="5495f167-0000001c" lastModified="1428268979" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Slider">
       <layers>
@@ -38,7 +38,7 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters></characters>
+                      <characters>50</characters>
                       <textAttrs>
                         <DOMTextAttrs alignment="right" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
                       </textAttrs>
@@ -66,8 +66,9 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[var perc=0;
-var percvalue=0;
+                <script><![CDATA[var perc=50;
+var percvalue=50;
+pointer.x=100;
 
 this.addEventListener(Event.ENTER_FRAME, updatestatus);
 function updatestatus(e:Event):void {

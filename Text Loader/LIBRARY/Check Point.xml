@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Point" itemID="54a8742d-000002e3" lastModified="1422214224" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Point" itemID="54a8742d-000002e3" lastModified="1428879153" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Check Point">
       <layers>
@@ -27,7 +27,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Check Button Assets/Symbol 1" name="checkpoint" centerPoint3DX="7.5" centerPoint3DY="12.5">
+                <DOMSymbolInstance libraryItemName="Check Button Assets/Check Only" name="checkpoint" centerPoint3DX="7.5" centerPoint3DY="12.5">
                   <transformationPoint>
                     <Point x="7.5" y="12.5"/>
                   </transformationPoint>
@@ -41,11 +41,14 @@
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
                 <script><![CDATA[stop();
-var thischecked=1;
+var thischecked=0;
+var waitingforchoice=true;
 var justselected=true;
-
 checkpoint.dot.visible=false;
 var thislabel="";
+if (this.name=="checkrandom") {
+	thischecked=1;
+}
 
 checkpoint.addEventListener(MouseEvent.MOUSE_OUT, mouseoutdot);
 function mouseoutdot(e:Event):void {

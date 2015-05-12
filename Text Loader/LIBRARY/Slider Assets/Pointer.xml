@@ -141,9 +141,9 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!-100 180|0 0!0 0|100 180"/>
                     <Edge fillStyle1="2" strokeStyle="1" edges="!100 180|100 380!100 380|-100 380!-100 380|-100 180"/>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="!-100 180|100 180"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-100 180|0 0!0 0|100 180"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!100 180|-100 180"/>
                     <Edge cubics="!100 180(;100,180 100,380 100,380q100 180 100 380);"/>
                     <Edge cubics="!-100 380(;-100,380 -100,180 -100,180q-100 380 -100 180);"/>
                     <Edge cubics="!100 380(;100,380 -100,380 -100,380q100 380 -100 380);"/>

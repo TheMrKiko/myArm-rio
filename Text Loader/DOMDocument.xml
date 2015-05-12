@@ -1,39 +1,45 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" nextSceneIdentifier="172" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" nextSceneIdentifier="288" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
           <DOMFolderItem name="Date Assets" itemID="54c544c5-00000038"/>
           <DOMFolderItem name="Loading Bar Assets" itemID="5496f53a-00000776"/>
           <DOMFolderItem name="Menu Bar Assets" itemID="5496f920-00000916"/>
+          <DOMFolderItem name="Season Assets" itemID="552afb28-0000003d"/>
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f74a6-000001f6" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518302374" embedRanges="3" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f74a6-000001f7" font="ArialMT" size="16" id="1" sourceLastImported="1518302374" embedRanges="3|5" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f5f81-0000022c" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518296961" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f5f81-0000022d" font="ArialMT" size="16" id="1" sourceLastImported="1518296961" embedRanges="3|5" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
           <Include href="Arrows Assets/Left Arrow.xml" loadImmediate="false" itemID="54aad79a-0000016f" lastModified="1420482567"/>
           <Include href="Arrows Assets/Right Arrow.xml" loadImmediate="false" itemID="54aad7b7-00000174" lastModified="1420482571"/>
-          <Include href="btn.xml" itemIcon="0" loadImmediate="false" itemID="548e050b-00000016" lastModified="1418862042"/>
-          <Include href="Check Button Assets/Check out.xml" loadImmediate="false" itemID="54a8a0af-00000052" lastModified="1420337608"/>
-          <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1420326093"/>
-          <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1420337569"/>
-          <Include href="Check Button Assets/Symbol 1.xml" loadImmediate="false" itemID="54a987e7-00000036" lastModified="1420396522"/>
-          <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1422214224"/>
+          <Include href="btn.xml" itemIcon="0" loadImmediate="false" itemID="548e050b-00000016" lastModified="1428269335"/>
+          <Include href="Check Button Assets/Check Only.xml" loadImmediate="false" itemID="552ad9b0-000006a8" lastModified="1428871836"/>
+          <Include href="Check Button Assets/Check out.xml" loadImmediate="false" itemID="54a8a0af-00000052" lastModified="1428871834"/>
+          <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1428871833"/>
+          <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1428871831"/>
+          <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1428879153"/>
           <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1421605388"/>
-          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1422403615"/>
+          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1423325672"/>
           <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
-          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1422397351"/>
+          <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1426549284"/>
+          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1424124251"/>
+          <Include href="Icon Tronco.xml" loadImmediate="false" itemID="54d28d03-00000034" lastModified="1423088798"/>
           <Include href="Loading bar.xml" loadImmediate="false" itemID="5490d371-00000258" lastModified="1418951756"/>
           <Include href="Loading Bar Assets/Bar.xml" loadImmediate="false" itemID="5490d701-0000067a" lastModified="1418778369"/>
-          <Include href="Menu Bar.xml" loadImmediate="false" itemID="5496f917-00000912" lastModified="1420336338"/>
+          <Include href="Menu Bar.xml" loadImmediate="false" itemID="5496f917-00000912" lastModified="1423327311"/>
           <Include href="Menu Bar Assets/Downcell.xml" loadImmediate="false" itemID="54970cfd-0000002c" lastModified="1419345244"/>
           <Include href="Menu Bar Assets/Menumain.xml" loadImmediate="false" itemID="5496f7ba-0000085d" lastModified="1419373093"/>
-          <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1420227914"/>
+          <Include href="Menu Mask.xml" loadImmediate="false" itemID="5507650d-00000047" lastModified="1426548006"/>
+          <Include href="Season Assets/Season out.xml" loadImmediate="false" itemID="552ad9c4-000006aa" lastModified="1428871702"/>
+          <Include href="Season Selector.xml" loadImmediate="false" itemID="552ad91f-000006a5" lastModified="1428873719"/>
+          <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1428268979"/>
           <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
           <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
-          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1422654409"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1423873605"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
@@ -105,12 +111,12 @@ function loadall(e:Event):void {
 		this["subtype"+number]=myTextLoader.data["subtype"+number];
 		this["color"+number]=myTextLoader.data["color"+number];
 		this["style"+number]=myTextLoader.data["style"+number];
+		this["season"+number]=myTextLoader.data["season"+number];
 		this["lastdate"+number]=myTextLoader.data["lastdate"+number];
 		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
 		this["img"+number]=myTextLoader.data["img"+number];
 		this["load"+number].load(new URLRequest(this["img"+number]));
 		number=number+1;
-
 	} else if (number==numbertotal) {
 		this["load"+number] = new Loader();
 		this["item"+number]=myTextLoader.data["item"+number];
@@ -118,11 +124,29 @@ function loadall(e:Event):void {
 		this["subtype"+number]=myTextLoader.data["subtype"+number];
 		this["color"+number]=myTextLoader.data["color"+number];
 		this["style"+number]=myTextLoader.data["style"+number];
+		this["season"+number]=myTextLoader.data["season"+number];
 		this["lastdate"+number]=myTextLoader.data["lastdate"+number];
 		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
 		this["img"+number]=myTextLoader.data["img"+number];
 		this["load"+number].load(new URLRequest(this["img"+number]));
 		this.removeEventListener(Event.ENTER_FRAME, loadall);
+		this["allitemsarray"]=[];
+		this["Tronco"]=[];
+		this["Casacos"]=[];
+		this["Pernas"]=[];
+		this["Calçado"]=[];
+		for (var i=1; i<=numbertotal; i++) {
+			this["allitemsarray"].push(i);
+			if (this["subtype"+i]=="Casaco") {
+				this["Casacos"].push(i);
+			} else if (this["type"+i]=="Tronco") {
+				this["Tronco"].push(i);
+			} else if (this["type"+i]=="Pernas") {
+				this["Pernas"].push(i);
+			} else if (this["type"+i]=="Calçado") {
+				this["Calçado"].push(i);
+			}
+		}
 		this.removeEventListener(Event.ENTER_FRAME, loading);
 		gotoAndPlay(1, "Menu");
 	}
@@ -144,36 +168,6 @@ function loading(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Menu">
                <layers>
-                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <Actionscript>
-                                        <script><![CDATA[stop();
-newbtn.addEventListener(MouseEvent.CLICK, fnewbtn);
-function fnewbtn(e:Event):void {
-	newbtn.removeEventListener(MouseEvent.CLICK,fnewbtn);
-	gotoAndStop(1, "New");
-}
-editbtn.addEventListener(MouseEvent.CLICK,feditbtn);
-function feditbtn(e:Event):void {
-	editbtn.removeEventListener(MouseEvent.CLICK,feditbtn);
-	gotoAndStop(1, "Edit");
-}
-galbtn.addEventListener(MouseEvent.CLICK,fgalbtn);
-function fgalbtn(e:Event):void {
-	galbtn.removeEventListener(MouseEvent.CLICK,fgalbtn);
-	gotoAndStop(1, "Gallery");
-}
-combbtn.addEventListener(MouseEvent.CLICK,fcombbtn);
-function fcombbtn(e:Event):void {
-	combbtn.removeEventListener(MouseEvent.CLICK,fcombbtn);
-	gotoAndStop(1, "Combine");
-}]]></script>
-                                   </Actionscript>
-                                   <elements/>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
                     <DOMLayer name="Layer 1" color="#4FFF4F">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -283,7 +277,81 @@ function fcombbtn(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="Gal Menu" name="galmenu" centerPoint3DX="308.45" centerPoint3DY="270.5">
+                                             <matrix>
+                                                  <Matrix tx="308.45" ty="270.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#FF800A" locked="true" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Menu Mask" name="galmask" selected="true" centerPoint3DX="349.25" centerPoint3DY="272.5">
+                                             <matrix>
+                                                  <Matrix tx="349.25" ty="272.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+galmenu.visible=false;
+
+this["GalActualArray"]="All";
+newbtn.addEventListener(MouseEvent.CLICK, fnewbtn);
+function fnewbtn(e:Event):void {
+	newbtn.removeEventListener(MouseEvent.CLICK,fnewbtn);
+	gotoAndStop(1, "New");
+}
+editbtn.addEventListener(MouseEvent.CLICK,feditbtn);
+function feditbtn(e:Event):void {
+	editbtn.removeEventListener(MouseEvent.CLICK,feditbtn);
+	gotoAndStop(1, "Edit");
+}
+galbtn.addEventListener(MouseEvent.CLICK,fgalbtn);
+function fgalbtn(e:Event):void {
+	galbtn.removeEventListener(MouseEvent.CLICK,fgalbtn);
+	gotoAndStop(1, "Gallery");
+}
+combbtn.addEventListener(MouseEvent.CLICK,fcombbtn);
+function fcombbtn(e:Event):void {
+	combbtn.removeEventListener(MouseEvent.CLICK,fcombbtn);
+	gotoAndStop(1, "Combine");
+}
+galmask.addEventListener(MouseEvent.MOUSE_OVER, galmaskactivate);
+function galmaskactivate(e:Event):void {
+	galmenu.visible=true;
+}
+
+galmenu.addEventListener(MouseEvent.MOUSE_OVER, galmaskactivate2);
+function galmaskactivate2(e:Event):void {
+	galmenu.visible=true;
+}
+
+galmask.addEventListener(MouseEvent.MOUSE_OUT, galmaskdesactivate);
+function galmaskdesactivate(e:Event):void {
+	galmenu.visible=false;
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -323,7 +391,7 @@ function fcombbtn(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Text" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -487,22 +555,6 @@ function fcombbtn(e:Event):void {
                                                   <Point x="60.1" y="12.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="199.45" centerPoint3DY="66.75">
-                                             <matrix>
-                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="134.45" ty="54.35"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="94.45" y="16.45"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
-                                             <matrix>
-                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="94.45" y="16.45"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
                                         <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="33" ty="174.55"/>
@@ -561,7 +613,7 @@ function fcombbtn(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMSymbolInstance libraryItemName="Date Insertor" centerPoint3DX="160.45" centerPoint3DY="174.45">
+                                        <DOMSymbolInstance libraryItemName="Date Insertor" name="date" centerPoint3DX="160.45" centerPoint3DY="174.45">
                                              <matrix>
                                                   <Matrix tx="136" ty="179"/>
                                              </matrix>
@@ -569,11 +621,35 @@ function fcombbtn(e:Event):void {
                                                   <Point x="74.9" y="11"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="199.45" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="134.45" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" centerPoint3DX="464.3" centerPoint3DY="140.35">
+                                             <matrix>
+                                                  <Matrix a="0.399993896484375" d="0.399993896484375" tx="449.85" ty="140.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="29.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -617,14 +693,21 @@ function checknew(e:Event):void {
 		this["color"+numbernew].push(colorcheck3.thischecked);
 		this["color"+numbernew].push(colorcheck4.thischecked);
 		this["style"+numbernew]=styleslider.val.text;
+		this["season"+numbernew]=seasonslider.thischecked;
+		this["lastdate"+numbernew]=[];
+		this["lastdate"+numbernew].push(date.daynumbs);
+		this["lastdate"+numbernew].push(date.monthnumbs);
+		this["lastdate"+numbernew].push(date.yearnumbs);
 		this["deltadays"+numbernew]=deltadaystxt.text;
 		this["img"+numbernew]=imgtxt.text;
-		trace("Item "+numbertotal);
+		trace("Item "+numbernew);
 		trace(this["item"+numbernew]);
 		trace(this["type"+numbernew]);
 		trace(this["subtype"+numbernew]);
 		trace(this["color"+numbernew]);
 		trace((this["style"+numbernew])+"%");
+		trace(this["season"+numbernew]);
+		trace(this["lastdate"+numbernew]);
 		trace((this["deltadays"+numbernew])+" dias");
 		trace(this["img"+numbernew]);
 		this.removeEventListener(Event.ENTER_FRAME, checknew);
@@ -980,6 +1063,14 @@ function givelabels(e:Event):void {
                                                   <Point x="30.5" y="15"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
+                                             <matrix>
+                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.45" y="16.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="199.45" centerPoint3DY="66.75">
                                              <matrix>
                                                   <Matrix a="0.688018798828125" d="0.753509521484375" tx="134.45" ty="54.35"/>
@@ -988,12 +1079,12 @@ function givelabels(e:Event):void {
                                                   <Point x="94.45" y="16.45"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="438.9" centerPoint3DY="66.75">
+                                        <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" centerPoint3DX="464.3" centerPoint3DY="140.35">
                                              <matrix>
-                                                  <Matrix a="0.688018798828125" d="0.753509521484375" tx="373.9" ty="54.35"/>
+                                                  <Matrix a="0.399993896484375" d="0.399993896484375" tx="449.85" ty="140.35"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="94.45" y="16.45"/>
+                                                  <Point x="29.4"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -1031,7 +1122,25 @@ function itemnumber(e:Event):void {
 		if (numberactual>numbertotal||numberactual<=0) {
 			errortxt.text="Insira um número entre 1 e "+numbertotal+".";
 			itemtxt.text="";
-			typemenu.choice="";
+			typemenu.choicedefined=true;
+			typemenu.choice="Tronco";
+			subtypemenu.choicedefined=true;
+			subtypemenu.choice="Camisola";
+			colorcheck1.thischecked=0;
+			colorcheck1.justselected=true;
+			colorcheck2.thischecked=0;
+			colorcheck2.justselected=true;
+			colorcheck3.thischecked=0;
+			colorcheck3.justselected=true;
+			colorcheck4.thischecked=0;
+			colorcheck4.justselected=true;
+			styleslider.val.text="";
+			seasonslider.thischecked=0;
+			seasonslider.justselected=true;
+			date.daynumbs="1";
+			date.monthnumbs="0";
+			date.yearnumbs="2015";
+			deltadaystxt.text="";
 			imgtxt.text="";
 			validnumber=false;
 		} else if (numberactual<=numbertotal) {
@@ -1046,8 +1155,8 @@ function itemnumber(e:Event):void {
 				}
 			} else {
 				var dateactual:Date=new Date();
-				date.daynumbs=dateactual.getDate();
-				date.monthnumbs=dateactual.getMonth();
+				date.daynumbs=1;//dateactual.getDate();
+				date.monthnumbs=0;//dateactual.getMonth();
 				date.yearnumbs=dateactual.getFullYear();
 				date.waitingforchoice=false;
 			}
@@ -1082,6 +1191,13 @@ function itemnumber(e:Event):void {
 				colorcheck3.justselected=true;
 				colorcheck4.thischecked=this["color"+numberactual][3];
 				colorcheck4.justselected=true;
+			}
+			if (this["season"+numberactual]!="undefined") {
+				seasonslider.thischecked=this["season"+numberactual];
+				seasonslider.justselected=true;
+			} else {
+				seasonslider.thischecked=0;
+				seasonslider.justselected=true;
 			}
 			imgtxt.text=this["img"+numberactual];
 			validnumber=true;
@@ -1129,6 +1245,7 @@ function checkname(e:Event):void {
 		this["color"+numberactual].push(colorcheck3.thischecked);
 		this["color"+numberactual].push(colorcheck4.thischecked);
 		this["style"+numberactual]=styleslider.val.text;
+		this["season"+numberactual]=seasonslider.thischecked;
 		this["lastdate"+numberactual]=[];
 		this["lastdate"+numberactual].push(date.daynumbs);
 		this["lastdate"+numberactual].push(date.monthnumbs);
@@ -1141,6 +1258,7 @@ function checkname(e:Event):void {
 		trace(this["subtype"+numberactual]);
 		trace(this["color"+numberactual]);
 		trace((this["style"+numberactual])+"%");
+		trace(this["season"+numberactual]);
 		trace(this["lastdate"+numberactual]);
 		trace((this["deltadays"+numberactual])+" dias");
 		trace(this["img"+numberactual]);
@@ -1210,14 +1328,16 @@ function givelabelsedit(e:Event):void {
 }
 
 function wait3() {
-	colorcheck1.thischecked=this["color"+numberactual][0];
-	colorcheck1.justselected=true;
-	colorcheck2.thischecked=this["color"+numberactual][1];
-	colorcheck2.justselected=true;
-	colorcheck3.thischecked=this["color"+numberactual][2];
-	colorcheck3.justselected=true;
-	colorcheck4.thischecked=this["color"+numberactual][3];
-	colorcheck4.justselected=true;
+	if (colorcheck4.waitingforchoice==true) {
+		colorcheck1.thischecked=this["color"+numberactual][0];
+		colorcheck1.justselected=true;
+		colorcheck2.thischecked=this["color"+numberactual][1];
+		colorcheck2.justselected=true;
+		colorcheck3.thischecked=this["color"+numberactual][2];
+		colorcheck3.justselected=true;
+		colorcheck4.thischecked=this["color"+numberactual][3];
+		colorcheck4.justselected=true;
+	}
 	typemenu.choice=this["type"+numberactual];
 	typemenu.choicedefined=true;
 	subtypemenu.choice=this["subtype"+numberactual];
@@ -1231,8 +1351,8 @@ function wait3() {
 		}
 	} else {
 		var dateactual:Date=new Date();
-		date.daynumbs=dateactual.getDate();
-		date.monthnumbs=dateactual.getMonth();
+		//date.daynumbs=dateactual.getDate();
+		//date.monthnumbs=dateactual.getMonth();
 		date.yearnumbs=dateactual.getFullYear();
 		date.waitingforchoice=false;
 	}
@@ -1262,7 +1382,7 @@ function wait3() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Layer 2" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -1278,11 +1398,90 @@ function wait3() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[stop();
+var itemsarray:Array=[];
+var pagen:Number=1;
+
+if (this["GalActualArray"]=="Casaco") {
+	itemsarray=this["Casacos"];
+} else if (this["GalActualArray"]=="Tronco") {
+	itemsarray=this["Tronco"];
+} else if (this["GalActualArray"]=="Pernas") {
+	itemsarray=this["Pernas"];
+} else if (this["GalActualArray"]=="Calçado") {
+	itemsarray=this["Calçado"];
+} else {
+	itemsarray=this["allitemsarray"];
+}
+
+var totalpage=int(itemsarray.length/12)+1;
+if (int(itemsarray.length/12)==itemsarray.length/12) {
+	totalpage=totalpage-1;
+}
+
+trace(itemsarray.length);
+gal.number=this.number;
+gal.numbertotal=itemsarray.length;
+
+this.addEventListener(Event.ENTER_FRAME, givepage);
+function givepage(e:Event):void {
+	if (gal.itemsarray=="") {
+		gal.itemsarray=itemsarray;
+	}
+	if (aw.leftpressed==true) {
+		aw.leftpressed=false;
+		if (pagen>1) {
+			pagen=pagen-1;
+		}
+	}
+	if (aw.rightpressed==true) {
+		aw.rightpressed=false;
+		if (pagen<totalpage) {
+			pagen=pagen+1;
+		}
+	}
+	if (gal.page!=pagen) {
+		gal.page=pagen;
+		gal.pagechanged=true;
+		gal.mini1.number=0;
+		gal.mini2.number=0;
+		gal.mini3.number=0;
+		gal.mini4.number=0;
+		gal.mini5.number=0;
+		gal.mini6.number=0;
+		gal.mini7.number=0;
+		gal.mini8.number=0;
+		gal.mini9.number=0;
+		gal.mini10.number=0;
+		gal.mini11.number=0;
+		gal.mini12.number=0;
+	}
+	if (gal.thingselected!=0) {
+		this.removeEventListener(Event.ENTER_FRAME, givepage);
+		numberselected=gal.thingselected;
+		if (gal.mini1.out=="check"||gal.mini2.out=="check"||gal.mini3.out=="check"||gal.mini4.out=="check"||gal.mini5.out=="check"||gal.mini6.out=="check"||gal.mini7.out=="check"||gal.mini8.out=="check"||gal.mini9.out=="check"||gal.mini10.out=="check"||gal.mini11.out=="check"||gal.mini12.out=="check") {
+			if (this["CombBackup"]!=undefined) {
+				gotoAndStop(1, "Combine");
+			} else {
+				gotoAndStop(1, "Edit");
+			}
+		}
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Backup" color="#4FFF4F" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[/*stop();
 gal.number=this.number;
 gal.numbertotal=numbertotal;
 var pagen:Number=1;
@@ -1325,9 +1524,15 @@ function givepage(e:Event):void {
 	if (gal.thingselected!=0) {
 		this.removeEventListener(Event.ENTER_FRAME, givepage);
 		numberselected=gal.thingselected;
-		gotoAndStop(1, "Edit");
+		if (gal.mini1.out=="check"||gal.mini2.out=="check"||gal.mini3.out=="check"||gal.mini4.out=="check"||gal.mini5.out=="check"||gal.mini6.out=="check"||gal.mini7.out=="check"||gal.mini8.out=="check"||gal.mini9.out=="check"||gal.mini10.out=="check"||gal.mini11.out=="check"||gal.mini12.out=="check") {
+			if (this["CombBackup"]!=undefined) {
+				gotoAndStop(1, "Combine");
+			} else {
+				gotoAndStop(1, "Edit");
+			}
+		}
 	}
-}]]></script>
+}*/]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -1337,7 +1542,7 @@ function givepage(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Combine">
                <layers>
-                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+                    <DOMLayer name="Layer 2" color="#9933CC">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -1357,7 +1562,7 @@ function givepage(e:Event):void {
                                                   <Point x="99.3" y="18.3"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="tloader" selected="true" centerPoint3DX="139.85" centerPoint3DY="96.55">
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="tloader" centerPoint3DX="139.85" centerPoint3DY="96.55">
                                              <matrix>
                                                   <Matrix a="1.416259765625" d="1.4088134765625" tx="76.35" ty="9.65"/>
                                              </matrix>
@@ -1429,9 +1634,9 @@ function givepage(e:Event):void {
                                                   <Point x="45.65" y="12.45"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Date Insertor" name="date" centerPoint3DX="392.95" centerPoint3DY="29">
+                                        <DOMSymbolInstance libraryItemName="Date Insertor" name="date" centerPoint3DX="316.95" centerPoint3DY="29">
                                              <matrix>
-                                                  <Matrix tx="318.3" ty="18"/>
+                                                  <Matrix tx="242.3" ty="18"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="74.9" y="11"/>
@@ -1445,11 +1650,27 @@ function givepage(e:Event):void {
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="checkinbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="42" ty="329.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" centerPoint3DX="461.95" centerPoint3DY="30">
+                                             <matrix>
+                                                  <Matrix a="0.399993896484375" d="0.399993896484375" tx="447.5" ty="30"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="29.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 1" color="#4FFF4F">
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -1460,124 +1681,107 @@ var dateactuale:Date=new Date();
 var tronco:Array = new Array();
 var pernas:Array = new Array();
 var calçado:Array = new Array();
+var casaco:Array = new Array();
 var colorselect:Array = new Array();
 var typee1="Tronco";
 var typee2="Pernas";
 var typee3="Calçado";
+var typee4="Casaco";
+var seasonval:Number=0;
 var dateactual:Date=new Date();
 var dateundefined:Date=new Date(dateactuale.fullYear-1,dateactuale.month,dateactuale.date);
 var percbackup=0;
 var colorselectbackup:Array=[];
+var editmode=false;
+var datechack:Array=[date.daynumbs,date.monthnumbs,date.yearnumbs];
 
 btn.addEventListener(MouseEvent.CLICK, generatecomb);
 function generatecomb(e:Event):void {
+	tronco=[];
 	tloader.number=0;
+	pernas=[];
 	ploader.number=0;
+	calçado=[];
 	cloader.number=0;
+	casaco=[];
+	eloader.number=0;
 	colorselect=[];
+	seasonval=0;
 	number=1;
-	btn.removeEventListener(MouseEvent.CLICK, generatecomb);
-	if (checkrandom.thischecked==1) {
-		colorselect=["*","*","*","*"];
-	} else {
-		if (check1.thischecked==1) {
-			colorselect.push(1);
+	if (slider.val.text!="") {
+		btn.removeEventListener(MouseEvent.CLICK, generatecomb);
+		if (checkrandom.thischecked==1) {
+			colorselect=["*","*","*","*"];
 		} else {
-			colorselect.push("*");
-		}
-		if (check2.thischecked==1) {
-			colorselect.push(1);
-		} else {
-			colorselect.push("*");
-		}
-		if (check3.thischecked==1) {
-			colorselect.push(1);
-		} else {
-			colorselect.push("*");
-		}
-		if (check4.thischecked==1) {
-			colorselect.push(1);
-		} else {
-			colorselect.push("*");
-		}
-	}
-	//if ((colorselectbackup[0]!=colorselect[0] || colorselectbackup[1]!=colorselect[1] || colorselectbackup[2]!=colorselect[2] || colorselectbackup[3]!=colorselect[3])||(percbackup!=slider.perc)||((dateactual.fullYear,dateactual.month,dateactual.date)!=(date.yearnumbs,date.monthnumbs,date.daynumbs)) ) {
-		trace(colorselect);
-		dateactual=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
-		tronco=[];
-		pernas=[];
-		calçado=[];
-
-		for (number; number<=numbertotal; number++) {
-			
-			if (this["lastdate"+number]!="undefined") {
-				var datethis:Date=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
-			} else {
-				datethis=dateundefined;
-			}
-			dateinterval=Math.abs( datethis.getTime() - dateactual.getTime() )/(1000*60*60*24);
-			if (this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40&&dateinterval>=this["deltadays"+number]) {
-				if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
-				((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
-				((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
-				((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
-					if (this["type"+number]==typee1) {
-						tronco.push(number);
-					} else if (this["type"+number]==typee2) {
-						pernas.push(number);
-					} else if (this["type"+number]==typee3) {
-						calçado.push(number);
-					}
+			for (var i=1; i<=4; i++) {
+				if (this["check"+i].thischecked==1) {
+					colorselect.push(1);
+				} else {
+					colorselect.push("*");
 				}
 			}
-		//}
+		}
+		if (seasonslider.thischecked!=0) {
+			seasonval=seasonslider.thischecked;
+		}
+		trace(colorselect);
+		dateactual=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
+		this.addEventListener(Event.ENTER_FRAME, loadalle);
+	} else {
+		trace("no value");
 	}
-	this.addEventListener(Event.ENTER_FRAME, loadalle);
-	
 }
-
 
 function loadalle(e:Event):void {
-	tloader.number=0;
-	ploader.number=0;
-	cloader.number=0;
-	for (var i:Number=1;i<10;i++){
-	
+	if (number<=numbertotal) {
+		if (this["lastdate"+number]!="undefined") {
+			var datethis:Date=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
+		} else {
+			datethis=dateundefined;
+		}
+		dateinterval=Math.abs(datethis.getTime()-dateactual.getTime())/(1000*60*60*24);
+		//trace(this["item"+number],dateinterval,this["deltadays"+number])
+		if (((this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40)||slider.perc==50)&&dateinterval>=this["deltadays"+number]&&(seasonval==0||this["season"+number]==0 || this["season"+number]==seasonval)) {
+			if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
+			((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
+			((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
+			((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
+				if (this["subtype"+number]==typee4) {
+					casaco.push(number);
+				} else if (this["type"+number]==typee1) {
+					tronco.push(number);
+				} else if (this["type"+number]==typee2) {
+					pernas.push(number);
+				} else if (this["type"+number]==typee3) {
+					calçado.push(number);
+				}
+			}
+		}
+		if (number==numbertotal) {
+			if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
+				//trace(calçado[int(Math.random()*calçado.length)]);
+				tloader.number=(tronco[int(Math.random()*tronco.length)]);
+				trace(this["item"+tloader.number]+" "+ tloader.number);
+				ploader.number=(pernas[int(Math.random()*pernas.length)]);
+				trace(this["item"+ploader.number]+" "+ ploader.number);
+				cloader.number=(calçado[int(Math.random()*calçado.length)]);
+				trace(this["item"+cloader.number]+" "+ cloader.number);
+				eloader.number=(casaco[int(Math.random()*casaco.length)]);
+				trace(this["item"+eloader.number]+" "+ eloader.number);
+			} else {
+				trace("Not enought");
+			}
+			this.removeEventListener(Event.ENTER_FRAME, loadalle);
+			trace("Itens de tronco "+tronco.toString());
+			trace("Itens de pernas "+pernas.toString());
+			trace("Itens de calçado "+calçado.toString());
+			trace("Itens de casaco "+casaco.toString());
+			btn.addEventListener(MouseEvent.CLICK, generatecomb);
+		} else {
+			number=number+1;
+		}
 	}
-	if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
-		//trace(calçado[int(Math.random()*calçado.length)]);
-		tloader.showname=false;
-		ploader.showname=false;
-		cloader.showname=false;
-		tloader.number=(tronco[int(Math.random()*tronco.length)]);
-		trace(this["item"+tloader.number]+" "+ tloader.number);
-		ploader.number=(pernas[int(Math.random()*pernas.length)]);
-		trace(this["item"+ploader.number]+" "+ ploader.number);
-		cloader.number=(calçado[int(Math.random()*calçado.length)]);
-		trace(this["item"+cloader.number]+" "+ cloader.number);
-	} else {
-		trace("Not enought");
-	}
-	percbackup=slider.perc;
-	colorselectbackup=colorselect;
-	trace("Itens de tronco "+tronco.toString());
-	trace("Itens de pernas "+pernas.toString());
-	trace("Itens de calçado "+calçado.toString());
-	this.removeEventListener(Event.ENTER_FRAME, loadalle);
-	btn.addEventListener(MouseEvent.CLICK, generatecomb);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 //trace(this["item"+(randomRange(1, numbertotal))]);
 //trace(this["item"+(randomRange(1, numbertotal))]);
@@ -1613,13 +1817,153 @@ function givelabelscomb(e:Event):void {
 		date.yearnumbs=dateactuale.fullYear;
 		date.waitingforchoice=false;
 	}
+	if (this["CombBackup"]!=undefined&&checkrandom.waitingforchoice==true) {
+		date.daynumbs=this["CombBackup"][0];
+		date.monthnumbs=this["CombBackup"][1];
+		date.yearnumbs=this["CombBackup"][2];
+		slider.val.text=this["CombBackup"][3];
+		check1.thischecked=this["CombBackup"][4];
+		check2.thischecked=this["CombBackup"][5];
+		check3.thischecked=this["CombBackup"][6];
+		check4.thischecked=this["CombBackup"][7];
+		checkrandom.thischecked=this["CombBackup"][8];
+		tloader.number=this["CombBackup"][9];
+		ploader.number=this["CombBackup"][10];
+		cloader.number=this["CombBackup"][11];
+		eloader.number=this["CombBackup"][12];
+		if (this["CombBackup"][13]=="tloader") {
+			tloader.number=numberselected;
+		} else if (this["CombBackup"][13]=="ploader") {
+			ploader.number=numberselected;
+		} else if (this["CombBackup"][13]=="cloader") {
+			cloader.number=numberselected;
+		} else if (this["CombBackup"][13]=="eloader") {
+			eloader.number=numberselected;
+		}
+		this["CombBackup"]=undefined;
+		numberselected=0;
+		checkrandom.waitingforchoice=false;
+	}
+	if (datechack[0]!=date.daynumbs||datechack[1]!=date.monthnumbs||datechack[2]!=date.yearnumbs) {
+		var dateactual1=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
+		var dateactual1Timestamp:Number=dateactual1.getTime();
+		this["outoftheday"]=[0,0,0,0];
+		for (var i=1; i<=numbertotal; i++) {
+			var datethis:Date=new Date(this["lastdate"+i][2],this["lastdate"+i][1],this["lastdate"+i][0]);
+			var datethisTimestamp:Number=datethis.getTime();
+			if (datethisTimestamp==dateactual1Timestamp) {
+				if (this["subtype"+i]=="Casaco") {
+					this["outoftheday"][3]=i;
+				} else if (this["type"+i]=="Tronco") {
+					this["outoftheday"][0]=i;
+				} else if (this["type"+i]=="Pernas") {
+					this["outoftheday"][1]=i;
+				} else if (this["type"+i]=="Calçado") {
+					this["outoftheday"][2]=i;
+				}
+			}
+		}
+		tloader.number=this["outoftheday"][0];
+		ploader.number=this["outoftheday"][1];
+		cloader.number=this["outoftheday"][2];
+		eloader.number=this["outoftheday"][3];
+		datechack=[date.daynumbs,date.monthnumbs,date.yearnumbs];
+	}
 }
+
 
 edite.addEventListener(MouseEvent.CLICK, editesquares);
 function editesquares(e:Event):void {
-	tloader.editablee=true;
-	ploader.editablee=true;
-	cloader.editablee=true;
+	if (editmode==false) {
+		tloader.thisselected=false;
+		ploader.thisselected=false;
+		cloader.thisselected=false;
+		eloader.thisselected=false;
+		tloader.editablee=true;
+		ploader.editablee=true;
+		cloader.editablee=true;
+		eloader.editablee=true;
+		editmode=true;
+		this.addEventListener(Event.ENTER_FRAME, editestuff);
+	} else if (editmode==true) {
+		tloader.editablee=false;
+		ploader.editablee=false;
+		cloader.editablee=false;
+		eloader.editablee=false;
+		editmode=false;
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+	}
+}
+
+function editestuff(e:Event):void {
+	if (tloader.thisselected==true) {
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader"];
+		this["GalActualArray"]="Tronco";
+		tloader.out=true;
+		ploader.out=true;
+		cloader.out=true;
+		eloader.out=true;
+		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+		gotoAndStop(1, "Gallery");
+	} else if (ploader.thisselected==true) {
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader"];
+		this["GalActualArray"]="Pernas";
+		tloader.out=true;
+		ploader.out=true;
+		cloader.out=true;
+		eloader.out=true;
+		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+		gotoAndStop(1, "Gallery");
+	} else if (cloader.thisselected==true) {
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader"];
+		this["GalActualArray"]="Calçado";
+		tloader.out=true;
+		ploader.out=true;
+		cloader.out=true;
+		eloader.out=true;
+		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+		gotoAndStop(1, "Gallery");
+	} else if (eloader.thisselected==true) {
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader"];
+		this["GalActualArray"]="Casaco";
+		tloader.out=true;
+		ploader.out=true;
+		cloader.out=true;
+		eloader.out=true;
+		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+		gotoAndStop(1, "Gallery");
+	}
+}
+
+checkinbtn.addEventListener(MouseEvent.CLICK, checkin);
+function checkin(e:Event):void {
+	this["lastdate"+tloader.number]=[date.daynumbs,date.monthnumbs,date.yearnumbs];
+	this["lastdate"+ploader.number]=[date.daynumbs,date.monthnumbs,date.yearnumbs];
+	this["lastdate"+cloader.number]=[date.daynumbs,date.monthnumbs,date.yearnumbs];
+	this["lastdate"+eloader.number]=[date.daynumbs,date.monthnumbs,date.yearnumbs];
+	tloader.out=true;
+	ploader.out=true;
+	cloader.out=true;
+	eloader.out=true;
+	checkinbtn.removeEventListener(MouseEvent.CLICK, checkin);
+	edite.removeEventListener(MouseEvent.CLICK, editesquares);
+	this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+	this.removeEventListener(Event.ENTER_FRAME, editestuff);
+	this.removeEventListener(Event.ENTER_FRAME, loadalle);
+	this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+	gotoAndStop(1, "Save");
 }]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -1639,12 +1983,12 @@ function editesquares(e:Event):void {
 
 
 /*for (i=1 ; i<=(prob[number]) ; i++){
-	finale.push(inii[number]);
-	//trace ("this "+finale)
-		if (i==(prob[number])) {
-		number=number+1;
-		i=0;
-	}
+finale.push(inii[number]);
+//trace ("this "+finale)
+if (i==(prob[number])) {
+number=number+1;
+i=0;
+}
 }
 */
 
@@ -1655,11 +1999,12 @@ function generatecomb(e:Event):void {
 	tloader.number=0;
 	ploader.number=0;
 	cloader.number=0;
-	colorselect=[];
 	tronco=[];
 	pernas=[];
 	calçado=[];
+	colorselect=[];
 	number=1;
+	if (slider.val.text!="") {
 		btn.removeEventListener(MouseEvent.CLICK, generatecomb);
 		if (checkrandom.thischecked==1) {
 			colorselect=["*","*","*","*"];
@@ -1684,13 +2029,14 @@ function generatecomb(e:Event):void {
 			} else {
 				colorselect.push("*");
 			}
-		}		
-	
+		}
 		trace(colorselect);
 		dateactual=new Date(date.yearnumbs,date.monthnumbs,date.daynumbs);
 		this.addEventListener(Event.ENTER_FRAME, loadalle);
+	} else {
+		trace("no value");
+	}
 }
-
 
 function loadalle(e:Event):void {
 	if (number<numbertotal) {
@@ -1699,11 +2045,7 @@ function loadalle(e:Event):void {
 		} else {
 			datethis=dateundefined;
 		}
-		var one_day:Number=1000*60*60*24;
-		var datethis_ms:Number=datethis.getTime();
-		var dateactual_ms:Number=dateactual.getTime();
-		var difference_ms:Number=Math.abs(datethis_ms-dateactual_ms);
-		dateinterval=difference_ms/one_day;
+		dateinterval=Math.abs( datethis.getTime() - dateactual.getTime() )/(1000*60*60*24);
 		if (this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40&&dateinterval>=this["deltadays"+number]) {
 			if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
 			((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
@@ -1764,8 +2106,9 @@ function loadalle(e:Event):void {
 		trace("Itens de calçado "+calçado.toString());
 		btn.addEventListener(MouseEvent.CLICK, generatecomb);
 	}
+}*/
 
-}*/]]></script>
+//dateinterval=Math.abs( datethis.getTime() - dateactual.getTime() )/(1000*60*60*24);]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -1809,6 +2152,7 @@ function saveall(e:Event):void {
 		TextVariables["subtype"+number]=this["subtype"+number];
 		TextVariables["color"+number]=this["color"+number];
 		TextVariables["style"+number]=this["style"+number];
+		TextVariables["season"+number]=this["season"+number];
 		TextVariables["lastdate"+number]=this["lastdate"+number];
 		TextVariables["deltadays"+number]=this["deltadays"+number];
 		TextVariables["img"+number]=this["img"+number];
@@ -1819,6 +2163,7 @@ function saveall(e:Event):void {
 		trace(TextVariables["subtype"+number]);
 		trace(TextVariables["color"+number]);
 		trace(TextVariables["style"+number]);
+		trace(TextVariables["season"+number]);
 		trace(TextVariables["lastdate"+number]);
 		trace(TextVariables["deltadays"+number]);
 		trace(TextVariables["img"+number]);

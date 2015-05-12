@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Insertor" itemID="54bbf553-00000030" lastModified="1422403615" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Insertor" itemID="54bbf553-00000030" lastModified="1423325672" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Date Insertor">
       <layers>
@@ -85,11 +85,11 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[var waitingforchoice=true;
-var daynumbs=1;
+                <script><![CDATA[var daynumbs=1;
 var monthnumbs=0;
 var yearnumbs=2015;
 var monthnames:Array=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Aug","Set","Out","Nov","Dez"]
+var waitingforchoice=true;
 
 this.addEventListener(Event.ENTER_FRAME, changeshit);
 function changeshit(e:Event):void {
