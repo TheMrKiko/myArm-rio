@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1428873719" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1431905651" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Season Selector">
       <layers>
@@ -168,9 +168,8 @@
               <Actionscript>
                 <script><![CDATA[stop();
 var thischecked=0;
-//var waitingforchoice=true
 var justselected=true;
-var sequence:Array=[-1,0,1,0];
+var sequence:Array=[1,0,-1,0];
 var justnowsequence:Number=1;
 
 this.addEventListener(MouseEvent.MOUSE_OUT, mouseoutdot);

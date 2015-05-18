@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1423873605" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1431726805" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Tumbnail loader">
       <layers>
-        <DOMLayer name="Editable" color="#FF4F4F" autoNamed="false">
+        <DOMLayer name="Editable" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -94,7 +94,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -105,11 +105,14 @@ var thisselected=false;
 var editablee=false;
 var out=false;
 editablelayer.visible=false;
+var awaiting=true;
 
 this.addEventListener(Event.ENTER_FRAME, waitfornumber);
 function waitfornumber(e:Event):void {
+	awaiting=true;
 	if (this.number!=null&&this.number!=0) {
 		thisnumber=this.number;
+		awaiting=false;
 		this.addChildAt(root["load"+this.number],0);
 		this.removeEventListener(Event.ENTER_FRAME, waitfornumber);
 		this.addEventListener(Event.ENTER_FRAME, repeted);

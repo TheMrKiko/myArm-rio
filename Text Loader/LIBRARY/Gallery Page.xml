@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="Gallery Page">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F">
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -30,7 +30,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" selected="true" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
                   <matrix>
                     <Matrix tx="-236.35" ty="-61.05"/>
                   </matrix>
@@ -106,7 +106,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>

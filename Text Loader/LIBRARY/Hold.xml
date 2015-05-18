@@ -1,0 +1,75 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hold" itemID="5557c198-000000d4" lastModified="1431815364" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Hold">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hold Sel" name="sel" centerPoint3DX="10.5" centerPoint3DY="-3">
+                  <matrix>
+                    <Matrix tx="10.5" ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35" y="-4.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="68.9" width="6.2" height="14.5" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.62162780761719" d="1.62162780761719" tx="-106.5" ty="-14.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>*</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+var thisselected:Boolean=false;
+sel.visible=false;
+
+this.addEventListener(MouseEvent.CLICK, clickedhere);
+function clickedhere(e:Event):void {
+	if (thisselected==true) {
+		thisselected=false;
+	} else if (thisselected==false) {
+		thisselected=true;
+	}
+}
+
+addEventListener(Event.ENTER_FRAME, waite4);
+function waite4(e:Event):void {
+	if (thisselected==true) {
+		sel.visible=true;
+	} if (thisselected==false) {
+		sel.visible=false;
+	}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
