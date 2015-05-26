@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1431905651" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1432166241" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Season Selector">
       <layers>
@@ -166,10 +166,10 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[stop();
+                <script><![CDATA[stop();//1 é Inverno, -1 é Verão
 var thischecked=0;
 var justselected=true;
-var sequence:Array=[1,0,-1,0];
+var sequence:Array=[-1,0,1,0];
 var justnowsequence:Number=1;
 
 this.addEventListener(MouseEvent.MOUSE_OUT, mouseoutdot);
@@ -188,7 +188,7 @@ function mouseupdot(e:Event):void {
 	if (justnowsequence==4) {
 		justnowsequence=0;
 	}
-	thischecked=sequence[justnowsequence]
+	thischecked=sequence[justnowsequence];
 	justselected=true;
 	out.gotoAndStop(2);
 }
@@ -208,9 +208,17 @@ function givetxt(e:Event):void {
 		justselected=false;
 		out.x=52.5;
 	}
-		if (thischecked==1&&justselected==true) {
+	if (thischecked==1&&justselected==true) {
 		justselected=false;
 		out.x=105.05;
+	}
+	if (thischecked!=sequence[justnowsequence]) {
+		for (var i=0; i<4; i++) {
+			if (thischecked==sequence[i]) {
+				justnowsequence=i;
+				break;
+			}
+		}
 	}
 }]]></script>
               </Actionscript>

@@ -1,23 +1,23 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" nextSceneIdentifier="297" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" nextSceneIdentifier="375" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
           <DOMFolderItem name="Date Assets" itemID="54c544c5-00000038"/>
-          <DOMFolderItem name="Loading Bar Assets" itemID="5496f53a-00000776"/>
+          <DOMFolderItem name="Loading Bar Assets" itemID="5496f53a-00000776" isExpanded="true"/>
           <DOMFolderItem name="Menu Bar Assets" itemID="5496f920-00000916"/>
           <DOMFolderItem name="Season Assets" itemID="552afb28-0000003d"/>
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f601f-00000260" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518297119" embedRanges="3" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f601f-00000261" font="ArialMT" size="16" id="1" sourceLastImported="1518297119" embedRanges="3|5" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f6055-00000294" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518297173" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f6055-00000295" font="ArialMT" size="16" id="1" sourceLastImported="1518297173" embedRanges="3|5" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
           <Include href="Arrows Assets/Left Arrow.xml" loadImmediate="false" itemID="54aad79a-0000016f" lastModified="1420482567"/>
           <Include href="Arrows Assets/Right Arrow.xml" loadImmediate="false" itemID="54aad7b7-00000174" lastModified="1420482571"/>
-          <Include href="blank square.xml" loadImmediate="false" itemID="5556684a-0000006b" lastModified="1431726154"/>
-          <Include href="btn.xml" itemIcon="0" loadImmediate="false" itemID="548e050b-00000016" lastModified="1428269335"/>
+          <Include href="blank square.xml" loadImmediate="false" itemID="5556684a-0000006b" lastModified="1432678280"/>
+          <Include href="btn.xml" itemIcon="0" loadImmediate="false" itemID="548e050b-00000016" lastModified="1432677992"/>
           <Include href="Check Button Assets/Check Only.xml" loadImmediate="false" itemID="552ad9b0-000006a8" lastModified="1428871836"/>
           <Include href="Check Button Assets/Check out.xml" loadImmediate="false" itemID="54a8a0af-00000052" lastModified="1428871834"/>
           <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1428871833"/>
@@ -39,11 +39,11 @@
           <Include href="Menu Mask.xml" loadImmediate="false" itemID="5507650d-00000047" lastModified="1426548006"/>
           <Include href="Not Saved.xml" loadImmediate="false" itemID="55527053-0000003a" lastModified="1431466067"/>
           <Include href="Season Assets/Season out.xml" loadImmediate="false" itemID="552ad9c4-000006aa" lastModified="1428871702"/>
-          <Include href="Season Selector.xml" loadImmediate="false" itemID="552ad91f-000006a5" lastModified="1431905651"/>
+          <Include href="Season Selector.xml" loadImmediate="false" itemID="552ad91f-000006a5" lastModified="1432166241"/>
           <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1428268979"/>
           <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
           <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
-          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1431726805"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1431990645"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
@@ -69,11 +69,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Bar" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Bar" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Loading bar" name="bar" centerPoint3DX="288.95" centerPoint3DY="170">
+                                        <DOMSymbolInstance libraryItemName="Loading bar" name="bar" selected="true" centerPoint3DX="288.95" centerPoint3DY="170">
                                              <matrix>
                                                   <Matrix a="1.00286865234375" tx="100" ty="170"/>
                                              </matrix>
@@ -85,7 +85,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -805,7 +805,7 @@ function givelabels(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Edit">
                <layers>
-                    <DOMLayer name="Button" color="#FF800A" autoNamed="false">
+                    <DOMLayer name="Button" color="#FF800A" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -829,7 +829,7 @@ function givelabels(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 4" color="#FF4FFF">
+                    <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -853,7 +853,7 @@ function givelabels(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Text" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Text" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -951,7 +951,7 @@ function givelabels(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMDynamicText name="errortxt" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
+                                        <DOMDynamicText name="errortxt" selected="true" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="159" ty="334"/>
                                              </matrix>
@@ -1137,6 +1137,25 @@ function givelabels(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#4FFFFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Loading Bar Assets/Bar" name="bare" centerPoint3DX="230.25" centerPoint3DY="345">
+                                             <matrix>
+                                                  <Matrix a="-0.695816040039063" d="-0.735916137695313" tx="402.95" ty="352"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="170.95"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FF9900"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -1152,6 +1171,7 @@ var numbero=number;
 no.text=numbero;
 var numberactual=number;
 var validnumber=true;
+var onverification=false;
 notsaved.visible=false;
 setTimeout(wait3,100);
 itemtxt.text=this["item"+numberactual];
@@ -1160,6 +1180,8 @@ deltadaystxt.text=this["deltadays"+numberactual];
 imgtxt.text=this["img"+numberactual];
 errortxt.text="";
 numbercheck=1;
+bare.width=0;
+bare.alpha=0;
 
 this.addEventListener(Event.ENTER_FRAME, itemnumber);
 function itemnumber(e:Event):void {
@@ -1193,6 +1215,8 @@ function itemnumber(e:Event):void {
 			deltadaystxt.text="";
 			imgtxt.text="";
 			validnumber=false;
+			bare.width=0;
+			bare.alpha=0;
 		} else if (numberactual<=numbertotal) {
 			for (var i:Number=0; itemsarray[i]<=numbertotal; i++) {
 				if (itemsarray[numbpos]==numberactual) {
@@ -1203,6 +1227,8 @@ function itemnumber(e:Event):void {
 					break;
 				}
 			}
+			bare.width=0;
+			bare.alpha=0;
 			errortxt.text="";
 			itemtxt.text=this["item"+numberactual];
 			date.waitingforchoice=true;
@@ -1281,6 +1307,9 @@ function submititem(e:Event):void {
 function checkname(e:Event):void {
 	if (numbercheck<numbertotal && (numbercheck==numberactual || itemtxt.text!=this["item"+numbercheck])) {//Se o nome for diferente
 		trace("Checking "+numbercheck+" de "+numbertotal);
+		bare.width=237.95-((numbercheck*237.95)/numbertotal);
+		bare.alpha=1-(numbercheck/numbertotal);
+		onverification=true;
 		numbercheck=(numbercheck+1);
 	}
 	if (itemtxt.text==""||subtypemenu.choice==""||styleslider.val.text==""||deltadaystxt.text==""||imgtxt.text=="") {//Se algum campo estiver em branco
@@ -1291,9 +1320,13 @@ function checkname(e:Event):void {
 	if (itemtxt.text==this["item"+numbercheck]&&itemtxt.text!=this["item"+numberactual]) {//Se estiver repetido
 		errortxt.text="Item repetido...";
 		this.removeEventListener(Event.ENTER_FRAME, checkname);
+		onverification=false;
 		numbercheck=1;
 	}
 	if (numbercheck==numbertotal && (itemtxt.text!=this["item"+numbercheck] || numbercheck==numberactual)) {//Se chegar ao final e não estiver repetido
+		bare.width=0;
+		bare.alpha=0;
+		onverification=false;
 		trace("Checking "+numbercheck+" de "+numbertotal);
 		this["item"+numberactual]=itemtxt.text;
 		this["type"+numberactual]=typemenu.choice;
@@ -1383,14 +1416,14 @@ function givelabelsedit(e:Event):void {
 	if (typemenu.choice=="Calçado") {
 		subtypemenu.labels=["Sapatos","Sapatilhas","Botas","Chinelos"];
 	}
-	if (aw.leftpressed==true) {
+	if (aw.leftpressed==true&&onverification==false) {
 		aw.leftpressed=false;
 		if (numbpos>0) {
 			numbpos=numbpos-1;
 			no.text=itemsarray[numbpos];
 		}
 	}
-	if (aw.rightpressed==true) {
+	if (aw.rightpressed==true&&onverification==false) {
 		aw.rightpressed=false;
 		if (numbpos<itemsarray.length-1) {
 			numbpos=numbpos+1;
@@ -1841,7 +1874,7 @@ function givepage(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();//Adicionar o season ao backup e acertar isso do season position
+                                        <script><![CDATA[stop();//Aumentar tamanho do ecra, fazer voltar atrás, fazer criar novo se não existente, fazer botão para desactivar roupa
 number=1;
 var dateinterval:Number=0;
 var dateactuale:Date = new Date();
@@ -1863,16 +1896,36 @@ var editmode=false;
 var datechack:Array=[date.daynumbs,date.monthnumbs,date.yearnumbs];
 tblank.visible=false;
 pblank.visible=false;
+var holdtnumber=-1;
+var holdpnumber=-1;
+var holdcnumber=-1;
+var holdenumber=-1;
 
 btn.addEventListener(MouseEvent.CLICK, generatecomb);
 function generatecomb(e:Event):void {
 	tronco=[];
+	holdtnumber=-1;
+	if (thold.thisselected==true) {
+		holdtnumber=tloader.number;
+	}
 	tloader.number=0;
 	pernas=[];
+	holdpnumber=-1;
+	if (phold.thisselected==true) {
+		holdpnumber=ploader.number;
+	}
 	ploader.number=0;
 	calçado=[];
+	holdcnumber=-1;
+	if (chold.thisselected==true) {
+		holdcnumber=cloader.number;
+	}
 	cloader.number=0;
 	casaco=[];
+	holdenumber=-1;
+	if (ehold.thisselected==true) {
+		holdenumber=eloader.number;
+	}
 	eloader.number=0;
 	colorselect=[];
 	seasonval=0;
@@ -1902,53 +1955,70 @@ function generatecomb(e:Event):void {
 }
 
 function loadalle(e:Event):void {
-	if (number<=numbertotal) {
-		if (this["lastdate"+number]!="undefined") {
-			var datethis:Date=new Date(this["lastdate"+number][2],this["lastdate"+number][1],this["lastdate"+number][0]);
-		} else {
-			datethis=dateundefined;
-		}
-		dateinterval=Math.abs(datethis.getTime()-dateactual.getTime())/(1000*60*60*24);
-		//trace(this["item"+number],dateinterval,this["deltadays"+number])
-		if (((this["style"+number]>=slider.perc-40&&this["style"+number]<=slider.perc+40)||slider.perc==50)&&dateinterval>=this["deltadays"+number]&&(seasonval==0||this["season"+number]==0 || this["season"+number]==seasonval)) {
-			if (((colorselect[0]==1 && this["color"+number][0]==1)||(colorselect[0]=="*" && (this["color"+number][0]==0||this["color"+number][0]==1)))&&
-			((colorselect[1]==1 && this["color"+number][1]==1)||(colorselect[1]=="*" && (this["color"+number][1]==0||this["color"+number][1]==1)))&&
-			((colorselect[2]==1 && this["color"+number][2]==1)||(colorselect[2]=="*" && (this["color"+number][2]==0||this["color"+number][2]==1)))&&
-			((colorselect[3]==1 && this["color"+number][3]==1)||(colorselect[3]=="*" && (this["color"+number][3]==0||this["color"+number][3]==1)))) {
-				if (this["subtype"+number]==typee4) {
-					casaco.push(number);
-				} else if (this["type"+number]==typee1) {
-					tronco.push(number);
-				} else if (this["type"+number]==typee2) {
-					pernas.push(number);
-				} else if (this["type"+number]==typee3) {
-					calçado.push(number);
+	for (var n=1; n<=numbertotal; n++) {
+		if ((this["subtype"+n]=="Casaco"&&holdenumber==-1)||(this["type"+n]=="Tronco"&&this["subtype"+n]!="Casaco"&&holdtnumber==-1)||(this["type"+n]=="Pernas"&&holdpnumber==-1)||(this["type"+n]=="Calçado"&&holdcnumber==-1)) {
+			if (this["lastdate"+n]!="undefined") {
+				var datethis:Date=new Date(this["lastdate"+n][2],this["lastdate"+n][1],this["lastdate"+n][0]);
+			} else {
+				datethis=dateundefined;
+			}
+			dateinterval=Math.abs(datethis.getTime()-dateactual.getTime())/(1000*60*60*24);
+			//trace(this["item"+number],dateinterval,this["deltadays"+number])
+			if (((this["style"+n]>=slider.perc-40&&this["style"+n]<=slider.perc+40)||slider.perc==50)&&dateinterval>=this["deltadays"+n]&&(seasonval==0||this["season"+n]==0 || this["season"+n]==seasonval)) {
+				if (((colorselect[0]==1 && this["color"+n][0]==1)||(colorselect[0]=="*" && (this["color"+n][0]==0||this["color"+n][0]==1)))&&
+				((colorselect[1]==1 && this["color"+n][1]==1)||(colorselect[1]=="*" && (this["color"+n][1]==0||this["color"+n][1]==1)))&&
+				((colorselect[2]==1 && this["color"+n][2]==1)||(colorselect[2]=="*" && (this["color"+n][2]==0||this["color"+n][2]==1)))&&
+				((colorselect[3]==1 && this["color"+n][3]==1)||(colorselect[3]=="*" && (this["color"+n][3]==0||this["color"+n][3]==1)))) {
+					if (this["subtype"+n]==typee4) {
+						casaco.push(n);
+					} else if (this["type"+n]==typee1) {
+						tronco.push(n);
+					} else if (this["type"+n]==typee2) {
+						pernas.push(n);
+					} else if (this["type"+n]==typee3) {
+						calçado.push(n);
+					}
 				}
 			}
 		}
-		if (number==numbertotal) {
-			if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
-				//trace(calçado[int(Math.random()*calçado.length)]);
-				tloader.number=(tronco[int(Math.random()*tronco.length)]);
-				trace(this["item"+tloader.number]+" "+ tloader.number);
-				ploader.number=(pernas[int(Math.random()*pernas.length)]);
-				trace(this["item"+ploader.number]+" "+ ploader.number);
-				cloader.number=(calçado[int(Math.random()*calçado.length)]);
-				trace(this["item"+cloader.number]+" "+ cloader.number);
-				eloader.number=(casaco[int(Math.random()*casaco.length)]);
-				trace(this["item"+eloader.number]+" "+ eloader.number);
-			} else {
-				trace("Not enought");
-			}
-			this.removeEventListener(Event.ENTER_FRAME, loadalle);
-			trace("Itens de tronco "+tronco.toString());
-			trace("Itens de pernas "+pernas.toString());
-			trace("Itens de calçado "+calçado.toString());
-			trace("Itens de casaco "+casaco.toString());
-			btn.addEventListener(MouseEvent.CLICK, generatecomb);
-		} else {
-			number=number+1;
+	}
+	this.removeEventListener(Event.ENTER_FRAME, loadalle);
+	this.addEventListener(Event.ENTER_FRAME, loadallew);
+}
+
+function loadallew(e:Event):void {
+	if (eloader.awaiting==true&&tloader.awaiting==true&&ploader.awaiting==true&&cloader.awaiting==true) {
+		if (holdenumber!=-1) {
+			casaco.push(holdenumber);
 		}
+		if (holdtnumber!=-1) {
+			tronco.push(holdtnumber);
+		}
+		if (holdpnumber!=-1) {
+			pernas.push(holdpnumber);
+		}
+		if (holdcnumber!=-1) {
+			calçado.push(holdcnumber);
+		}
+		if (tronco.length!=0&&pernas.length!=0&&calçado.length!=0) {
+			//trace(calçado[int(Math.random()*calçado.length)]);
+			tloader.number=(tronco[int(Math.random()*tronco.length)]);
+			trace(this["item"+tloader.number]+" "+ tloader.number);
+			ploader.number=(pernas[int(Math.random()*pernas.length)]);
+			trace(this["item"+ploader.number]+" "+ ploader.number);
+			cloader.number=(calçado[int(Math.random()*calçado.length)]);
+			trace(this["item"+cloader.number]+" "+ cloader.number);
+			eloader.number=(casaco[int(Math.random()*casaco.length)]);
+			trace(this["item"+eloader.number]+" "+ eloader.number);
+		} else {
+			trace("Not enought");
+		}
+		this.removeEventListener(Event.ENTER_FRAME, loadallew);
+		trace("Itens de tronco "+tronco.toString());
+		trace("Itens de pernas "+pernas.toString());
+		trace("Itens de calçado "+calçado.toString());
+		trace("Itens de casaco "+casaco.toString());
+		btn.addEventListener(MouseEvent.CLICK, generatecomb);
 	}
 }
 
@@ -1997,17 +2067,18 @@ function givelabelscomb(e:Event):void {
 		check3.thischecked=this["CombBackup"][6];
 		check4.thischecked=this["CombBackup"][7];
 		checkrandom.thischecked=this["CombBackup"][8];
-		tloader.number=this["CombBackup"][9];
-		ploader.number=this["CombBackup"][10];
-		cloader.number=this["CombBackup"][11];
-		eloader.number=this["CombBackup"][12];
-		if (this["CombBackup"][13]=="tloader") {
+		seasonslider.thischecked=this["CombBackup"][9];
+		tloader.number=this["CombBackup"][10];
+		ploader.number=this["CombBackup"][11];
+		cloader.number=this["CombBackup"][12];
+		eloader.number=this["CombBackup"][13];
+		if (this["CombBackup"][14]=="tloader") {
 			tloader.number=numberselected;
-		} else if (this["CombBackup"][13]=="ploader") {
+		} else if (this["CombBackup"][14]=="ploader") {
 			ploader.number=numberselected;
-		} else if (this["CombBackup"][13]=="cloader") {
+		} else if (this["CombBackup"][14]=="cloader") {
 			cloader.number=numberselected;
-		} else if (this["CombBackup"][13]=="eloader") {
+		} else if (this["CombBackup"][14]=="eloader") {
 			eloader.number=numberselected;
 		}
 		this["CombBackup"]=undefined;
@@ -2084,7 +2155,7 @@ function editesquares(e:Event):void {
 
 function editestuff(e:Event):void {
 	if (tloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader"];
 		this["GalActualArray"]="Tronco";
 		tloader.out=true;
 		ploader.out=true;
@@ -2096,7 +2167,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (ploader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader"];
 		this["GalActualArray"]="Pernas";
 		tloader.out=true;
 		ploader.out=true;
@@ -2108,7 +2179,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (cloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader"];
 		this["GalActualArray"]="Calçado";
 		tloader.out=true;
 		ploader.out=true;
@@ -2120,7 +2191,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (eloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader"];
 		this["GalActualArray"]="Casaco";
 		tloader.out=true;
 		ploader.out=true;
@@ -2136,45 +2207,18 @@ function editestuff(e:Event):void {
 
 checkinbtn.addEventListener(MouseEvent.CLICK, checkin);
 function checkin(e:Event):void {
-	if (this["lastdate"+tloader.number][0]!=date.daynumbs||this["lastdate"+tloader.number][1]!=date.monthnumbs||this["lastdate"+tloader.number][2]!=date.yearnumbs) {
-		this["lastdateold"+tloader.number]=[];
-		this["lastdateold"+tloader.number].push(this["lastdate"+tloader.number][0]);
-		this["lastdateold"+tloader.number].push(this["lastdate"+tloader.number][1]);
-		this["lastdateold"+tloader.number].push(this["lastdate"+tloader.number][2]);
-		this["lastdate"+tloader.number]=[];
-		this["lastdate"+tloader.number].push(date.daynumbs);
-		this["lastdate"+tloader.number].push(date.monthnumbs);
-		this["lastdate"+tloader.number].push(date.yearnumbs);
-	}
-	if (this["lastdate"+ploader.number][0]!=date.daynumbs||this["lastdate"+ploader.number][1]!=date.monthnumbs||this["lastdate"+ploader.number][2]!=date.yearnumbs) {
-		this["lastdateold"+ploader.number]=[];
-		this["lastdateold"+ploader.number].push(this["lastdate"+ploader.number][0]);
-		this["lastdateold"+ploader.number].push(this["lastdate"+ploader.number][1]);
-		this["lastdateold"+ploader.number].push(this["lastdate"+ploader.number][2]);
-		this["lastdate"+ploader.number]=[];
-		this["lastdate"+ploader.number].push(date.daynumbs);
-		this["lastdate"+ploader.number].push(date.monthnumbs);
-		this["lastdate"+ploader.number].push(date.yearnumbs);
-	}
-	if (this["lastdate"+cloader.number][0]!=date.daynumbs||this["lastdate"+cloader.number][1]!=date.monthnumbs||this["lastdate"+cloader.number][2]!=date.yearnumbs) {
-		this["lastdateold"+cloader.number]=[];
-		this["lastdateold"+cloader.number].push(this["lastdate"+cloader.number][0]);
-		this["lastdateold"+cloader.number].push(this["lastdate"+cloader.number][1]);
-		this["lastdateold"+cloader.number].push(this["lastdate"+cloader.number][2]);
-		this["lastdate"+cloader.number]=[];
-		this["lastdate"+cloader.number].push(date.daynumbs);
-		this["lastdate"+cloader.number].push(date.monthnumbs);
-		this["lastdate"+cloader.number].push(date.yearnumbs);
-	}
-	if (this["lastdate"+eloader.number][0]!=date.daynumbs||this["lastdate"+eloader.number][1]!=date.monthnumbs||this["lastdate"+eloader.number][2]!=date.yearnumbs) {
-		this["lastdateold"+eloader.number]=[];
-		this["lastdateold"+eloader.number].push(this["lastdate"+eloader.number][0]);
-		this["lastdateold"+eloader.number].push(this["lastdate"+eloader.number][1]);
-		this["lastdateold"+eloader.number].push(this["lastdate"+eloader.number][2]);
-		this["lastdate"+eloader.number]=[];
-		this["lastdate"+eloader.number].push(date.daynumbs);
-		this["lastdate"+eloader.number].push(date.monthnumbs);
-		this["lastdate"+eloader.number].push(date.yearnumbs);
+	var inicials:Array=["t","p","c","e"];
+	for (var i=0; i<4; i++) {
+		if (this["lastdate"+this[inicials[i]+"loader"].number][0]!=date.daynumbs||this["lastdate"+this[inicials[i]+"loader"].number][1]!=date.monthnumbs||this["lastdate"+this[inicials[i]+"loader"].number][2]!=date.yearnumbs) {
+			this["lastdateold"+this[inicials[i]+"loader"].number]=[];
+			this["lastdateold"+this[inicials[i]+"loader"].number].push(this["lastdate"+this[inicials[i]+"loader"].number][0]);
+			this["lastdateold"+this[inicials[i]+"loader"].number].push(this["lastdate"+this[inicials[i]+"loader"].number][1]);
+			this["lastdateold"+this[inicials[i]+"loader"].number].push(this["lastdate"+this[inicials[i]+"loader"].number][2]);
+			this["lastdate"+this[inicials[i]+"loader"].number]=[];
+			this["lastdate"+this[inicials[i]+"loader"].number].push(date.daynumbs);
+			this["lastdate"+this[inicials[i]+"loader"].number].push(date.monthnumbs);
+			this["lastdate"+this[inicials[i]+"loader"].number].push(date.yearnumbs);
+		}
 	}
 	tloader.out=true;
 	ploader.out=true;
@@ -2341,7 +2385,7 @@ function loadalle(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Save">
                <layers>
-                    <DOMLayer name="Button" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Button" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -2357,7 +2401,7 @@ function loadalle(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -2453,7 +2497,10 @@ function save(e:Event):void {
 }
 
 function onSaved(e:Event):void {
-	gotoAndPlay(0, "Loader");
+	setTimeout(wait4,500);
+	function wait4() {
+		gotoAndPlay(0, "Loader");
+	}
 }]]></script>
                                    </Actionscript>
                                    <elements/>

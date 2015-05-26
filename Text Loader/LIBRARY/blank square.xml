@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="blank square" itemID="5556684a-0000006b" lastModified="1431726154">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="blank square" itemID="5556684a-0000006b" lastModified="1432678280">
   <timeline>
     <DOMTimeline name="blank square">
       <layers>
@@ -6,14 +6,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
+                <DOMShape selected="true" isFloating="true">
+                  <transformationPoint>
+                    <Point x="-63.45" y="6.5"/>
+                  </transformationPoint>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#FFFFFF"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!-1269 -1269S2|1270 -1269!1270 -1269|1270 1270!1270 1270|-1269 1270!-1269 1270|-1269 -1269"/>
+                    <Edge fillStyle1="1" edges="!1270 1270S2|-1269 1270!-1269 1270|-1269 -1269!-1269 -1269|1270 -1269!1270 -1269|1270 1270"/>
                   </edges>
                 </DOMShape>
               </elements>

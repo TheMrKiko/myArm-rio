@@ -82,9 +82,9 @@ function downa(e:Event):void {
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="!0 220|334 220"/>
-                    <Edge fillStyle0="1" strokeStyle="1" edges="!334 220|334 0!334 0|0 0!0 0|0 220"/>
                     <Edge fillStyle1="2" strokeStyle="1" edges="!334 220|334 440!334 440|0 440!0 440|0 220"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!0 220|0 0!0 0|334 0!334 0|334 220"/>
+                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="!0 220|334 220"/>
                   </edges>
                 </DOMShape>
               </elements>
