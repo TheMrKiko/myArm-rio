@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1424124251" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1438677279" lastUniqueIdentifier="15">
   <timeline>
     <DOMTimeline name="Gallery Page">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -30,7 +30,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" selected="true" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
                   <matrix>
                     <Matrix tx="-236.35" ty="-61.05"/>
                   </matrix>
@@ -106,7 +106,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -121,9 +121,11 @@ this.addEventListener(Event.ENTER_FRAME, loadall1);
 function loadall1(e:Event):void {
 	trace(number);
 	if (this.number>=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página certa
-		this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
-		this["mini"+(this.number-12*(page-1))].showname=true;
-		trace("adding...");//12*(page) é o fim da página
+		//if (root["show"+this.itemsarray[this.number-1]]==1){
+			this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
+			this["mini"+(this.number-12*(page-1))].showname=true;
+			trace("adding...");//12*(page) é o fim da página
+		//}
 		number=number+1;
 	} else if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
 		this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
@@ -169,7 +171,7 @@ function pagechangedf(e:Event):void {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Backup" color="#FF4FFF" locked="true" autoNamed="false">
+        <DOMLayer name="Backup" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1432166241" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Season Selector" itemID="552ad91f-000006a5" lastModified="1435841472" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Season Selector">
       <layers>
@@ -49,7 +49,7 @@
  500 1915 419!1915 419[1835 339 1835 224!1835 224[1835 108 1915 27!1915 27[1942 1 1973 -17!1973 -17[1936 -64 1936 -125!1936 -125[1936 -197 1987 -250!1939 -322|2279 -322!2193 -500|2193 -331!2193 -331|2024 -331!2024 -331|2024 -500!2024
  -500|2193 -500"/>
                     <Edge fillStyle1="1" strokeStyle="2" edges="
-!2096 143[2096 134 2102 128!2102 128[2108 122 2117 122!2117 122[2126 122 2132 128!2132 128[2138 134 2138 143!2138 143[2138 152 2132 158!2132 158[2126 164 2117 164!2117 164[2108 164 2102 158!2102 158[2096 152 2096 143!2117 230[2126 230
+!2102 158[2096 152 2096 143!2096 143[2096 134 2102 128!2102 128[2108 122 2117 122!2117 122[2126 122 2132 128!2132 128[2138 134 2138 143!2138 143[2138 152 2132 158!2132 158[2126 164 2117 164!2117 164[2108 164 2102 158!2117 230[2126 230
  2132 236!2132 236[2138 242 2138 251!2138 251[2138 260 2132 266!2132 266[2126 272 2117 272!2117 272[2108 272 2102 266!2102 266[2096 260 2096 251!2096 251[2096 242 2102 236!2102 236[2108 230 2117 230"/>
                     <Edge strokeStyle="1" edges="
 !2250 -17[2243 -9 2234 0!2234 0[2225 10 2215 17!2215 17[2169 51 2112 51!2112 51[2054 51 2008 17!2008 17[1996 10 1987 0!1987 0[1979 -8 1973 -17"/>
@@ -169,7 +169,7 @@
                 <script><![CDATA[stop();//1 é Inverno, -1 é Verão
 var thischecked=0;
 var justselected=true;
-var sequence:Array=[-1,0,1,0];
+var sequence:Array=[1,0,-1,0];
 var justnowsequence:Number=1;
 
 this.addEventListener(MouseEvent.MOUSE_OUT, mouseoutdot);

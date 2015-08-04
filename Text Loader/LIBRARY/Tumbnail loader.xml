@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1431990645" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1438635108" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Tumbnail loader">
       <layers>
-        <DOMLayer name="Editable" color="#FF4F4F" autoNamed="false">
+        <DOMLayer name="Editable" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -94,7 +94,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -152,6 +152,9 @@ function repeted(e:Event):void {
 			this.removeEventListener(Event.ENTER_FRAME, repeted);
 		}
 	}
+	if (root["closing"]==true) {
+		this.removeEventListener(Event.ENTER_FRAME, repeted);
+	}
 }
 
 function changeimage(e:Event):void {
@@ -175,9 +178,9 @@ function galclickedobj2(e:Event):void {
 this.addEventListener(Event.ENTER_FRAME, oute);
 function oute(e:Event):void {
 	if (this.out==true) {
+		this.removeEventListener(Event.ENTER_FRAME, repeted);
 		this.removeEventListener(Event.ENTER_FRAME, changeimage);
 		this.removeEventListener(Event.ENTER_FRAME, waitfornumber);
-		this.removeEventListener(Event.ENTER_FRAME, repeted);
 		this.removeEventListener(MouseEvent.CLICK, galclickedobj);
 		this.removeEventListener(Event.ENTER_FRAME, oute);
 		this.out="check";
@@ -200,7 +203,7 @@ function oute(e:Event):void {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions Backup" color="#4FFFFF" locked="true" autoNamed="false">
+        <DOMLayer name="Actions Backup" color="#4FFFFF" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
