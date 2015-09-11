@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gal Menu" itemID="550761bb-00000035" lastModified="1438455671">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gal Menu" itemID="550761bb-00000035" lastModified="1441578793">
   <timeline>
     <DOMTimeline name="Gal Menu">
       <layers>
-        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="btn" name="cscbtn" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="btn" name="cscbtn" symbolType="button">
                   <matrix>
                     <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="-30.6"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="btn" name="trcbtn" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="btn" name="trcbtn" symbolType="button">
                   <matrix>
                     <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="-8.6"/>
                   </matrix>
@@ -30,7 +30,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="btn" name="calbtn" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="btn" name="calbtn" symbolType="button">
                   <matrix>
                     <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="35.4"/>
                   </matrix>
@@ -123,7 +123,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 4" color="#FF4FFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>

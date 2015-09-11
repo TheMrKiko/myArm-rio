@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="4" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="393" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="408" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
@@ -10,8 +10,8 @@
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f6088-000002cc" font="ArialMT" size="16" id="2" sourceLastImported="1518297224" embedRanges="3|5" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f6088-000002cd" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297224" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f609f-00000304" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518297247" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f609f-00000305" font="ArialMT" size="16" id="1" sourceLastImported="1518297247" embedRanges="3|5" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
@@ -24,11 +24,11 @@
           <Include href="Check Button Assets/Check out.xml" loadImmediate="false" itemID="54a8a0af-00000052" lastModified="1428871834"/>
           <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1428871833"/>
           <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1428871831"/>
-          <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1428879153"/>
+          <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1441580905"/>
           <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1421605388"/>
           <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1423325672"/>
           <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
-          <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1438455671"/>
+          <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1441578793"/>
           <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1438677279"/>
           <Include href="Hold.xml" loadImmediate="false" itemID="5557c198-000000d4" lastModified="1431815364"/>
           <Include href="Hold Sel.xml" loadImmediate="false" itemID="5557c183-000000d0" lastModified="1431814654"/>
@@ -143,7 +143,9 @@ function loadall(e:Event):void {
 		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
 		this["show"+number]=myTextLoader.data["show"+number];
 		this["img"+number]=myTextLoader.data["img"+number];
-		this["load"+number].load(new URLRequest(this["img"+number]));
+		if (myTextLoader.data["show"+number]==1){
+			this["load"+number].load(new URLRequest(this["img"+number]));
+		}
 		if (number<numbertotal) {
 			number=number+1;
 		} else {
@@ -211,7 +213,7 @@ function loading(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Menu">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F">
+                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -320,7 +322,7 @@ function loading(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMSymbolInstance libraryItemName="Gal Menu" name="galmenu" centerPoint3DX="383.45" centerPoint3DY="270.5">
+                                        <DOMSymbolInstance libraryItemName="Gal Menu" name="galmenu" selected="true" centerPoint3DX="383.45" centerPoint3DY="270.5">
                                              <matrix>
                                                   <Matrix tx="383.45" ty="270.5"/>
                                              </matrix>
@@ -351,12 +353,14 @@ function loading(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+                    <DOMLayer name="Layer 2" color="#9933CC">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[stop();
 galmenu.visible=false;
+numberselected=0;
+number=numbertotal;
 
 this["GalActualArray"]="Menu";
 newbtn.addEventListener(MouseEvent.CLICK, fnewbtn);
@@ -443,7 +447,7 @@ function galmaskdesactivate(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Text" color="#9933CC" locked="true" autoNamed="false">
+                    <DOMLayer name="Text" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -633,7 +637,7 @@ function galmaskdesactivate(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMInputText name="deltadaystxt" fontRenderingMode="standard" width="36.35" height="20.55" includeOutlines="true">
+                                        <DOMInputText name="deltadaystxt" width="36.35" height="20.55" maxCharacters="5">
                                              <matrix>
                                                   <Matrix a="1.01638793945313" tx="486.05" ty="181"/>
                                              </matrix>
@@ -644,7 +648,7 @@ function galmaskdesactivate(e:Event):void {
                                                   <DOMTextRun>
                                                        <characters></characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0" rightMargin="0.4" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                              </textRuns>
@@ -709,6 +713,7 @@ function galmaskdesactivate(e:Event):void {
 itemtxt.text="";
 imgtxt.text="";
 errortxt.text="";
+deltadaystxt.restrict="0-9";
 var numbercheck:Number=1;
 var numbernew:Number=numbertotal+1;
 var imglink:FileReference = new FileReference();
@@ -811,7 +816,7 @@ function givelabels(e:Event):void {
 		subtypemenu.labels=["Camisola","Sweatshirt","T-shirt","Camisa","Polo","Malha","Casaco"];
 	}
 	if (typemenu.choice=="Pernas") {
-		subtypemenu.labels=["Calças","Calções"];
+		subtypemenu.labels=["Calças","Calções","Calções de Banho"];
 	}
 	if (typemenu.choice=="Calçado") {
 		subtypemenu.labels=["Sapatos","Sapatilhas","Botas","Chinelos"];
@@ -1204,7 +1209,7 @@ function returnnew(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -1227,6 +1232,7 @@ var onverification=false;
 setTimeout(wait3,100);
 itemtxt.text=this["item"+numberactual];
 styleslider.val.text=this["style"+numberactual];
+deltadaystxt.restrict="0-9";
 deltadaystxt.text=this["deltadays"+numberactual];
 imgtxt.text=this["img"+numberactual];
 errortxt.text="";
@@ -1379,6 +1385,7 @@ function checkname(e:Event):void {
 	}
 	if (itemtxt.text==this["item"+numbercheck]&&itemtxt.text!=this["item"+numberactual]) {//Se estiver repetido
 		errortxt.text="Item repetido...";
+		trace("Checking "+numbercheck+" de "+numbertotal);
 		this.removeEventListener(Event.ENTER_FRAME, checkname);
 		onverification=false;
 		numbercheck=1;
@@ -1386,8 +1393,10 @@ function checkname(e:Event):void {
 	if (numbercheck==numbertotal && (itemtxt.text!=this["item"+numbercheck] || numbercheck==numberactual)) {//Se chegar ao final e não estiver repetido
 		bare.width=0;
 		bare.alpha=0;
-		onverification=false;
 		trace("Checking "+numbercheck+" de "+numbertotal);
+		if (this["show"+numberactual]!=showcheck.thischecked){
+			backbtn.visible=false;
+			}
 		this["item"+numberactual]=itemtxt.text;
 		this["type"+numberactual]=typemenu.choice;
 		this["subtype"+numberactual]=subtypemenu.choice;
@@ -1423,6 +1432,7 @@ function checkname(e:Event):void {
 		trace((this["deltadays"+numberactual])+" dias");
 		trace(this["show"+numberactual]);
 		trace(this["img"+numberactual]);
+		onverification=false;
 		notsaved.visible=true;
 		changesnotsaved=true;
 		numbercheck=1;
@@ -1432,16 +1442,18 @@ function checkname(e:Event):void {
 
 notsaved.btn.addEventListener(MouseEvent.CLICK, savefinal);
 function savefinal(e:Event):void {
-	this.removeEventListener(Event.ENTER_FRAME, itemnumber);
-	btn.removeEventListener(MouseEvent.CLICK, submititem);
-	loadbtn.removeEventListener(MouseEvent.CLICK, loadIti);
-	imglinko.removeEventListener(Event.SELECT, selectImagee);
-	this.removeEventListener(Event.ENTER_FRAME, givelabelsedit);
-	notsaved.btn.removeEventListener(MouseEvent.CLICK, savefinal);
-	numbercheck=1;
-	setTimeout(wait2,1000);
-	function wait2() {
-		gotoAndStop(1, "Save");
+	if (onverification==false) {
+		this.removeEventListener(Event.ENTER_FRAME, itemnumber);
+		btn.removeEventListener(MouseEvent.CLICK, submititem);
+		loadbtn.removeEventListener(MouseEvent.CLICK, loadIti);
+		imglinko.removeEventListener(Event.SELECT, selectImagee);
+		this.removeEventListener(Event.ENTER_FRAME, givelabelsedit);
+		notsaved.btn.removeEventListener(MouseEvent.CLICK, savefinal);
+		numbercheck=1;
+		setTimeout(wait2,1000);
+		function wait2() {
+			gotoAndStop(1, "Save");
+		}
 	}
 }
 
@@ -1475,7 +1487,7 @@ function givelabelsedit(e:Event):void {
 		subtypemenu.labels=["Camisola","Sweatshirt","T-shirt","Camisa","Polo","Malha","Casaco"];
 	}
 	if (typemenu.choice=="Pernas") {
-		subtypemenu.labels=["Calças","Calções"];
+		subtypemenu.labels=["Calças","Calções","Calções de Banho"];
 	}
 	if (typemenu.choice=="Calçado") {
 		subtypemenu.labels=["Sapatos","Sapatilhas","Botas","Chinelos"];
@@ -1556,19 +1568,21 @@ function whichlist(e:Event):void {
 
 backbtn.addEventListener(MouseEvent.CLICK, returnedit);
 function returnedit(e:Event):void {
-	this.removeEventListener(Event.ENTER_FRAME, itemnumber);
-	btn.removeEventListener(MouseEvent.CLICK, submititem);
-	loadbtn.removeEventListener(MouseEvent.CLICK, loadIti);
-	imglinko.removeEventListener(Event.SELECT, selectImagee);
-	this.removeEventListener(Event.ENTER_FRAME, givelabelsedit);
-	notsaved.btn.removeEventListener(MouseEvent.CLICK, savefinal);
-	this.removeEventListener(Event.ENTER_FRAME, whichlist);
-	this.removeEventListener(Event.ENTER_FRAME, checkname);
-	backbtn.removeEventListener(MouseEvent.CLICK, returnedit);
-	if (this["GalActualArray"]=="Menu") {
-		gotoAndStop(1, "Menu");
-	} else {
-		gotoAndStop(1, "Gallery");
+	if (onverification==false) {
+		this.removeEventListener(Event.ENTER_FRAME, itemnumber);
+		btn.removeEventListener(MouseEvent.CLICK, submititem);
+		loadbtn.removeEventListener(MouseEvent.CLICK, loadIti);
+		imglinko.removeEventListener(Event.SELECT, selectImagee);
+		this.removeEventListener(Event.ENTER_FRAME, givelabelsedit);
+		notsaved.btn.removeEventListener(MouseEvent.CLICK, savefinal);
+		this.removeEventListener(Event.ENTER_FRAME, whichlist);
+		this.removeEventListener(Event.ENTER_FRAME, checkname);
+		backbtn.removeEventListener(MouseEvent.CLICK, returnedit);
+		if (this["GalActualArray"]=="Menu") {
+			gotoAndStop(1, "Menu");
+		} else {
+			gotoAndStop(1, "Gallery");
+		}
 	}
 }]]></script>
                                    </Actionscript>
@@ -1617,7 +1631,7 @@ function returnedit(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Layer 2" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -2017,7 +2031,7 @@ function givepage(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();//fazer criar novo se não existente, fazer botão para desactivar roupa, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco
+                                        <script><![CDATA[stop();//lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco
 number=1;
 var dateinterval:Number=0;
 var dateactuale:Date = new Date();
@@ -2040,7 +2054,7 @@ var datechack:Array=[date.daynumbs,date.monthnumbs,date.yearnumbs];
 tblank.visible=false;
 pblank.visible=false;
 notsaved.visible=false;
-if (changesnotsaved==true){
+if (changesnotsaved==true) {
 	notsaved.visible=true;
 }
 var holdtnumber=-1;
@@ -2103,27 +2117,29 @@ function generatecomb(e:Event):void {
 
 function loadalle(e:Event):void {
 	for (var n=1; n<=numbertotal; n++) {
-		if ((this["subtype"+n]=="Casaco"&&holdenumber==-1)||(this["type"+n]=="Tronco"&&this["subtype"+n]!="Casaco"&&holdtnumber==-1)||(this["type"+n]=="Pernas"&&holdpnumber==-1)||(this["type"+n]=="Calçado"&&holdcnumber==-1)) {
-			if (this["lastdate"+n]!="undefined") {
-				var datethis:Date=new Date(this["lastdate"+n][2],this["lastdate"+n][1],this["lastdate"+n][0]);
-			} else {
-				datethis=dateundefined;
-			}
-			dateinterval=Math.abs(datethis.getTime()-dateactual.getTime())/(1000*60*60*24);
-			//trace(this["item"+number],dateinterval,this["deltadays"+number])
-			if (((this["style"+n]>=slider.perc-40&&this["style"+n]<=slider.perc+40)||slider.perc==50)&&dateinterval>=this["deltadays"+n]&&(seasonval==0||this["season"+n]==0 || this["season"+n]==seasonval)) {
-				if (((colorselect[0]==1 && this["color"+n][0]==1)||(colorselect[0]=="*" && (this["color"+n][0]==0||this["color"+n][0]==1)))&&
-				((colorselect[1]==1 && this["color"+n][1]==1)||(colorselect[1]=="*" && (this["color"+n][1]==0||this["color"+n][1]==1)))&&
-				((colorselect[2]==1 && this["color"+n][2]==1)||(colorselect[2]=="*" && (this["color"+n][2]==0||this["color"+n][2]==1)))&&
-				((colorselect[3]==1 && this["color"+n][3]==1)||(colorselect[3]=="*" && (this["color"+n][3]==0||this["color"+n][3]==1)))) {
-					if (this["subtype"+n]==typee4) {
-						casaco.push(n);
-					} else if (this["type"+n]==typee1) {
-						tronco.push(n);
-					} else if (this["type"+n]==typee2) {
-						pernas.push(n);
-					} else if (this["type"+n]==typee3) {
-						calçado.push(n);
+		if (this["show"+n]==1) {
+			if ((this["subtype"+n]=="Casaco"&&holdenumber==-1)||(this["type"+n]=="Tronco"&&this["subtype"+n]!="Casaco"&&holdtnumber==-1)||(this["type"+n]=="Pernas"&&holdpnumber==-1)||(this["type"+n]=="Calçado"&&holdcnumber==-1)) {
+				if (this["lastdate"+n]!="undefined") {
+					var datethis:Date=new Date(this["lastdate"+n][2],this["lastdate"+n][1],this["lastdate"+n][0]);
+				} else {
+					datethis=dateundefined;
+				}
+				dateinterval=Math.abs(datethis.getTime()-dateactual.getTime())/(1000*60*60*24);
+				//trace(this["item"+number],dateinterval,this["deltadays"+number])
+				if (((this["style"+n]>=slider.perc-40&&this["style"+n]<=slider.perc+40)||slider.perc==50)&&dateinterval>=this["deltadays"+n]&&(seasonval==0||this["season"+n]==0 || this["season"+n]==seasonval)) {
+					if (((colorselect[0]==1 && this["color"+n][0]==1)||(colorselect[0]=="*" && (this["color"+n][0]==0||this["color"+n][0]==1)))&&
+					((colorselect[1]==1 && this["color"+n][1]==1)||(colorselect[1]=="*" && (this["color"+n][1]==0||this["color"+n][1]==1)))&&
+					((colorselect[2]==1 && this["color"+n][2]==1)||(colorselect[2]=="*" && (this["color"+n][2]==0||this["color"+n][2]==1)))&&
+					((colorselect[3]==1 && this["color"+n][3]==1)||(colorselect[3]=="*" && (this["color"+n][3]==0||this["color"+n][3]==1)))) {
+						if (this["subtype"+n]==typee4) {
+							casaco.push(n);
+						} else if (this["type"+n]==typee1) {
+							tronco.push(n);
+						} else if (this["type"+n]==typee2) {
+							pernas.push(n);
+						} else if (this["type"+n]==typee3) {
+							calçado.push(n);
+						}
 					}
 				}
 			}

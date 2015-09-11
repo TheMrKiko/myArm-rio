@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Point" itemID="54a8742d-000002e3" lastModified="1428879153" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Point" itemID="54a8742d-000002e3" lastModified="1441580905" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Check Point">
       <layers>
-        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
+        <DOMLayer name="Layer 6" color="#808080">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -36,7 +36,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 5" color="#4FFFFF">
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -44,6 +44,7 @@
 var thischecked=0;
 var waitingforchoice=true;
 var justselected=true;
+var mousepressed=false;
 checkpoint.dot.visible=false;
 var thislabel="";
 if (this.name=="checkrandom") {
@@ -62,6 +63,7 @@ function mousedowndot(e:Event):void {
 
 checkpoint.addEventListener(MouseEvent.MOUSE_UP, mouseupdot);
 function mouseupdot(e:Event):void {
+	 mousepressed=true;
 	if (thischecked==0) {
 		thischecked=1;
 		justselected=true;
@@ -84,10 +86,12 @@ function givetxt(e:Event):void {
 	txtlabel.text=thislabel;
 	if (thischecked==1&&justselected==true) {
 		justselected=false;
+		mousepressed=false;
 		checkpoint.dot.visible=true;
 	}
 	if (thischecked==0&&justselected==true) {
 		justselected=false;
+		mousepressed=false;
 		checkpoint.dot.visible=false;
 	}
 }]]></script>
