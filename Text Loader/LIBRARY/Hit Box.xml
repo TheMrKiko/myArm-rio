@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hit Box" itemID="55f31a9f-00000047" lastModified="1441997618">
+  <timeline>
+    <DOMTimeline name="Hit Box">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[oi.name=this.name]]></script>
+              </Actionscript>
+              <elements>
+                <DOMDynamicText name="oi" selected="true" width="79.05" height="80.5" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-43.05" ty="-43.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.55" y="39.5"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
