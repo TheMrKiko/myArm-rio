@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1442869113" lastUniqueIdentifier="20">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1443990265" lastUniqueIdentifier="20">
   <timeline>
     <DOMTimeline name="Gallery Page">
       <layers>
@@ -334,7 +334,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[stop();//só mudar de pag quando tudo carregar, náo estar botão editar nas lisas pequenas
+                <script><![CDATA[stop();//só mudar de pag quando tudo carregar, náo estar botão editar nas listas pequenas
 var number=1;
 var page=1;
 var pagechanged=false;
@@ -342,15 +342,20 @@ var thingselected=0;
 var itemsarray:Array=[];
 var onedit=false;
 var objecto=0;
+var objecto2=0;
 var obj_var=0;
 var targ_var=0;
+var targ_var2=0;
 var statuse="Waiting";
 var notrep=false;
-var visrep=false;
+var pagetotal;
 var changenumber=0;
-var changenumbername=0;
+var changenumbernamea=0;
+var changenumbernameb=0;
 var changenumber2=0;
-var changenumbername2=0;
+var changenumbername2a=0;
+var changenumbername2b=0;
+var thissituation=0;
 
 var mouseposx=0;
 var mouseposy=0;
@@ -371,6 +376,30 @@ this["tin2"]=[0,13,14,15,16,17,18,19,20,21,22,23,24];
 this["tin3"]=[0,25];
 mini0.thisgalpage=page
 
+function PageFunc(intpage:int):int{ 
+	if (intpage==0){
+		return(0);
+	} else {
+		return(intpage+12*(page-1));
+	}  
+}
+
+function PageFunc2(intpage:int):int{ 
+	if (intpage==0){
+		return(0);
+	} else if (int(intpage/12)-intpage/12==0){
+		return(intpage-12*(int(intpage/12)-1));
+	} else {
+		return(intpage-12*(int(intpage/12)));
+	}
+}
+
+function TinAll(intnumb:int):void{ 
+	for (var tp=1; tp<=pagetotal; tp++){
+		this["tin"+tp][0]=intnumb;
+	}  
+}
+
 this.addEventListener(Event.ENTER_FRAME, loadall1);
 function loadall1(e:Event):void {
 	trace(number);
@@ -379,14 +408,14 @@ function loadall1(e:Event):void {
 		//Menu editar e minis têm inis
 		if (onedit==true&&this["tmini"+this.number]!=undefined){
 			//O número do mini da página é o número do número geral
-			this["mini"+(this.number-12*(page-1))].number=this["tin"+page][this.number-12*(page-1)]
+			this["mini"+PageFunc2(this.number)].number=this["tin"+page][PageFunc2(this.number)]
 		} else {
 			//O número do mini da página é na ordem da listagem
-			this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
+			this["mini"+PageFunc2(this.number)].number=this.itemsarray[this.number-1];
 		}
 		//Mostrar nome deste mini
-		this["mini"+(this.number-12*(page-1))].showname=true;
-		this["mini"+(this.number-12*(page-1))].thisgalpage=page;
+		this["mini"+PageFunc2(this.number)].showname=true;
+		this["mini"+PageFunc2(this.number)].thisgalpage=page;
 		
 		//Se as variáveis forem indefinidas
 		if (this["tmini"+this.number]==undefined) {
@@ -397,9 +426,8 @@ function loadall1(e:Event):void {
 		//Se o mini geral não está representado no 0 desta página
 		if (this["tni"+this.number]!=0){
 			//A posição do mini desta página é a posição da ini correspondente
-			trace(this["tmini"+this.number])
-			//this["mini"+this["tni"+this.number]].x=this["ini"+(this["tmini"+this.number]-12*(page-1))].x;
-			//this["mini"+this["tni"+this.number]].y=this["ini"+(this["tmini"+this.number]-12*(page-1))].y;
+			this["mini"+PageFunc2(this.number)].x=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].x		
+			this["mini"+PageFunc2(this.number)].y=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].y		
 		}
 		trace("adding...");//12*(page) é o fim da página
 		if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
@@ -425,6 +453,9 @@ this.addEventListener(Event.ENTER_FRAME, pagechangedf);
 function pagechangedf(e:Event):void {
 	if (pagechanged==true) {
 		pagechanged=false;
+		for (var c=1; c<=12; c++) {
+			this["ini"+c].visible=false;
+		}
 		this.removeEventListener(Event.ENTER_FRAME, loadall1);
 		number=12*(page-1)+1;
 		this.addEventListener(Event.ENTER_FRAME, loadall1);
@@ -454,9 +485,9 @@ this.addEventListener(Event.ENTER_FRAME, dragfunc);
 function dragfunc(e:Event):void {
 	if (this.onedit==true&&statuse=="Waiting") {
 		if (notrep==true) {
-			trace("está aqui, onde está o que está aqui, número do que está aqui")
+			//trace("está aqui, onde está o que está aqui, número do que está aqui")
 			for (var tr=0; tr<=12; tr++) {
-				this["ini"+tr].text=this["tini"+(tr+12*(page-1))]+" "+this["tmini"+this["tini"+(tr+12*(page-1))]]+" "+this["mini"+this["tni"+(this["tini"+(tr+12*(page-1))])]].number
+				this["ini"+tr].text=this["tini"+PageFunc(tr)]+" "+this["tmini"+this["tini"+PageFunc(tr)]]+" "+this["mini"+this["tni"+(this["tini"+PageFunc(tr)])]].number
 				this["ini"+tr].removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
 			}
 			notrep=false;
@@ -497,7 +528,7 @@ function dragfunc(e:Event):void {
 	if (this.onedit==true&&(ini1.visible!=true||ini2.visible!=true||ini3.visible!=true||ini4.visible!=true||ini5.visible!=true||ini6.visible!=true||ini7.visible!=true||ini8.visible!=true||ini9.visible!=true||ini10.visible!=true||ini11.visible!=true||ini12.visible!=true)) {
 		for (var a=1; a<=12; a++) {
 			this["ini"+a].visible=true;
-			if (a+12*(page-1)==this["numbertotal"]){
+			if (PageFunc(a)==this["numbertotal"]){
 				break;
 			}
 		}
@@ -508,29 +539,28 @@ function dragfunc(e:Event):void {
 		}
 	}
 	if (changenumber!=0){
-		if (changenumbername.awaiting==true){
-			changenumbername.number=changenumber;
+		if (changenumbernamea.awaiting==true){
+			changenumbernameb.number=changenumber;
 			changenumber=0;
-			changenumbername=0;
+			changenumbernamea=0;
+			changenumbernameb=0;
 		}
 		trace("cheking")
 	}
 	if (changenumber2!=0){
-		if (changenumbername2.awaiting==true){
-			changenumbername2.number=changenumber2;
+		if (changenumbername2a.awaiting==true){
+			changenumbername2b.number=changenumber2;
 			changenumber2=0;
-			changenumbername2=0;
+			changenumbername2a=0;
+			changenumbername2b=0;
 		}
 		trace("cheking2")
-	}
-	if (visrep==true){
-		visrep=false;
 	}
 }
 
 function dragfunction(e:Event):void {
-	if (this["tini"+(Number(e.target.name.slice(3))+12*(page-1))]!=0){
-		objecto=this["mini"+this["tni"+this["tini"+(Number(e.target.name.slice(3))+12*(page-1))]]]
+	if (this["tini"+PageFunc(Number(e.target.name.slice(3)))]!=0){
+		objecto=this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]]
 		mouseposx=mouseX;
 		mouseposy=mouseY;
 		objposx=objecto.x;
@@ -546,65 +576,157 @@ function dragfunction(e:Event):void {
 }
 
 function targetfunction(e:Event):void {
+stage.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);	
 if (objecto.name=="mini0"){
 	if (e.target.name!="ini0"){
-		if (this["mini"+(Number(this["tini"+(Number(e.target.name.slice(3))+12*(page-1))])-12*(page-1))].number==0){
+		if (this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]].number==0){
 			//Largar mini0 num spot vazio
+			thissituation=1;
+			trace(1)
+			targ_var=e.target;
+			obj_var=mini0;
+			objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+			mini0.x=ini0.x;
+			mini0.y=ini0.y;
+			objecto2.x=targ_var.x;
+			objecto2.y=targ_var.y;
 		} else {
 			//Largar mini0 num spot com alguém
+			thissituation=2;
+			trace(2)
+			targ_var=e.target;
+			obj_var=mini0;
+			objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+			mini0.x=ini0.x;
+			mini0.y=ini0.y;
 		} 
 	} else if (e.target.name=="ini0"){
 		//Largar mini0 no mesmo spot
+		thissituation=3;
+		trace(3)
 		mini0.x=ini0.x
 		mini0.y=ini0.y
 		objecto=0;
+		thissituation=0;
 		statuse="Waiting";
 		notrep=true;
+		return;
 		e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
 	} 
 } else if (objecto.name!="mini0"){
 	if (e.target.name=="ini0"){
 		if (mini0.number!=0){
 			//Largar alguém no ini0 com alguém
-		} else if (mini0.number==0){
-			//Largar alguém no ini0 vazio
+			thissituation=4;
+			trace(4);
+			targ_var=e.target;
+			obj_var=objecto;
+			objecto2=mini0;
+			mini0.x=ini0.x;
+			mini0.y=ini0.y
 			objecto.x=objposx;
 			objecto.y=objposy;
-			this["tni0"]=objecto.number;
-			this["tni"+objecto.number]=0;
-			this["tin"+page][0]=objecto.number;
-			this["tin"+page][Number(objecto.name.slice(4))]=0;
-			mini0.number=objecto.number;
-			objecto.number=0;
+		} else if (mini0.number==0){
+			//Largar alguém no ini0 vazio
+			thissituation=5;
+			trace(5)
+			mini0.x=ini0.x;
+			mini0.y=ini0.y;
+			objecto.x=objposx;
+			objecto.y=objposy;
 			obj_var=objecto;
 			targ_var=ini0;
 		}
-	} else {
+	} else {////////adicionar largar na msm casa
 		//Não relacionado com o ini0 ou mini0
 		obj_var=objecto;
 		targ_var=e.target;
-		trace("simple trade")
 	}
 }
 	swapbackup1=this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]];//Casa onde está o que moveu
-	swapbackup2=this["tmini"+this["tini"+(Number(targ_var.name.slice(3))+12*(obj_var.thisgalpage-1))]];//Casa alvo
-	swapbackup3=this["tini"+(Number(targ_var.name.slice(3))+12*(obj_var.thisgalpage-1))];//Quem está na casa alvo
+	swapbackup2=this["tmini"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]];//Casa alvo
+	swapbackup3=this["tini"+PageFunc(Number(targ_var.name.slice(3)))];//Quem está na casa alvo
 	swapbackup4=this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]];//Quem moveu
-	if (e.target.name!="ini0"&&this["tini"+this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))]]!=0){
-		objecto.x=e.target.x;
-		objecto.y=e.target.y;
-		if (Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1))!=0){
-			this["mini"+(Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1)))].x=targposx;
-			this["mini"+(Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1)))].y=targposy;
+	if (targ_var.name!="ini0"&&this["tini"+this["tmini"+PageFunc(Number(obj_var.name.slice(4)))]]!=0){
+		obj_var.x=targ_var.x;
+		obj_var.y=targ_var.y;
+		if (this["tini"+PageFunc(Number(targ_var.name.slice(3)))]!=0){
+			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].x=targposx;
+			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].y=targposy;
 		}
 	}
-	this["tmini"+this["tini"+(Number(targ_var.name.slice(3))+12*(obj_var.thisgalpage-1))]]=swapbackup1;
+	this["tmini"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]=swapbackup1;
 	this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]]=swapbackup3;
 	this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]=swapbackup2;
-	this["tini"+(Number(targ_var.name.slice(3))+12*(obj_var.thisgalpage-1))]=swapbackup4;
+	this["tini"+PageFunc(Number(targ_var.name.slice(3)))]=swapbackup4;
+	if (thissituation==1){
+		var safe1=mini0.number;//é o objecto2.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto2;
+		mini0.number=0;
+		this["tin"+page][0]=0;
+		TinAll(0);
+		this["tin"+page][Number(objecto2.name.slice(4))]=safe1;
+		this["tni"+safe1]=Number(objecto2.name.slice(4));
+		this["tni0"]=0;
+		safe1=0;
+		thissituation=0;
+	} else if (thissituation==2){
+		var safe2a=mini0.number;//é o objecto2.number
+		var safe2b=objecto2.number;//é o mini0.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto2;
+		changenumber=objecto2.number;
+		changenumbernamea=objecto2;
+		changenumbernameb=mini0;
+		mini0.number=0
+		objecto2.number=0
+		this["tin"+page][0]=safe2b;
+		TinAll(safe2b)
+		this["tin"+page][Number(objecto2.name.slice(4))]=safe2a;
+		this["tni"+safe2a]=Number(objecto2.name.slice(4));
+		this["tni"+safe2b]=0;
+		safe2a=0;
+		safe2b=0;
+		thissituation=0;
+	} else if (thissituation==4){
+		var safe4a=mini0.number;//é o objecto.number
+		var safe4b=objecto.number;//é o mini0.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto;
+		changenumber=objecto.number;
+		changenumbernamea=objecto;
+		changenumbernameb=mini0;
+		mini0.number=0
+		objecto.number=0
+		this["tin"+page][0]=safe4b;
+		TinAll(safe4b)
+		this["tin"+page][Number(objecto.name.slice(4))]=safe4a;
+		this["tni"+safe4a]=Number(objecto.name.slice(4));
+		this["tni"+safe4b]=0;
+		safe4a=0;
+		safe4b=0;
+		thissituation=0;
+	} else if (thissituation==5){
+		this["tni0"]=Number(obj_var.name.slice(4));
+		this["tni"+obj_var.number]=0;
+		this["tin"+page][0]=obj_var.number;
+		TinAll(obj_var.number)
+		this["tin"+page][Number(obj_var.name.slice(4))]=0;
+		mini0.number=obj_var.number;
+		obj_var.number=0;
+		thissituation=0;
+	}
 	objecto=0;
+	objecto2=0;
+	obj_var=0;
+	targ_var=0;
 	statuse="Waiting";
 	notrep=true;
+	this.removeEventListener(Event.ENTER_FRAME, targetfunction);
 	e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
 }
 
@@ -617,8 +739,7 @@ function dropfunction(e:Event):void {
 		notrep=true;
 		e.target.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
 	}
-}
-//if (){}]]></script>
+}]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>

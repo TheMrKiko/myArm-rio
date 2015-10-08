@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="5" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="450" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="5" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="486" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
@@ -10,8 +10,8 @@
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f60c4-0000033e" font="ArialMT" size="16" id="2" sourceLastImported="1518297284" embedRanges="3|5" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f60c4-0000033f" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297284" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f60d8-00000378" font="ArialMT" size="16" id="2" sourceLastImported="1518297304" embedRanges="3|5" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f60d8-00000379" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297304" embedRanges="3" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
@@ -30,7 +30,7 @@
           <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1423325672"/>
           <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
           <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1441578793"/>
-          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1442869113"/>
+          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1443990265"/>
           <Include href="Hit Box.xml" loadImmediate="false" itemID="55f31a9f-00000047" lastModified="1441997618"/>
           <Include href="Hold.xml" loadImmediate="false" itemID="5557c198-000000d4" lastModified="1431815364"/>
           <Include href="Hold Sel.xml" loadImmediate="false" itemID="5557c183-000000d0" lastModified="1431814654"/>
@@ -49,7 +49,7 @@
           <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1428268979"/>
           <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
           <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
-          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1442520449"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1443892203"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
@@ -1687,6 +1687,7 @@ var totalpage=int(itemsarray.length/12)+1;
 if (int(itemsarray.length/12)==itemsarray.length/12) {
 	totalpage=totalpage-1;
 }
+gal.pagetotal=totalpage
 
 trace(itemsarray.length);
 gal.number=this.number;
@@ -1836,7 +1837,7 @@ function givepage(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Combine">
                <layers>
-                    <DOMLayer name="Layer 2" color="#9933CC" locked="true" current="true" isSelected="true">
+                    <DOMLayer name="Layer 2" color="#9933CC" locked="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -2052,12 +2053,13 @@ function givepage(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();//lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco
+                                        <script><![CDATA[stop();//se no combine não tiver nenhum casaco, lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco, se cena eliminada foi usada; em vez de esperar para carregar as coisas dos nomes , fazer "var blabla;" em vez de var blabla=0;
 number=1;
+
 var dateinterval:Number=0;
 var dateactuale:Date = new Date();
 var tronco:Array = new Array();

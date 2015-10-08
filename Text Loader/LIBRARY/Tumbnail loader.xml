@@ -1,7 +1,31 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1442520449" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1443892203" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Tumbnail loader">
       <layers>
+        <DOMLayer name="Layer 11" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="blabla" selected="true" left="1.8" width="86" height="60.35" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="0.2" ty="14.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="54" bitmapSize="1080" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="74.0000022767297" blurX="10" blurY="10" distance="1"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Editable" color="#FF4F4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -72,7 +96,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer" color="#4FFF4F" parentLayerIndex="2" locked="true" autoNamed="false">
+        <DOMLayer name="Layer" color="#4FFF4F" parentLayerIndex="3" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -94,7 +118,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -138,6 +162,7 @@ function waitfornumber(e:Event):void {
 			root["load"+this.number].y=0;
 			trace("tall "+this.number);
 		}
+		blabla.text=this.name.slice(4)
 	} else {
 		nametxt.text="";
 	}
