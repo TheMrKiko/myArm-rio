@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="No image" itemID="561ab210-00000045" linkageExportForAS="true" linkageClassName="noneimg" lastModified="1444590800">
+  <timeline>
+    <DOMTimeline name="No image">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!620 780[782 670 923 522!923 522[1000 440 1099 378!1099 378[1190 320 1286 272!1286 272[1390 220 1499 177!1499 177[1620 130 1717 185!1717 185[1785 225 1819 290!1819 290[1840 330 1872 367!1872 367[1910 410 1942 458!1942 458[1970 500 1997
+ 542!1997 542[2034 600 2024 680!2024 680[1993 800 1941 842!1941 842[1869 899 1794 952!1794 952[1740 990 1679 1018!1679 1018[1593 1058 1505 1079!1505 1079[1460 1090 1418 1118!1418 1118[1280 1193 1280 1340!1280 1340[1260 1410 1258 1440
+!1258 1440[1255 1505 1300 1520!1240 1842[1301 1991 1179 1967!1179 1967[1140 1960 1120 1920!1120 1920[1132 1832 1240 1842"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!2160 0|2160 2160!2160 2160|0 2160!0 2160|0 0!0 0|2160 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

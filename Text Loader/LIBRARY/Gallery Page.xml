@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1443990265" lastUniqueIdentifier="20">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1444505024" lastUniqueIdentifier="20">
   <timeline>
     <DOMTimeline name="Gallery Page">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMDynamicText name="ini3" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="23.15" ty="-177.3"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-181.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -24,7 +24,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini2" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-106.55" ty="-177.3"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-181.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -40,7 +40,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini1" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-234.15" ty="-177.3"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-181.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -56,7 +56,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini4" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="149.65" ty="-177.3"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-181.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -72,7 +72,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini7" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.6" ty="-58.85"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-61.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -88,7 +88,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini6" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.1" ty="-58.85"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-61.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -104,7 +104,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini5" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-234.7" ty="-58.85"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-61.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -120,7 +120,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini8" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="149.1" ty="-58.85"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-61.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -136,7 +136,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini11" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="23.15" ty="58.7"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="58.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -152,7 +152,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini10" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-106.55" ty="58.7"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="58.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -168,7 +168,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini9" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-234.15" ty="58.7"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="58.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.6"/>
@@ -184,7 +184,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini12" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="145.65" ty="58.7"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="58.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="39.35" y="38.65"/>
@@ -200,7 +200,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="ini0" selected="true" width="64.85" height="225.5" isSelectable="false">
                   <matrix>
-                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="270.2" ty="-144"/>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="272.2" ty="-147.8"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="32.35" y="110.45"/>
@@ -222,105 +222,105 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" centerPoint3DX="-151.25" centerPoint3DY="-121.45">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" centerPoint3DX="-154.45" centerPoint3DY="-125.45">
                   <matrix>
-                    <Matrix tx="-236.35" ty="-179.5"/>
+                    <Matrix tx="-239.55" ty="-183.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini2" centerPoint3DX="-23.75" centerPoint3DY="-121.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini2" centerPoint3DX="-24.55" centerPoint3DY="-125.5">
                   <matrix>
-                    <Matrix tx="-108.75" ty="-179.5"/>
+                    <Matrix tx="-109.55" ty="-183.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini3" centerPoint3DX="105.95" centerPoint3DY="-121.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini3" centerPoint3DX="105.45" centerPoint3DY="-125.5">
                   <matrix>
-                    <Matrix tx="20.95" ty="-179.5"/>
+                    <Matrix tx="20.45" ty="-183.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-151.35" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-154.55" centerPoint3DY="-5.5">
                   <matrix>
-                    <Matrix tx="-236.35" ty="-61.05"/>
+                    <Matrix tx="-239.55" ty="-63.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini4" centerPoint3DX="232.45" centerPoint3DY="-121.2">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini4" centerPoint3DX="235.45" centerPoint3DY="-125.5">
                   <matrix>
-                    <Matrix tx="147.45" ty="-179.2"/>
+                    <Matrix tx="150.45" ty="-183.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini6" centerPoint3DX="-23.75" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini6" centerPoint3DX="-24.55" centerPoint3DY="-5.5">
                   <matrix>
-                    <Matrix tx="-108.75" ty="-61.05"/>
+                    <Matrix tx="-109.55" ty="-63.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini7" selected="true" centerPoint3DX="105.95" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini7" centerPoint3DX="105.45" centerPoint3DY="-5.5">
                   <matrix>
-                    <Matrix tx="20.95" ty="-61.05"/>
+                    <Matrix tx="20.45" ty="-63.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini8" centerPoint3DX="230.4" centerPoint3DY="-3.05">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini8" centerPoint3DX="235.45" centerPoint3DY="-5.5">
                   <matrix>
-                    <Matrix tx="145.4" ty="-61.05"/>
+                    <Matrix tx="150.45" ty="-63.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini9" centerPoint3DX="-152.4" centerPoint3DY="114.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini9" centerPoint3DX="-154.55" centerPoint3DY="114.5">
                   <matrix>
-                    <Matrix tx="-237.4" ty="56.5"/>
+                    <Matrix tx="-239.55" ty="56.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini10" centerPoint3DX="-24.8" centerPoint3DY="114.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini10" centerPoint3DX="-24.55" centerPoint3DY="114.5">
                   <matrix>
-                    <Matrix tx="-109.8" ty="56.5"/>
+                    <Matrix tx="-109.55" ty="56.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini11" centerPoint3DX="104.9" centerPoint3DY="114.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini11" centerPoint3DX="105.45" centerPoint3DY="114.5">
                   <matrix>
-                    <Matrix tx="19.9" ty="56.5"/>
+                    <Matrix tx="20.45" ty="56.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini12" centerPoint3DX="229.35" centerPoint3DY="114.5">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini12" centerPoint3DX="235.45" centerPoint3DY="114.5">
                   <matrix>
-                    <Matrix tx="144.35" ty="56.5"/>
+                    <Matrix tx="150.45" ty="56.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini0" centerPoint3DX="305.35" centerPoint3DY="-96.45">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini0" selected="true" centerPoint3DX="307.3" centerPoint3DY="-100.8">
                   <matrix>
-                    <Matrix a="0.82208251953125" d="0.81298828125" tx="268.05" ty="-145.65"/>
+                    <Matrix a="0.82208251953125" d="0.81298828125" tx="270" ty="-150"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="45.35" y="59.1"/>
@@ -330,22 +330,21 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[stop();//só mudar de pag quando tudo carregar, náo estar botão editar nas listas pequenas
+                <script><![CDATA[stop();
 var number=1;
 var page=1;
 var pagechanged=false;
 var thingselected=0;
 var itemsarray:Array=[];
-var onedit=false;
+var onedit;
 var objecto=0;
 var objecto2=0;
 var obj_var=0;
 var targ_var=0;
-var targ_var2=0;
 var statuse="Waiting";
 var notrep=false;
 var pagetotal;
@@ -356,6 +355,7 @@ var changenumber2=0;
 var changenumbername2a=0;
 var changenumbername2b=0;
 var thissituation=0;
+var endedpage=false;
 
 var mouseposx=0;
 var mouseposy=0;
@@ -371,81 +371,57 @@ this["tmini0"]=0;
 this["tini0"]=0;
 this["tni0"]=0;
 mini0.number=0;
-this["tin1"]=[0,1,2,3,4,5,6,7,8,9,10,11,12];
-this["tin2"]=[0,13,14,15,16,17,18,19,20,21,22,23,24];
-this["tin3"]=[0,25];
-mini0.thisgalpage=page
 
-function PageFunc(intpage:int):int{ 
-	if (intpage==0){
-		return(0);
-	} else {
-		return(intpage+12*(page-1));
-	}  
-}
-
-function PageFunc2(intpage:int):int{ 
-	if (intpage==0){
-		return(0);
-	} else if (int(intpage/12)-intpage/12==0){
-		return(intpage-12*(int(intpage/12)-1));
-	} else {
-		return(intpage-12*(int(intpage/12)));
+for (var pp=1; pp<=pagetotal; pp++) {
+	this["tin"+pp]=[0];
+	for (var ppn=1; ppn<=12; ppn++) {
+		this["tin"+pp].push(ppn+12*(pp-1));
+		this["tini"+(ppn+12*(pp-1))]=(ppn+12*(pp-1));
+		if (ppn+12*(pp-1)==this.numbertotal){
+			break;
+		}
 	}
-}
-
-function TinAll(intnumb:int):void{ 
-	for (var tp=1; tp<=pagetotal; tp++){
-		this["tin"+tp][0]=intnumb;
-	}  
 }
 
 this.addEventListener(Event.ENTER_FRAME, loadall1);
 function loadall1(e:Event):void {
 	trace(number);
-	//Está na página certa e ainda não passou o limite do número
 	if (this.number>=12*(page-1)+1 && this.number<=12*page && this.number<=this.numbertotal) {
-		//Menu editar e minis têm inis
-		if (onedit==true&&this["tmini"+this.number]!=undefined){
-			//O número do mini da página é o número do número geral
-			this["mini"+PageFunc2(this.number)].number=this["tin"+page][PageFunc2(this.number)]
+		if (onedit==true&&this["tmini"+this.number]!=undefined) {
+			this["mini"+PageFunc2(this.number)].number=this["tin"+page][PageFunc2(this.number)];
 		} else {
-			//O número do mini da página é na ordem da listagem
 			this["mini"+PageFunc2(this.number)].number=this.itemsarray[this.number-1];
 		}
-		//Mostrar nome deste mini
 		this["mini"+PageFunc2(this.number)].showname=true;
-		this["mini"+PageFunc2(this.number)].thisgalpage=page;
-		
-		//Se as variáveis forem indefinidas
 		if (this["tmini"+this.number]==undefined) {
-			this["tmini"+this.number]=this.number;//O mini geral está no ini geral do mesmo numero
-			this["tini"+this.number]=this.number;//O ini geral têm o mini geral do mesmo numero
-			this["tni"+this.number]=this.number-12*(page-1);//O mini geral está no mini individual daqui
+			this["tmini"+this.number]=this.number;
+			this["tini"+this.number]=this.number;
+			this["tni"+this.number]=this.number-12*(page-1);
 		}
-		//Se o mini geral não está representado no 0 desta página
-		if (this["tni"+this.number]!=0){
-			//A posição do mini desta página é a posição da ini correspondente
-			this["mini"+PageFunc2(this.number)].x=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].x		
-			this["mini"+PageFunc2(this.number)].y=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].y		
+		if (this["tni"+this.number]!=0) {
+			this["mini"+PageFunc2(this.number)].x=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].x;
+			this["mini"+PageFunc2(this.number)].y=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].y;
 		}
 		trace("adding...");//12*(page) é o fim da página
 		if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
-			for (var ef=1+12*(page-1); ef<=12*page; ef++) {
+			/*for (var ef=1+12*(page-1); ef<=12*page; ef++) {
 				if (this["tmini"+ef]==undefined) {
 					this["tmini"+ef]=ef;
 					this["tini"+ef]=ef;
 					this["tni"+ef]=ef-12*(page-1);
 				}
-			}
+			}*/
 			trace("finish!");//12*(page-1)+1 é o início da página
 			this.removeEventListener(Event.ENTER_FRAME, loadall1);
+			endedpage=true;
 		} else {
 			number=number+1;
 		}
 	} else if (this.number<=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página anterior
 		number=number+1;
 		trace("not this...");
+	} else if (this.itemsarray.length==0){
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
 	}
 }
 
@@ -485,9 +461,7 @@ this.addEventListener(Event.ENTER_FRAME, dragfunc);
 function dragfunc(e:Event):void {
 	if (this.onedit==true&&statuse=="Waiting") {
 		if (notrep==true) {
-			//trace("está aqui, onde está o que está aqui, número do que está aqui")
 			for (var tr=0; tr<=12; tr++) {
-				this["ini"+tr].text=this["tini"+PageFunc(tr)]+" "+this["tmini"+this["tini"+PageFunc(tr)]]+" "+this["mini"+this["tni"+(this["tini"+PageFunc(tr)])]].number
 				this["ini"+tr].removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
 			}
 			notrep=false;
@@ -528,39 +502,37 @@ function dragfunc(e:Event):void {
 	if (this.onedit==true&&(ini1.visible!=true||ini2.visible!=true||ini3.visible!=true||ini4.visible!=true||ini5.visible!=true||ini6.visible!=true||ini7.visible!=true||ini8.visible!=true||ini9.visible!=true||ini10.visible!=true||ini11.visible!=true||ini12.visible!=true)) {
 		for (var a=1; a<=12; a++) {
 			this["ini"+a].visible=true;
-			if (PageFunc(a)==this["numbertotal"]){
+			if (PageFunc(a)==this["numbertotal"]) {
 				break;
 			}
 		}
 	}
-	if (this.onedit==false&&(ini1.visible!=false||ini2.visible!=false||ini3.visible!=false||ini4.visible!=false||ini5.visible!=false||ini6.visible!=false||ini7.visible!=false||ini8.visible!=false||ini9.visible!=false||ini10.visible!=false||ini11.visible!=false||ini12.visible!=false)) {
+	if (this.onedit!=true&&(ini1.visible!=false||ini2.visible!=false||ini3.visible!=false||ini4.visible!=false||ini5.visible!=false||ini6.visible!=false||ini7.visible!=false||ini8.visible!=false||ini9.visible!=false||ini10.visible!=false||ini11.visible!=false||ini12.visible!=false)) {
 		for (var b=1; b<=12; b++) {
 			this["ini"+b].visible=false;
 		}
 	}
-	if (changenumber!=0){
-		if (changenumbernamea.awaiting==true){
+	if (changenumber!=0) {
+		if (changenumbernamea.awaiting==true) {
 			changenumbernameb.number=changenumber;
 			changenumber=0;
 			changenumbernamea=0;
 			changenumbernameb=0;
 		}
-		trace("cheking")
 	}
-	if (changenumber2!=0){
-		if (changenumbername2a.awaiting==true){
+	if (changenumber2!=0) {
+		if (changenumbername2a.awaiting==true) {
 			changenumbername2b.number=changenumber2;
 			changenumber2=0;
 			changenumbername2a=0;
 			changenumbername2b=0;
 		}
-		trace("cheking2")
 	}
 }
 
 function dragfunction(e:Event):void {
-	if (this["tini"+PageFunc(Number(e.target.name.slice(3)))]!=0){
-		objecto=this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]]
+	if (this["tini"+PageFunc(Number(e.target.name.slice(3)))]!=0) {
+		objecto=this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]];
 		mouseposx=mouseX;
 		mouseposy=mouseY;
 		objposx=objecto.x;
@@ -569,88 +541,85 @@ function dragfunction(e:Event):void {
 		targposy=e.target.y;
 		statuse="Dragging";
 		notrep=true;
-		trace(objecto.name, "number="+objecto.number, "contem="+this["t"+e.target.name], "casa="+this["t"+objecto.name]);
+		//trace(objecto.name, "number="+objecto.number, "contem="+this["t"+e.target.name], "casa="+this["t"+objecto.name]);
 		stage.addEventListener(MouseEvent.MOUSE_UP, dropfunction);
 	}
 	e.target.removeEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
 }
 
 function targetfunction(e:Event):void {
-stage.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);	
-if (objecto.name=="mini0"){
-	if (e.target.name!="ini0"){
-		if (this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]].number==0){
-			//Largar mini0 num spot vazio
-			thissituation=1;
-			trace(1)
-			targ_var=e.target;
-			obj_var=mini0;
-			objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+	stage.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	if (objecto.name=="mini0") {
+		if (e.target.name!="ini0") {
+			if (this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]].number==0) {
+				//Largar mini0 num spot vazio
+				thissituation=1;
+				targ_var=e.target;
+				obj_var=mini0;
+				objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto2.x=targ_var.x;
+				objecto2.y=targ_var.y;
+			} else {
+				//Largar mini0 num spot com alguém
+				thissituation=2;
+				targ_var=e.target;
+				obj_var=mini0;
+				objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+			}
+		} else if (e.target.name=="ini0") {
+			//Largar mini0 no mesmo spot
+			thissituation=3;
 			mini0.x=ini0.x;
 			mini0.y=ini0.y;
-			objecto2.x=targ_var.x;
-			objecto2.y=targ_var.y;
-		} else {
-			//Largar mini0 num spot com alguém
-			thissituation=2;
-			trace(2)
-			targ_var=e.target;
-			obj_var=mini0;
-			objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
-			mini0.x=ini0.x;
-			mini0.y=ini0.y;
-		} 
-	} else if (e.target.name=="ini0"){
-		//Largar mini0 no mesmo spot
-		thissituation=3;
-		trace(3)
-		mini0.x=ini0.x
-		mini0.y=ini0.y
-		objecto=0;
-		thissituation=0;
-		statuse="Waiting";
-		notrep=true;
-		return;
-		e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
-	} 
-} else if (objecto.name!="mini0"){
-	if (e.target.name=="ini0"){
-		if (mini0.number!=0){
-			//Largar alguém no ini0 com alguém
-			thissituation=4;
-			trace(4);
-			targ_var=e.target;
-			obj_var=objecto;
-			objecto2=mini0;
-			mini0.x=ini0.x;
-			mini0.y=ini0.y
-			objecto.x=objposx;
-			objecto.y=objposy;
-		} else if (mini0.number==0){
-			//Largar alguém no ini0 vazio
-			thissituation=5;
-			trace(5)
-			mini0.x=ini0.x;
-			mini0.y=ini0.y;
-			objecto.x=objposx;
-			objecto.y=objposy;
-			obj_var=objecto;
-			targ_var=ini0;
+			objecto=0;
+			thissituation=0;
+			statuse="Waiting";
+			notrep=true;
+			return;
+			e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
 		}
-	} else {////////adicionar largar na msm casa
-		//Não relacionado com o ini0 ou mini0
-		obj_var=objecto;
-		targ_var=e.target;
+	} else if (objecto.name!="mini0") {
+		if (e.target.name=="ini0") {
+			if (mini0.number!=0) {
+				//Largar alguém no ini0 com alguém
+				thissituation=4;
+				targ_var=e.target;
+				obj_var=objecto;
+				objecto2=mini0;
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto.x=objposx;
+				objecto.y=objposy;
+			} else if (mini0.number==0) {
+				//Largar alguém no ini0 vazio
+				thissituation=5;
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto.x=objposx;
+				objecto.y=objposy;
+				obj_var=objecto;
+				targ_var=ini0;
+			}
+		} else {
+			//Não relacionado com o ini0 ou mini0
+			thissituation=6;
+			obj_var=objecto;
+			targ_var=e.target;
+		}
+		trace(thissituation);
 	}
-}
 	swapbackup1=this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]];//Casa onde está o que moveu
 	swapbackup2=this["tmini"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]];//Casa alvo
 	swapbackup3=this["tini"+PageFunc(Number(targ_var.name.slice(3)))];//Quem está na casa alvo
 	swapbackup4=this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]];//Quem moveu
-	if (targ_var.name!="ini0"&&this["tini"+this["tmini"+PageFunc(Number(obj_var.name.slice(4)))]]!=0){
+	if (targ_var.name!="ini0"&&this["tini"+this["tmini"+PageFunc(Number(obj_var.name.slice(4)))]]!=0) {
 		obj_var.x=targ_var.x;
 		obj_var.y=targ_var.y;
-		if (this["tini"+PageFunc(Number(targ_var.name.slice(3)))]!=0){
+		if (this["tini"+PageFunc(Number(targ_var.name.slice(3)))]!=0) {
 			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].x=targposx;
 			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].y=targposy;
 		}
@@ -659,20 +628,19 @@ if (objecto.name=="mini0"){
 	this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]]=swapbackup3;
 	this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]=swapbackup2;
 	this["tini"+PageFunc(Number(targ_var.name.slice(3)))]=swapbackup4;
-	if (thissituation==1){
+	if (thissituation==1) {
 		var safe1=mini0.number;//é o objecto2.number
 		changenumber2=mini0.number;
 		changenumbername2a=mini0;
 		changenumbername2b=objecto2;
 		mini0.number=0;
-		this["tin"+page][0]=0;
 		TinAll(0);
 		this["tin"+page][Number(objecto2.name.slice(4))]=safe1;
 		this["tni"+safe1]=Number(objecto2.name.slice(4));
 		this["tni0"]=0;
 		safe1=0;
 		thissituation=0;
-	} else if (thissituation==2){
+	} else if (thissituation==2) {
 		var safe2a=mini0.number;//é o objecto2.number
 		var safe2b=objecto2.number;//é o mini0.number
 		changenumber2=mini0.number;
@@ -681,17 +649,16 @@ if (objecto.name=="mini0"){
 		changenumber=objecto2.number;
 		changenumbernamea=objecto2;
 		changenumbernameb=mini0;
-		mini0.number=0
-		objecto2.number=0
-		this["tin"+page][0]=safe2b;
-		TinAll(safe2b)
+		mini0.number=0;
+		objecto2.number=0;
+		TinAll(safe2b);
 		this["tin"+page][Number(objecto2.name.slice(4))]=safe2a;
 		this["tni"+safe2a]=Number(objecto2.name.slice(4));
 		this["tni"+safe2b]=0;
 		safe2a=0;
 		safe2b=0;
 		thissituation=0;
-	} else if (thissituation==4){
+	} else if (thissituation==4) {
 		var safe4a=mini0.number;//é o objecto.number
 		var safe4b=objecto.number;//é o mini0.number
 		changenumber2=mini0.number;
@@ -700,21 +667,19 @@ if (objecto.name=="mini0"){
 		changenumber=objecto.number;
 		changenumbernamea=objecto;
 		changenumbernameb=mini0;
-		mini0.number=0
-		objecto.number=0
-		this["tin"+page][0]=safe4b;
-		TinAll(safe4b)
+		mini0.number=0;
+		objecto.number=0;
+		TinAll(safe4b);
 		this["tin"+page][Number(objecto.name.slice(4))]=safe4a;
 		this["tni"+safe4a]=Number(objecto.name.slice(4));
 		this["tni"+safe4b]=0;
 		safe4a=0;
 		safe4b=0;
 		thissituation=0;
-	} else if (thissituation==5){
+	} else if (thissituation==5) {
 		this["tni0"]=Number(obj_var.name.slice(4));
 		this["tni"+obj_var.number]=0;
-		this["tin"+page][0]=obj_var.number;
-		TinAll(obj_var.number)
+		TinAll(obj_var.number);
 		this["tin"+page][Number(obj_var.name.slice(4))]=0;
 		mini0.number=obj_var.number;
 		obj_var.number=0;
@@ -738,6 +703,30 @@ function dropfunction(e:Event):void {
 		statuse="Waiting";
 		notrep=true;
 		e.target.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	}
+}
+
+function PageFunc(intpage:int):int {
+	if (intpage==0) {
+		return (0);
+	} else {
+		return (intpage+12*(page-1));
+	}
+}
+
+function PageFunc2(intpage:int):int {
+	if (intpage==0) {
+		return (0);
+	} else if (int(intpage/12)-intpage/12==0) {
+		return (intpage-12*(int(intpage/12)-1));
+	} else {
+		return (intpage-12*(int(intpage/12)));
+	}
+}
+
+function TinAll(intnumb:int):void {
+	for (var tp=1; tp<=pagetotal; tp++) {
+		this["tin"+tp][0]=intnumb;
 	}
 }]]></script>
               </Actionscript>

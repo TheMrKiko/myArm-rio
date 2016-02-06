@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Loading Bar Assets/Bar" itemID="5490d701-0000067a" lastModified="1418778369" hasValidCenterPoint="true" transformCenterPoint="0, -6.7578125">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Loading Bar Assets/Bar Vertical" itemID="563a0820-00000049" lastModified="1446643761" hasValidCenterPoint="true" transformCenterPoint="0, -6.7578125">
   <timeline>
-    <DOMTimeline name="Bar">
+    <DOMTimeline name="Bar Vertical">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!6839 -530S2|6839 530!6839 530|0 530!0 530|0 -530!0 -530|6839 -530"/>
+                    <Edge fillStyle1="1" edges="!530 6839|-530 6839!-530 6839|-530 0!-530 0|530 0!530 0|530 6839"/>
                   </edges>
                 </DOMShape>
               </elements>

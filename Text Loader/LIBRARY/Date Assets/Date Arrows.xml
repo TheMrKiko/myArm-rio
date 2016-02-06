@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Assets/Date Arrows" itemID="54bbf64a-00000035" lastModified="1421605388" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Assets/Date Arrows" itemID="54bbf64a-00000035" lastModified="1452541623" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Date Arrows">
       <layers>
@@ -8,15 +8,63 @@
               <Actionscript>
                 <script><![CDATA[var uppressed=false;
 var downpressed=false;
+var uplongpressed=false;
+var downlongpressed=false;
+var timerup:Timer=new Timer(500);
+var timerdown:Timer=new Timer(500);
 
-uparr.addEventListener(MouseEvent.CLICK, upe);
-function upe(e:Event):void {
-	uppressed=true;
+this.addEventListener(Event.ENTER_FRAME, timercontrol);
+function timercontrol(e:Event):void {
+	if (timerup.currentCount>=1) {
+		timerup.reset();
+		timerup.stop();
+		uplongpressed=true;
+		uparr.removeEventListener(MouseEvent.MOUSE_UP, upeup);
+		uparr.removeEventListener(MouseEvent.MOUSE_OUT, upeup);
+		stage.removeEventListener(MouseEvent.MOUSE_UP, upeup);
+	}
+	if (timerdown.currentCount>=1) {
+		timerdown.reset();
+		timerdown.stop();
+		downlongpressed=true;
+		downarr.removeEventListener(MouseEvent.MOUSE_UP, downeup);
+		downarr.removeEventListener(MouseEvent.MOUSE_OUT, downeup);
+		stage.removeEventListener(MouseEvent.MOUSE_UP, downeup);
+	}
 }
 
-downarr.addEventListener(MouseEvent.CLICK, downa);
-function downa(e:Event):void {
+uparr.addEventListener(MouseEvent.MOUSE_DOWN, uped);
+function uped(e:MouseEvent):void {
+	timerup.start();
+	uparr.addEventListener(MouseEvent.MOUSE_UP, upeup);
+	uparr.addEventListener(MouseEvent.MOUSE_OUT, upeup);
+	stage.addEventListener(MouseEvent.MOUSE_UP, upeup);
+}
+
+function upeup(e:MouseEvent):void {
+	timerup.reset();
+	timerup.stop();
+	uppressed=true;
+	uparr.removeEventListener(MouseEvent.MOUSE_UP, upeup);
+	uparr.removeEventListener(MouseEvent.MOUSE_OUT, upeup);
+	stage.removeEventListener(MouseEvent.MOUSE_UP, upeup);
+}
+
+downarr.addEventListener(MouseEvent.MOUSE_DOWN, downed);
+function downed(e:MouseEvent):void {
+	timerdown.start();
+	downarr.addEventListener(MouseEvent.MOUSE_UP, downeup);
+	downarr.addEventListener(MouseEvent.MOUSE_OUT, downeup);
+	stage.addEventListener(MouseEvent.MOUSE_UP, downeup);
+}
+
+function downeup(e:MouseEvent):void {
+	timerdown.reset();
+	timerdown.stop();
 	downpressed=true;
+	downarr.removeEventListener(MouseEvent.MOUSE_UP, downeup);
+	downarr.removeEventListener(MouseEvent.MOUSE_OUT, downeup);
+	stage.removeEventListener(MouseEvent.MOUSE_UP, downeup);
 }]]></script>
               </Actionscript>
               <elements/>
@@ -82,9 +130,9 @@ function downa(e:Event):void {
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="2" strokeStyle="1" edges="!334 220|334 440!334 440|0 440!0 440|0 220"/>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!0 220|0 0!0 0|334 0!334 0|334 220"/>
-                    <Edge fillStyle0="2" fillStyle1="1" strokeStyle="1" edges="!334 220|0 220"/>
+                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="!0 220|334 220"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!334 220|334 0!334 0|0 0!0 0|0 220"/>
+                    <Edge fillStyle0="2" strokeStyle="1" edges="!0 220|0 440!0 440|334 440!334 440|334 220"/>
                   </edges>
                 </DOMShape>
               </elements>

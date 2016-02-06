@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="5" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" guidesLocked="true" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="486" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="5" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="50" gridSpacingY="50" gridSnapAccuracy="Always snap" guidesLocked="true" guidesVisible="false" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="563" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
@@ -10,8 +10,8 @@
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f60d8-00000378" font="ArialMT" size="16" id="2" sourceLastImported="1518297304" embedRanges="3|5" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f60d8-00000379" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297304" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f60e5-000003b5" font="ArialMT" size="16" id="2" sourceLastImported="1518297317" embedRanges="3|5" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f60e5-000003b6" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297317" embedRanges="3" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
@@ -26,30 +26,33 @@
           <Include href="Check Button Assets/Check Single.xml" loadImmediate="false" itemID="54a87430-000002e4" lastModified="1428871833"/>
           <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1428871831"/>
           <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1441580905"/>
-          <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1421605388"/>
-          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1423325672"/>
+          <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1452541623"/>
+          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1452542098"/>
+          <Include href="Delete Btn.xml" itemIcon="0" loadImmediate="false" itemID="561bd310-00000048" lastModified="1444664187"/>
           <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
           <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1441578793"/>
-          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1443990265"/>
+          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1444505024"/>
           <Include href="Hit Box.xml" loadImmediate="false" itemID="55f31a9f-00000047" lastModified="1441997618"/>
           <Include href="Hold.xml" loadImmediate="false" itemID="5557c198-000000d4" lastModified="1431815364"/>
           <Include href="Hold Sel.xml" loadImmediate="false" itemID="5557c183-000000d0" lastModified="1431814654"/>
           <Include href="Icon Tronco.xml" loadImmediate="false" itemID="54d28d03-00000034" lastModified="1431725701"/>
           <Include href="Loading bar.xml" loadImmediate="false" itemID="5490d371-00000258" lastModified="1418951756"/>
           <Include href="Loading Bar Assets/Bar.xml" loadImmediate="false" itemID="5490d701-0000067a" lastModified="1418778369"/>
+          <Include href="Loading Bar Assets/Bar Vertical.xml" loadImmediate="false" itemID="563a0820-00000049" lastModified="1446643761"/>
           <Include href="Loading Circle.xml" loadImmediate="false" itemID="55be9ea4-00000040" lastModified="1438557043"/>
           <Include href="Loading Circle Assets/Loading Circle Symbol.xml" loadImmediate="false" itemID="55bea1d7-000000c7" lastModified="1438557120"/>
           <Include href="Menu Bar.xml" loadImmediate="false" itemID="5496f917-00000912" lastModified="1438556194"/>
           <Include href="Menu Bar Assets/Downcell.xml" loadImmediate="false" itemID="54970cfd-0000002c" lastModified="1419345244"/>
           <Include href="Menu Bar Assets/Menumain.xml" loadImmediate="false" itemID="5496f7ba-0000085d" lastModified="1419373093"/>
           <Include href="Menu Mask.xml" loadImmediate="false" itemID="5507650d-00000047" lastModified="1426548006"/>
+          <Include href="No image.xml" itemID="561ab210-00000045" lastModified="1444590800"/>
           <Include href="Not Saved.xml" loadImmediate="false" itemID="55527053-0000003a" lastModified="1431466067"/>
           <Include href="Season Assets/Season out.xml" loadImmediate="false" itemID="552ad9c4-000006aa" lastModified="1428871702"/>
           <Include href="Season Selector.xml" loadImmediate="false" itemID="552ad91f-000006a5" lastModified="1435841472"/>
           <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1428268979"/>
           <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
           <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
-          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1443892203"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1446649169"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
@@ -104,6 +107,7 @@ var changesnotsaved:Boolean=false;
 var txtloaded:Boolean=false;
 var triedload:Boolean=false;
 var myTextLoader:URLLoader = new URLLoader();
+var imgerror:noneimg = new noneimg();
 myTextLoader.dataFormat=URLLoaderDataFormat.VARIABLES;
 myTextLoader.load(new URLRequest("Clothes.txt"));
 
@@ -150,9 +154,11 @@ function loadall(e:Event):void {
 		this["deltadays"+number]=myTextLoader.data["deltadays"+number];
 		this["show"+number]=myTextLoader.data["show"+number];
 		this["img"+number]=myTextLoader.data["img"+number];
-		//if (myTextLoader.data["show"+number]==1){
+		if (myTextLoader.data["show"+number]==1||(myTextLoader.data["show"+number]==0&&this["editload"]!=undefined)){
 			this["load"+number].load(new URLRequest(this["img"+number]));
-		//}
+		} else {
+			this["load"+number]=undefined;
+		}
 		if (number<numbertotal) {
 			number=number+1;
 		} else {
@@ -185,7 +191,7 @@ function loadall(e:Event):void {
 			this["Calçado"]=[];
 			for (var i=1; i<=numbertotal; i++) {
 				this["allitemsarray"].push(i);
-				//if (this["show"+i]==1) {
+				if (this["show"+i]==1) {
 					this["allshowitemsarray"].push(i);
 					if (this["subtype"+i]=="Casaco") {
 						this["Casacos"].push(i);
@@ -196,10 +202,14 @@ function loadall(e:Event):void {
 					} else if (this["type"+i]=="Calçado") {
 						this["Calçado"].push(i);
 					}
-				//}
+				}
 			}
 			this.removeEventListener(Event.ENTER_FRAME, loading);
-			gotoAndPlay(1, "Menu");
+			if (this["editload"]==true){
+				gotoAndPlay(1, "Gallery");
+			} else {
+				gotoAndPlay(1, "Menu");
+			}
 		}
 	}
 }
@@ -220,7 +230,7 @@ function loading(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Menu">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -360,7 +370,7 @@ function loading(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC">
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -909,6 +919,14 @@ function returnnew(e:Event):void {
                                                   <Point y="0.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="imgedit" selected="true" centerPoint3DX="634" centerPoint3DY="305.5">
+                                             <matrix>
+                                                  <Matrix a="0.53253173828125" d="0.53253173828125" tx="589" ty="244"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -917,7 +935,7 @@ function returnnew(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMInputText name="no" fontRenderingMode="standard" width="22.5" height="21.45" includeOutlines="true">
+                                        <DOMInputText name="no" selected="true" fontRenderingMode="standard" width="22.5" height="21.45" includeOutlines="true">
                                              <matrix>
                                                   <Matrix tx="183.5" ty="340.55"/>
                                              </matrix>
@@ -930,7 +948,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMInputText>
-                                        <DOMStaticText fontRenderingMode="standard" width="73.95" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="73.95" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="103.55" ty="344.1"/>
                                              </matrix>
@@ -943,7 +961,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="108" ty="15.5"/>
                                              </matrix>
@@ -956,7 +974,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="109" ty="58.5"/>
                                              </matrix>
@@ -969,7 +987,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="84" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="108" ty="256.5"/>
                                              </matrix>
@@ -982,7 +1000,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMInputText name="itemtxt" fontRenderingMode="standard" width="361.95" height="29">
+                                        <DOMInputText name="itemtxt" selected="true" fontRenderingMode="standard" width="361.95" height="29">
                                              <matrix>
                                                   <Matrix a="1.01638793945313" tx="210.05" ty="15.5"/>
                                              </matrix>
@@ -998,7 +1016,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMInputText>
-                                        <DOMDynamicText name="imgtxt" fontRenderingMode="standard" width="361.95" height="29" isSelectable="false">
+                                        <DOMDynamicText name="imgtxt" selected="true" fontRenderingMode="standard" width="361.95" height="29" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="213" ty="253.5"/>
                                              </matrix>
@@ -1011,7 +1029,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMDynamicText name="errortxt" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
+                                        <DOMDynamicText name="errortxt" selected="true" fontRenderingMode="standard" width="233.95" height="35" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="234" ty="334"/>
                                              </matrix>
@@ -1024,7 +1042,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="109" ty="99.55"/>
                                              </matrix>
@@ -1037,7 +1055,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="108" ty="137.55"/>
                                              </matrix>
@@ -1050,7 +1068,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="108" ty="174.55"/>
                                              </matrix>
@@ -1063,7 +1081,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="37.8" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="383.45" ty="172.4"/>
                                              </matrix>
@@ -1076,7 +1094,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="83" height="17.9" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="356.45" ty="58.5"/>
                                              </matrix>
@@ -1089,7 +1107,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMSymbolInstance libraryItemName="Slider" name="styleslider" centerPoint3DX="373.45" centerPoint3DY="162.6">
+                                        <DOMSymbolInstance libraryItemName="Slider" name="styleslider" selected="true" centerPoint3DX="373.45" centerPoint3DY="162.6">
                                              <matrix>
                                                   <Matrix tx="275.95" ty="142.5"/>
                                              </matrix>
@@ -1097,7 +1115,7 @@ function returnnew(e:Event):void {
                                                   <Point x="60" y="5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMInputText name="deltadaystxt" fontRenderingMode="standard" width="36.35" height="20.55" includeOutlines="true">
+                                        <DOMInputText name="deltadaystxt" selected="true" fontRenderingMode="standard" width="36.35" height="20.55" includeOutlines="true">
                                              <matrix>
                                                   <Matrix a="1.01638793945313" tx="486.05" ty="181"/>
                                              </matrix>
@@ -1113,7 +1131,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMInputText>
-                                        <DOMDynamicText fontRenderingMode="standard" width="49.2" height="20.55" isSelectable="false">
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="49.2" height="20.55" isSelectable="false">
                                              <matrix>
                                                   <Matrix a="1.01638793945313" tx="527" ty="181.55"/>
                                              </matrix>
@@ -1129,7 +1147,7 @@ function returnnew(e:Event):void {
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck1" centerPoint3DX="270.15" centerPoint3DY="106">
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck1" selected="true" centerPoint3DX="270.15" centerPoint3DY="106">
                                              <matrix>
                                                   <Matrix tx="208.65" ty="93.5"/>
                                              </matrix>
@@ -1137,7 +1155,7 @@ function returnnew(e:Event):void {
                                                   <Point x="60.1" y="12.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck2" centerPoint3DX="352.75" centerPoint3DY="106">
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck2" selected="true" centerPoint3DX="352.75" centerPoint3DY="106">
                                              <matrix>
                                                   <Matrix tx="291.25" ty="93.5"/>
                                              </matrix>
@@ -1145,7 +1163,7 @@ function returnnew(e:Event):void {
                                                   <Point x="60.1" y="12.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck3" centerPoint3DX="473" centerPoint3DY="106">
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck3" selected="true" centerPoint3DX="473" centerPoint3DY="106">
                                              <matrix>
                                                   <Matrix tx="411.5" ty="93.5"/>
                                              </matrix>
@@ -1153,7 +1171,7 @@ function returnnew(e:Event):void {
                                                   <Point x="60.1" y="12.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck4" centerPoint3DX="575.75" centerPoint3DY="106">
+                                        <DOMSymbolInstance libraryItemName="Check Point" name="colorcheck4" selected="true" centerPoint3DX="575.75" centerPoint3DY="106">
                                              <matrix>
                                                   <Matrix tx="514.25" ty="93.5"/>
                                              </matrix>
@@ -1161,7 +1179,7 @@ function returnnew(e:Event):void {
                                                   <Point x="60.1" y="12.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Arrows" name="aw" centerPoint3DX="195.35" centerPoint3DY="351">
+                                        <DOMSymbolInstance libraryItemName="Arrows" name="aw" selected="true" centerPoint3DX="195.35" centerPoint3DY="351">
                                              <matrix>
                                                   <Matrix a="0" b="-1" c="1" d="0" tx="180.35" ty="381.5"/>
                                              </matrix>
@@ -1169,7 +1187,7 @@ function returnnew(e:Event):void {
                                                   <Point x="30.5" y="15"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" centerPoint3DX="513.9" centerPoint3DY="66.75">
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="subtypemenu" selected="true" centerPoint3DX="513.9" centerPoint3DY="66.75">
                                              <matrix>
                                                   <Matrix a="0.688018798828125" d="0.753509521484375" tx="448.9" ty="54.35"/>
                                              </matrix>
@@ -1177,7 +1195,7 @@ function returnnew(e:Event):void {
                                                   <Point x="94.45" y="16.45"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" centerPoint3DX="274.45" centerPoint3DY="66.75">
+                                        <DOMSymbolInstance libraryItemName="Menu Bar" name="typemenu" selected="true" centerPoint3DX="274.45" centerPoint3DY="66.75">
                                              <matrix>
                                                   <Matrix a="0.688018798828125" d="0.753509521484375" tx="209.45" ty="54.35"/>
                                              </matrix>
@@ -1185,12 +1203,20 @@ function returnnew(e:Event):void {
                                                   <Point x="94.45" y="16.45"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" centerPoint3DX="539.3" centerPoint3DY="140.35">
+                                        <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" selected="true" centerPoint3DX="539.3" centerPoint3DY="140.35">
                                              <matrix>
                                                   <Matrix a="0.399993896484375" d="0.399993896484375" tx="524.85" ty="140.35"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="29.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Delete Btn" name="delbtn" selected="true" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="64.5" ty="24"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -1236,28 +1262,42 @@ no.text=numbero;
 var numberactual=number;
 var validnumber=true;
 var onverification=false;
+var notext="";
+var imgeditnumber=0;
 setTimeout(wait3,100);
 itemtxt.text=this["item"+numberactual];
 styleslider.val.text=this["style"+numberactual];
 deltadaystxt.restrict="0-9";
 deltadaystxt.text=this["deltadays"+numberactual];
 imgtxt.text=this["img"+numberactual];
+no.restrict="0-9";
 errortxt.text="";
 numbercheck=1;
 bare.width=0;
 bare.alpha=0;
+imgedit.showname=false;
+delbtn.visible=false;
+if (numberactual==numbertotal){
+	delbtn.visible=true;
+}
 
 this.addEventListener(Event.ENTER_FRAME, itemnumber);
 function itemnumber(e:Event):void {
 	if (no.text=="") {
 		errortxt.text="Insira um número válido.";
 		validnumber=false;
+		delbtn.visible=false;
+		imgedit.number=0;
+		imgeditnumber=0;
 	} else if (numberactual!=no.text) {
 		errortxt.text="";
 		numberactual=no.text;
+		imgedit.number=0;
+		imgeditnumber=0;
 		if (numberactual>numbertotal||numberactual<=0) {
 			errortxt.text="Insira um número entre 1 e "+numbertotal+".";
 			itemtxt.text="";
+			delbtn.visible=false;
 			typemenu.choicedefined=true;
 			typemenu.choice="Tronco";
 			subtypemenu.choicedefined=true;
@@ -1275,7 +1315,7 @@ function itemnumber(e:Event):void {
 			seasonslider.justselected=true;
 			date.daynumbs="1";
 			date.monthnumbs="0";
-			date.yearnumbs="2015";
+			date.yearnumbs="2016";
 			deltadaystxt.text="";
 			showcheck.thischecked=1;
 			showcheck.justselected=true;
@@ -1292,6 +1332,10 @@ function itemnumber(e:Event):void {
 					numbpos=i;
 					break;
 				}
+			}
+			delbtn.visible=false;
+			if (numberactual==numbertotal){
+				delbtn.visible=true;
 			}
 			bare.width=0;
 			bare.alpha=0;
@@ -1359,6 +1403,9 @@ function itemnumber(e:Event):void {
 				showcheck.justselected=true;
 			}
 			imgtxt.text=this["img"+numberactual];
+			if (this["load"+numberactual]!=undefined){
+				imgeditnumber=numberactual;
+			}
 			validnumber=true;
 		}
 	}
@@ -1371,6 +1418,7 @@ btn.addEventListener(MouseEvent.CLICK, submititem);
 function submititem(e:Event):void {
 	if (validnumber==true) {
 		errortxt.text="Processando...";
+		notext=no.text
 		this.addEventListener(Event.ENTER_FRAME, checkname);
 	} else {
 		errortxt.text="Item não encontrado.";
@@ -1379,10 +1427,16 @@ function submititem(e:Event):void {
 
 function checkname(e:Event):void {
 	if (numbercheck<numbertotal && (numbercheck==numberactual || itemtxt.text!=this["item"+numbercheck])) {//Se o nome for diferente
+		if (itemtxt.text==this["item"+numberactual]){
+			numbercheck=numbertotal-1;
+		}
 		trace("Checking "+numbercheck+" de "+numbertotal);
 		bare.width=237.95-((numbercheck*237.95)/numbertotal);
 		bare.alpha=1-(numbercheck/numbertotal);
 		onverification=true;
+		if (no.text!=notext){
+			no.text=notext;
+		}
 		numbercheck=(numbercheck+1);
 	}
 	if (itemtxt.text==""||subtypemenu.choice==""||styleslider.val.text==""||deltadaystxt.text==""||imgtxt.text=="") {//Se algum campo estiver em branco
@@ -1401,7 +1455,7 @@ function checkname(e:Event):void {
 		bare.width=0;
 		bare.alpha=0;
 		trace("Checking "+numbercheck+" de "+numbertotal);
-		if (this["show"+numberactual]!=showcheck.thischecked){
+		if (this["show"+numberactual]!=showcheck.thischecked&&showcheck.thischecked==1&&this["editload"]==undefined){
 			backbtn.visible=false;
 			}
 		this["item"+numberactual]=itemtxt.text;
@@ -1513,6 +1567,9 @@ function givelabelsedit(e:Event):void {
 			no.text=itemsarray[numbpos];
 		}
 	}
+	if (imgeditnumber!=0 && imgedit.awaiting==true){
+		imgedit.number=imgeditnumber;
+	}
 }
 
 function wait3() {
@@ -1550,6 +1607,9 @@ function wait3() {
 		date.yearnumbs=dateactual.getFullYear();
 		date.waitingforchoice=false;
 	}
+	if (this["load"+numberactual]!=undefined){
+			imgeditnumber=numberactual;
+		}
 }
 
 function whichlist(e:Event):void {
@@ -1571,6 +1631,16 @@ function whichlist(e:Event):void {
 		}
 	}
 	this.removeEventListener(Event.ENTER_FRAME, whichlist);
+}
+
+delbtn.addEventListener(MouseEvent.CLICK, deleteitem)
+function deleteitem(e:Event):void {
+	numbpos=numbpos-1;
+	no.text=itemsarray[numbpos];
+	numbertotal=numbertotal-1;
+	notsaved.visible=true;
+	changesnotsaved=true;
+	backbtn.visible=false;
 }
 
 backbtn.addEventListener(MouseEvent.CLICK, returnedit);
@@ -1642,11 +1712,38 @@ function returnedit(e:Event):void {
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="tosavedbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.75" d="0.75" tx="48" ty="102.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Not Saved" name="notsavedbtn" centerPoint3DX="46.35" centerPoint3DY="334">
+                                             <matrix>
+                                                  <Matrix tx="46.35" ty="334"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="0.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Loading Bar Assets/Bar Vertical" name="baredit" centerPoint3DX="-127" centerPoint3DY="292.25">
+                                             <matrix>
+                                                  <Matrix a="-0.678985595703125" d="-0.485443115234375" tx="48.05" ty="296.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="171.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FF9900"/>
+                                             </color>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Layer 2" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -1662,14 +1759,25 @@ function returnedit(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFFFF" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();
+                                        <script><![CDATA[stop();//botão usar hoje, ordenar por data 
 var itemsarray:Array=[];
 var pagen:Number=1;
 var closing:Boolean=false;
+var pconvgal=1;
+var numbergal=1;
+var stageofconvert=1;
+var onverificgal=false;
+editgal.visible=false;
+tosavedbtn.visible=false;
+notsavedbtn.visible=false;
+baredit.alpha=0;
+if (changesnotsaved==true) {
+	notsavedbtn.visible=true;
+}
 
 if (this["GalActualArray"]=="Casaco") {
 	itemsarray=this["Casacos"];
@@ -1679,19 +1787,28 @@ if (this["GalActualArray"]=="Casaco") {
 	itemsarray=this["Pernas"];
 } else if (this["GalActualArray"]=="Calçado") {
 	itemsarray=this["Calçado"];
+} else if (this["editload"]!=undefined) {
+	itemsarray=this["allitemsarray"];
+	editgal.visible=true;
 } else {
 	itemsarray=this["allshowitemsarray"];
+	editgal.visible=true;
 }
 
 var totalpage=int(itemsarray.length/12)+1;
 if (int(itemsarray.length/12)==itemsarray.length/12) {
 	totalpage=totalpage-1;
 }
-gal.pagetotal=totalpage
+gal.pagetotal=totalpage;
 
 trace(itemsarray.length);
 gal.number=this.number;
 gal.numbertotal=itemsarray.length;
+
+if (this["editload"]==true) {
+	gal.onedit=true;
+	this["editload"]=false;
+}
 
 this.addEventListener(Event.ENTER_FRAME, givepage);
 function givepage(e:Event):void {
@@ -1699,15 +1816,17 @@ function givepage(e:Event):void {
 	if (gal.itemsarray=="") {
 		gal.itemsarray=itemsarray;
 	}
-	if (aw.leftpressed==true) {
+	if (aw.leftpressed==true&&onverificgal==false) {
 		aw.leftpressed=false;
-		if (pagen>1) {
+		if (pagen>1&&gal.endedpage==true) {
+			gal.endedpage=false;
 			pagen=pagen-1;
 		}
 	}
-	if (aw.rightpressed==true) {
+	if (aw.rightpressed==true&&onverificgal==false) {
 		aw.rightpressed=false;
-		if (pagen<totalpage) {
+		if (pagen<totalpage&&gal.endedpage==true) {
+			gal.endedpage=false;
 			pagen=pagen+1;
 		}
 	}
@@ -1727,7 +1846,7 @@ function givepage(e:Event):void {
 		gal.mini11.number=0;
 		gal.mini12.number=0;
 	}
-	if (gal.thingselected!=0&&gal.thingselected!="back") {
+	if (gal.thingselected!=0&&gal.thingselected!="back"&&gal.thingselected!="goonedit") {
 		this.removeEventListener(Event.ENTER_FRAME, givepage);
 		numberselected=gal.thingselected;
 		if (gal.mini1.out=="check"||gal.mini2.out=="check"||gal.mini3.out=="check"||gal.mini4.out=="check"||gal.mini5.out=="check"||gal.mini6.out=="check"||gal.mini7.out=="check"||gal.mini8.out=="check"||gal.mini9.out=="check"||gal.mini10.out=="check"||gal.mini11.out=="check"||gal.mini12.out=="check") {
@@ -1744,6 +1863,8 @@ function givepage(e:Event):void {
 			if (this["CombBackup"]!=undefined) {
 				numberselected=394;
 				gotoAndStop(1, "Combine");
+			} else if (this["editload"]==true&&gal.thingselected=="goonedit") {
+				gotoAndStop(1, "Loader");
 			} else {
 				gotoAndStop(1, "Menu");
 			}
@@ -1753,19 +1874,149 @@ function givepage(e:Event):void {
 
 editgal.addEventListener(MouseEvent.CLICK, editgalbtn);
 function editgalbtn(e:Event):void {
-	if (gal.onedit==false) {
+	if (onverificgal!=false) {
+		return;
+	} else if (gal.onedit!=true&&this["editload"]!=undefined) {
+		tosavedbtn.visible=false;
 		gal.onedit=true;
-	}
-	else if (gal.onedit==true) {
+	} else if (gal.onedit!=true&&this["editload"]==undefined) {
+		this["editload"]=true;
+		closing=true;
+		gal.thingselected="goonedit";
+		editgal.removeEventListener(MouseEvent.CLICK, editgalbtn);
+		backbtn.removeEventListener(MouseEvent.CLICK, returngal);
+		tosavedbtn.removeEventListener(MouseEvent.CLICK, tosavegalbtn);
+		notsavedbtn.btn.removeEventListener(MouseEvent.CLICK, savefinalegal);
+		this.removeEventListener(Event.ENTER_FRAME, tosavegal);
+	} else if (gal.onedit==true&&gal["tin1"][0]==0) {
+		tosavedbtn.visible=true;
 		gal.onedit=false;
 	}
 }
 
 backbtn.addEventListener(MouseEvent.CLICK, returngal);
 function returngal(e:Event):void {
-	closing=true;
-	gal.thingselected="back";
-	backbtn.removeEventListener(MouseEvent.CLICK, returngal);
+	if (onverificgal==false) {
+		closing=true;
+		gal.thingselected="back";
+		editgal.removeEventListener(MouseEvent.CLICK, editgalbtn);
+		backbtn.removeEventListener(MouseEvent.CLICK, returngal);
+		tosavedbtn.removeEventListener(MouseEvent.CLICK, tosavegalbtn);
+		notsavedbtn.btn.removeEventListener(MouseEvent.CLICK, savefinalegal);
+		this.removeEventListener(Event.ENTER_FRAME, tosavegal);
+	}
+}
+
+tosavedbtn.addEventListener(MouseEvent.CLICK, tosavegalbtn);
+function tosavegalbtn(e:Event):void {
+	if (onverificgal==false) {
+		onverificgal=true;
+		this.addEventListener(Event.ENTER_FRAME, tosavegal);
+	}
+}
+
+function tosavegal(e:Event):void {
+	if (numbergal<=numbertotal&&stageofconvert==1) {
+		trace(numbergal, (numbergal+numbertotal));
+		this["item"+(numbergal+numbertotal)]=this["item"+numbergal];
+		this["type"+(numbergal+numbertotal)]=this["type"+numbergal];
+		this["subtype"+(numbergal+numbertotal)]=this["subtype"+numbergal];
+		this["color"+(numbergal+numbertotal)]=this["color"+numbergal];
+		this["style"+(numbergal+numbertotal)]=this["style"+numbergal];
+		this["season"+(numbergal+numbertotal)]=this["season"+numbergal];
+		this["lastdate"+(numbergal+numbertotal)]=this["lastdate"+numbergal];
+		this["lastdateold"+(numbergal+numbertotal)]=this["lastdateold"+numbergal];
+		this["deltadays"+(numbergal+numbertotal)]=this["deltadays"+numbergal];
+		this["show"+(numbergal+numbertotal)]=this["show"+numbergal];
+		this["img"+(numbergal+numbertotal)]=this["img"+numbergal];
+		this["load"+(numbergal+numbertotal)]=this["load"+numbergal];
+		baredit.height=166-((numbergal*166)/(numbertotal*2));
+		baredit.alpha=1-(numbergal/(numbertotal*2));
+		if (numbergal==numbertotal) {
+			numbergal=1;
+			stageofconvert=2;
+		} else {
+			numbergal+=1;
+		}
+	} else if (pconvgal<=totalpage && stageofconvert==2) {
+		if (numbergal<=12&&(numbergal+12*(pconvgal-1))<=numbertotal) {
+			var numbconvgal1=numbergal+12*(pconvgal-1);
+			var numbconvgal2=gal["tini"+numbconvgal1]+numbertotal;
+			trace(numbconvgal1,numbconvgal2,this["item"+numbconvgal1],this["item"+numbconvgal2]);
+			this["item"+numbconvgal1]=this["item"+numbconvgal2];
+			this["type"+numbconvgal1]=this["type"+numbconvgal2];
+			this["subtype"+numbconvgal1]=this["subtype"+numbconvgal2];
+			this["color"+numbconvgal1]=this["color"+numbconvgal2];
+			this["style"+numbconvgal1]=this["style"+numbconvgal2];
+			this["season"+numbconvgal1]=this["season"+numbconvgal2];
+			this["lastdate"+numbconvgal1]=this["lastdate"+numbconvgal2];
+			this["lastdateold"+numbconvgal1]=this["lastdateold"+numbconvgal2];
+			this["deltadays"+numbconvgal1]=this["deltadays"+numbconvgal2];
+			this["show"+numbconvgal1]=this["show"+numbconvgal2];
+			this["img"+numbconvgal1]=this["img"+numbconvgal2];
+			this["load"+numbconvgal1]=this["load"+numbconvgal2];
+			this["item"+numbconvgal2]=[];
+			this["type"+numbconvgal2]=[];
+			this["subtype"+numbconvgal2]=[];
+			this["color"+numbconvgal2]=[];
+			this["style"+numbconvgal2]=[];
+			this["season"+numbconvgal2]=[];
+			this["lastdate"+numbconvgal2]=[];
+			this["lastdateold"+numbconvgal2]=[];
+			this["deltadays"+numbconvgal2]=[];
+			this["show"+numbconvgal2]=[];
+			this["img"+numbconvgal2]=[];
+			this["load"+numbconvgal2]=[];
+			baredit.height=(166/2)-(((numbergal+12*(pconvgal-1))*166)/(numbertotal*2));
+			baredit.alpha=(1/2)-((numbergal+12*(pconvgal-1))/(numbertotal*2));
+			if (numbergal==12) {
+				numbergal=1;
+				pconvgal+=1;
+			} else {
+				numbergal+=1;
+			}
+		} else {
+			this.removeEventListener(Event.ENTER_FRAME, tosavegal);
+			pconvgal=1;
+			numbergal=1;
+			stageofconvert=1;
+			onverificgal=false;
+			notsavedbtn.visible=true;
+			changesnotsaved=true;
+		}
+	}
+}
+
+//fazer array de datas, duplicar, ordenar, procurar as datas da array ordenada na
+//duplicada, guardar a posição noutra e substituir por "blank"
+var datesorder:Array = [];
+for (var ai=0; ai<itemsarray.length; ai++){
+	var datai:Date = new Date(this["lastdate"+itemsarray[ai]][2], this["lastdate"+itemsarray[ai]][1], this["lastdate"+itemsarray[ai]][0]);
+	datesorder.push(datai.getTime());
+}
+var disdatesorder:Array = datesorder;
+datesorder.sort(Array.NUMERIC)
+
+var ordere:Array = [];
+
+for (var aii=0; aii<itemsarray.length; aii++){
+	var ind = disdatesorder.indexOf(datesorder[aii]);
+	//disdatesorder.
+	ordere.push(itemsarray[ind]);
+}
+
+
+notsavedbtn.btn.addEventListener(MouseEvent.CLICK, savefinalegal);
+function savefinalegal(e:Event):void {
+	if (onverificgal==false) {
+		this.removeEventListener(Event.ENTER_FRAME, givepage);
+		editgal.removeEventListener(MouseEvent.CLICK, editgalbtn);
+		backbtn.removeEventListener(MouseEvent.CLICK, returngal);
+		tosavedbtn.removeEventListener(MouseEvent.CLICK, tosavegalbtn);
+		notsavedbtn.btn.removeEventListener(MouseEvent.CLICK, savefinalegal);
+		this.removeEventListener(Event.ENTER_FRAME, tosavegal);
+		gotoAndStop(1, "Save");
+	}
 }]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -1837,24 +2088,16 @@ function givepage(e:Event):void {
           </DOMTimeline>
           <DOMTimeline name="Combine">
                <layers>
-                    <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="ploader" centerPoint3DX="243.3" centerPoint3DY="223.25">
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="eloader" centerPoint3DX="109.25" centerPoint3DY="223.5">
                                              <matrix>
-                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="179.8" ty="136.6"/>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="45.75" ty="136.6"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="44.85" y="59.95"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Slider" name="slider" centerPoint3DX="499.55" centerPoint3DY="87.1">
-                                             <matrix>
-                                                  <Matrix tx="402.05" ty="67"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="99.3" y="18.3"/>
+                                                  <Point x="44.85" y="60.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Tumbnail loader" name="tloader" centerPoint3DX="243.3" centerPoint3DY="96.55">
@@ -1865,6 +2108,14 @@ function givepage(e:Event):void {
                                                   <Point x="44.85" y="60.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="ploader" centerPoint3DX="243.3" centerPoint3DY="223.25">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="179.8" ty="136.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="59.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Tumbnail loader" name="cloader" centerPoint3DX="243.3" centerPoint3DY="350.15">
                                              <matrix>
                                                   <Matrix a="1.416259765625" d="1.4088134765625" tx="179.8" ty="263.4"/>
@@ -1873,20 +2124,20 @@ function givepage(e:Event):void {
                                                   <Point x="44.85" y="59.9"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Slider" name="slider" centerPoint3DX="499.55" centerPoint3DY="87.1">
+                                             <matrix>
+                                                  <Matrix tx="402.05" ty="67"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="99.3" y="18.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="btn" name="btn" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="499.05" ty="294.3"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="eloader" centerPoint3DX="109.25" centerPoint3DY="96.55">
-                                             <matrix>
-                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="45.75" ty="9.65"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="44.85" y="60.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Check Point" name="check1" centerPoint3DX="439.4" centerPoint3DY="112.45">
@@ -1945,20 +2196,36 @@ function givepage(e:Event):void {
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="btn" name="checkinbtn" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="145.45" ty="329.5"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Season Selector" name="seasonslider" centerPoint3DX="565.4" centerPoint3DY="30">
                                              <matrix>
                                                   <Matrix a="0.399993896484375" d="0.399993896484375" tx="550.95" ty="30"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="29.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Back btn" name="backbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.639999389648438" d="0.639999389648438" tx="659.4" ty="28.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Not Saved" name="notsaved" centerPoint3DX="576.85" centerPoint3DY="292.35">
+                                             <matrix>
+                                                  <Matrix tx="576.85" ty="292.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="0.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btn" name="checkinbtn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="145.45" ty="329.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Hold" name="chold" centerPoint3DX="312.95" centerPoint3DY="336.3">
@@ -1985,29 +2252,25 @@ function givepage(e:Event):void {
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Hold" name="ehold" centerPoint3DX="17.75" centerPoint3DY="79.9">
+                                        <DOMSymbolInstance libraryItemName="Hold" name="ehold" centerPoint3DX="17.75" centerPoint3DY="206.85">
                                              <matrix>
-                                                  <Matrix tx="18" ty="80"/>
+                                                  <Matrix tx="18" ty="206.95"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="-0.25" y="-0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Back btn" name="backbtn" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="btn" name="metbtn" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="0.639999389648438" d="0.639999389648438" tx="659.4" ty="28.35"/>
+                                                  <Matrix a="0.166671752929688" d="0.166671752929688" tx="655.8" ty="66"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Not Saved" name="notsaved" centerPoint3DX="576.85" centerPoint3DY="292.35">
-                                             <matrix>
-                                                  <Matrix tx="576.85" ty="292.35"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point y="0.5"/>
-                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#FFFFFF" inner="true" strength="2.72"/>
+                                                  <AdjustColorFilter hue="159"/>
+                                             </filters>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
@@ -2041,7 +2304,7 @@ function givepage(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Icon Tronco" centerPoint3DX="279.9" centerPoint3DY="209.65">
+                                        <DOMSymbolInstance libraryItemName="Icon Tronco" selected="true" centerPoint3DX="279.9" centerPoint3DY="209.65">
                                              <matrix>
                                                   <Matrix a="0.634841918945313" d="0.634994506835938" tx="179.9" ty="9.65"/>
                                              </matrix>
@@ -2053,13 +2316,12 @@ function givepage(e:Event):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();//se no combine não tiver nenhum casaco, lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco, se cena eliminada foi usada; em vez de esperar para carregar as coisas dos nomes , fazer "var blabla;" em vez de var blabla=0;
-number=1;
-
+                                        <script><![CDATA[stop();// lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco; em vez de esperar para carregar as coisas dos nomes , fazer "var blabla;" em vez de var blabla=0;
+number=1;//y=81 e 151.35
 var dateinterval:Number=0;
 var dateactuale:Date = new Date();
 var tronco:Array = new Array();
@@ -2271,6 +2533,10 @@ function givelabelscomb(e:Event):void {
 		} else if (this["CombBackup"][14]=="eloader"&&numberselected!=394) {
 			eloader.number=numberselected;
 		}
+		thold.thisselected=this["CombBackup"][15];
+		phold.thisselected=this["CombBackup"][16];
+		chold.thisselected=this["CombBackup"][17];
+		ehold.thisselected=this["CombBackup"][18];
 		this["CombBackup"]=undefined;
 		numberselected=0;
 		checkrandom.waitingforchoice=false;
@@ -2285,19 +2551,21 @@ function givelabelscomb(e:Event):void {
 			var dateactual1Timestamp:Number=dateactual1.getTime();
 			this["outoftheday"]=[0,0,0,0];
 			for (var i=1; i<=numbertotal; i++) {
-				var datethis:Date=new Date(this["lastdate"+i][2],this["lastdate"+i][1],this["lastdate"+i][0]);
-				var datethisTimestamp:Number=datethis.getTime();
-				var datethisold:Date=new Date(this["lastdateold"+i][2],this["lastdateold"+i][1],this["lastdateold"+i][0]);
-				var datethisoldTimestamp:Number=datethisold.getTime();
-				if (datethisTimestamp==dateactual1Timestamp||datethisoldTimestamp==dateactual1Timestamp) {
-					if (this["subtype"+i]=="Casaco") {
-						this["outoftheday"][3]=i;
-					} else if (this["type"+i]=="Tronco") {
-						this["outoftheday"][0]=i;
-					} else if (this["type"+i]=="Pernas") {
-						this["outoftheday"][1]=i;
-					} else if (this["type"+i]=="Calçado") {
-						this["outoftheday"][2]=i;
+				if (this["show"+i]==1||(this["show"+i]==0&&this["editload"]!=undefined)) {
+					var datethis:Date=new Date(this["lastdate"+i][2],this["lastdate"+i][1],this["lastdate"+i][0]);
+					var datethisTimestamp:Number=datethis.getTime();
+					var datethisold:Date=new Date(this["lastdateold"+i][2],this["lastdateold"+i][1],this["lastdateold"+i][0]);
+					var datethisoldTimestamp:Number=datethisold.getTime();
+					if (datethisTimestamp==dateactual1Timestamp||datethisoldTimestamp==dateactual1Timestamp) {
+						if (this["subtype"+i]=="Casaco") {
+							this["outoftheday"][3]=i;
+						} else if (this["type"+i]=="Tronco") {
+							this["outoftheday"][0]=i;
+						} else if (this["type"+i]=="Pernas") {
+							this["outoftheday"][1]=i;
+						} else if (this["type"+i]=="Calçado") {
+							this["outoftheday"][2]=i;
+						}
 					}
 				}
 			}
@@ -2346,7 +2614,7 @@ function editesquares(e:Event):void {
 function editestuff(e:Event):void {
 	//trace(tloader.thisselected,ploader.thisselected,cloader.thisselected,eloader.thisselected);
 	if (tloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
 		this["GalActualArray"]="Tronco";
 		tloader.out=true;
 		ploader.out=true;
@@ -2359,7 +2627,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (ploader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
 		this["GalActualArray"]="Pernas";
 		tloader.out=true;
 		ploader.out=true;
@@ -2372,7 +2640,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (cloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
 		this["GalActualArray"]="Calçado";
 		tloader.out=true;
 		ploader.out=true;
@@ -2385,7 +2653,7 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (eloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader"];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
 		this["GalActualArray"]="Casaco";
 		tloader.out=true;
 		ploader.out=true;
@@ -2404,7 +2672,7 @@ checkinbtn.addEventListener(MouseEvent.CLICK, checkin);
 function checkin(e:Event):void {
 	var inicials:Array=["t","p","c","e"];
 	for (var i=0; i<4; i++) {
-		if (this[inicials[i]+"loader"].number!=0) {
+		if (this[inicials[i]+"loader"].number!=0&&this[inicials[i]+"loader"].number!=undefined) {
 			if (this["lastdate"+this[inicials[i]+"loader"].number][0]!=date.daynumbs||this["lastdate"+this[inicials[i]+"loader"].number][1]!=date.monthnumbs||this["lastdate"+this[inicials[i]+"loader"].number][2]!=date.yearnumbs) {
 				this["lastdateold"+this[inicials[i]+"loader"].number]=[];
 				this["lastdateold"+this[inicials[i]+"loader"].number].push(this["lastdate"+this[inicials[i]+"loader"].number][0]);
@@ -2436,6 +2704,11 @@ function savefinale(e:Event):void {
 	this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 	backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
 	gotoAndStop(1, "Save");
+}
+
+metbtn.addEventListener(MouseEvent.CLICK, meteor);
+function meteor(e:Event):void {
+	navigateToURL(new URLRequest("https://www.google.pt/search?q=meteorologia"), '_self');
 }
 
 backbtn.addEventListener(MouseEvent.CLICK, returncombine);

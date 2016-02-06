@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Insertor" itemID="54bbf553-00000030" lastModified="1423325672" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Insertor" itemID="54bbf553-00000030" lastModified="1452542098" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Date Insertor">
       <layers>
@@ -70,7 +70,7 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>2015</characters>
+                      <characters>2016</characters>
                       <textAttrs>
                         <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
                       </textAttrs>
@@ -87,7 +87,7 @@
               <Actionscript>
                 <script><![CDATA[var daynumbs=1;
 var monthnumbs=0;
-var yearnumbs=2015;
+var yearnumbs=2016;
 var monthnames:Array=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Aug","Set","Out","Nov","Dez"]
 var waitingforchoice=true;
 
@@ -100,6 +100,14 @@ function changeshit(e:Event):void {
 	if (dayarr.downpressed==true) {
 		daynumbs=daynumbs-1;
 		dayarr.downpressed=false;
+	}
+	if (dayarr.uplongpressed==true) {
+		daynumbs=daynumbs+7;
+		dayarr.uplongpressed=false;
+	}
+	if (dayarr.downlongpressed==true) {
+		daynumbs=daynumbs-7;
+		dayarr.downlongpressed=false;
 	}
 	if (montharr.uppressed==true) {
 		monthnumbs=monthnumbs+1;
@@ -119,19 +127,19 @@ function changeshit(e:Event):void {
 	}
 	if (daynumbs>=31 && (monthnumbs==1 || monthnumbs==3 || monthnumbs==5 || monthnumbs==8 || monthnumbs==10)) {
 		monthnumbs=monthnumbs+1;
-		daynumbs=1;
+		daynumbs=daynumbs-30;
 	}
 	if (daynumbs>=32 && (monthnumbs==0 || monthnumbs==2 || monthnumbs==4 || monthnumbs==6 || monthnumbs==7 || monthnumbs==9 || monthnumbs==11)) {
 		monthnumbs=monthnumbs+1;
-		daynumbs=1;
+		daynumbs=daynumbs-31;
 	}
 	if (daynumbs<=0) {
 		if (monthnumbs-1==1||monthnumbs-1==3||monthnumbs-1==5||monthnumbs-1==8||monthnumbs-1==10) {
-			daynumbs=30;
+			daynumbs=30+daynumbs;
 		} else if (monthnumbs-1==0||monthnumbs-1==2||monthnumbs-1==4||monthnumbs-1==6||monthnumbs-1==7||monthnumbs-1==9||monthnumbs-1==11) {
-			daynumbs=31;
+			daynumbs=31+daynumbs;
 		} else if (monthnumbs==0) {
-			daynumbs=31;
+			daynumbs=31+daynumbs;
 		}
 		monthnumbs=monthnumbs-1;
 	}
