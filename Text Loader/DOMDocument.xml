@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="5" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="50" gridSpacingY="50" gridSnapAccuracy="Always snap" guidesLocked="true" guidesVisible="false" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="563" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="700" frameRate="12" currentTimeline="6" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="50" gridSpacingY="50" gridSnapAccuracy="Always snap" guidesLocked="true" guidesVisible="false" snapAlignBorderSpacing="18" timelineLabelWidth="-1" adjustViewAngle3D="false" nextSceneIdentifier="586" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Arrows Assets" itemID="54ac4aad-00000035"/>
           <DOMFolderItem name="Check Button Assets" itemID="54a89e08-00000048"/>
@@ -10,8 +10,8 @@
           <DOMFolderItem name="Slider Assets" itemID="5496f522-0000076d"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="5a7f60e5-000003b5" font="ArialMT" size="16" id="2" sourceLastImported="1518297317" embedRanges="3|5" bitmapSize="320"/>
-          <DOMFontItem name="Font 1" itemID="5a7f60e5-000003b6" font="Arial-BoldMT" size="16" id="1" sourceLastImported="1518297317" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 2" itemID="5a7f6103-000003f4" font="Arial-BoldMT" size="16" id="2" sourceLastImported="1518297347" embedRanges="3" bitmapSize="320"/>
+          <DOMFontItem name="Font 1" itemID="5a7f6103-000003f5" font="ArialMT" size="16" id="1" sourceLastImported="1518297347" embedRanges="3|5" bitmapSize="320"/>
      </fonts>
      <symbols>
           <Include href="Arrows.xml" loadImmediate="false" itemID="54aad5b1-0000002c" lastModified="1420483020"/>
@@ -27,11 +27,13 @@
           <Include href="Check Button Assets/Dot.xml" loadImmediate="false" itemID="54a87311-0000029b" lastModified="1428871831"/>
           <Include href="Check Point.xml" loadImmediate="false" itemID="54a8742d-000002e3" lastModified="1441580905"/>
           <Include href="Date Assets/Date Arrows.xml" loadImmediate="false" itemID="54bbf64a-00000035" lastModified="1452541623"/>
-          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1452542098"/>
+          <Include href="Date Assets/weekover.xml" loadImmediate="false" itemID="56c10c5e-00000050" lastModified="1455492190"/>
+          <Include href="Date Insertor.xml" loadImmediate="false" itemID="54bbf553-00000030" lastModified="1456707505"/>
           <Include href="Delete Btn.xml" itemIcon="0" loadImmediate="false" itemID="561bd310-00000048" lastModified="1444664187"/>
           <Include href="Editable Overlayer.xml" loadImmediate="false" itemID="54c811f2-00000035" lastModified="1422398249"/>
+          <Include href="Expandor.xml" loadImmediate="false" itemID="56cde319-0000009e" lastModified="1456442028"/>
           <Include href="Gal Menu.xml" loadImmediate="false" itemID="550761bb-00000035" lastModified="1441578793"/>
-          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1444505024"/>
+          <Include href="Gallery Page.xml" loadImmediate="false" itemID="5494bd2f-0000001d" lastModified="1455757076"/>
           <Include href="Hit Box.xml" loadImmediate="false" itemID="55f31a9f-00000047" lastModified="1441997618"/>
           <Include href="Hold.xml" loadImmediate="false" itemID="5557c198-000000d4" lastModified="1431815364"/>
           <Include href="Hold Sel.xml" loadImmediate="false" itemID="5557c183-000000d0" lastModified="1431814654"/>
@@ -52,7 +54,7 @@
           <Include href="Slider.xml" loadImmediate="false" itemID="5495f167-0000001c" lastModified="1428268979"/>
           <Include href="Slider Assets/Pointer.xml" itemIcon="0" loadImmediate="false" itemID="5495f616-000002a9" lastModified="1419114169"/>
           <Include href="Slider Assets/Slider Bar.xml" loadImmediate="false" itemID="5495f851-000004c6" lastModified="1419179332"/>
-          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1446649169"/>
+          <Include href="Tumbnail loader.xml" loadImmediate="false" itemID="54937c5c-000007b4" lastModified="1456333310"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
@@ -1763,7 +1765,7 @@ function returnedit(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();//botão usar hoje, ordenar por data 
+                                        <script><![CDATA[stop();//botão usar hoje
 var itemsarray:Array=[];
 var pagen:Number=1;
 var closing:Boolean=false;
@@ -1781,12 +1783,19 @@ if (changesnotsaved==true) {
 
 if (this["GalActualArray"]=="Casaco") {
 	itemsarray=this["Casacos"];
+	itemsarray=orderthis(itemsarray);
 } else if (this["GalActualArray"]=="Tronco") {
 	itemsarray=this["Tronco"];
+	itemsarray=orderthis(itemsarray);
 } else if (this["GalActualArray"]=="Pernas") {
 	itemsarray=this["Pernas"];
+	itemsarray=orderthis(itemsarray);
 } else if (this["GalActualArray"]=="Calçado") {
 	itemsarray=this["Calçado"];
+	itemsarray=orderthis(itemsarray);
+} else if (this["GalActualArray"]=="Second") {
+	itemsarray=subtractarr(this["Casacos"],this["GalActualArrayUSED"]);
+	itemsarray=orderthis(itemsarray);
 } else if (this["editload"]!=undefined) {
 	itemsarray=this["allitemsarray"];
 	editgal.visible=true;
@@ -1987,24 +1996,34 @@ function tosavegal(e:Event):void {
 	}
 }
 
-//fazer array de datas, duplicar, ordenar, procurar as datas da array ordenada na
-//duplicada, guardar a posição noutra e substituir por "blank"
-var datesorder:Array = [];
-for (var ai=0; ai<itemsarray.length; ai++){
-	var datai:Date = new Date(this["lastdate"+itemsarray[ai]][2], this["lastdate"+itemsarray[ai]][1], this["lastdate"+itemsarray[ai]][0]);
-	datesorder.push(datai.getTime());
+function orderthis(arr:Array):Array {
+	var datesorder:Array=[];
+	var disdatesorder:Array=[];
+	var ordere:Array=[];
+	for (var ai=0; ai<arr.length; ai++) {
+		var datai:Date=new Date(this["lastdate"+arr[ai]][2],this["lastdate"+arr[ai]][1],this["lastdate"+arr[ai]][0]);
+		datesorder.push(datai.getTime());
+		disdatesorder.push(datai.getTime());
+	}
+	datesorder.sort(Array.NUMERIC);
+	for (var aii=0; aii<arr.length; aii++) {
+		var ind=disdatesorder.indexOf(datesorder[aii]);
+		disdatesorder.splice(ind,1,"n");
+		ordere.push(arr[ind]);
+	}
+	ordere.reverse();
+	return ordere;
 }
-var disdatesorder:Array = datesorder;
-datesorder.sort(Array.NUMERIC)
 
-var ordere:Array = [];
-
-for (var aii=0; aii<itemsarray.length; aii++){
-	var ind = disdatesorder.indexOf(datesorder[aii]);
-	//disdatesorder.
-	ordere.push(itemsarray[ind]);
+function subtractarr(arr1:Array,arr2:Array):Array {
+	var finalarr:Array = [];
+	for (var lar=0; lar<arr1.length; lar++) {
+		if (arr2.indexOf(arr1[lar])==-1) {
+			finalarr.push(arr1[lar])
+		}
+	}
+	return finalarr;
 }
-
 
 notsavedbtn.btn.addEventListener(MouseEvent.CLICK, savefinalegal);
 function savefinalegal(e:Event):void {
@@ -2092,14 +2111,6 @@ function givepage(e:Event):void {
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="eloader" centerPoint3DX="109.25" centerPoint3DY="223.5">
-                                             <matrix>
-                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="45.75" ty="136.6"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="44.85" y="60.1"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Tumbnail loader" name="tloader" centerPoint3DX="243.3" centerPoint3DY="96.55">
                                              <matrix>
                                                   <Matrix a="1.416259765625" d="1.4088134765625" tx="179.8" ty="9.65"/>
@@ -2260,17 +2271,37 @@ function givepage(e:Event):void {
                                                   <Point x="-0.25" y="-0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="btn" name="metbtn" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="sloader" centerPoint3DX="109.25" centerPoint3DY="96.55">
                                              <matrix>
-                                                  <Matrix a="0.166671752929688" d="0.166671752929688" tx="655.8" ty="66"/>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="45.75" ty="9.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="60.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Hold" name="shold" centerPoint3DX="17.75" centerPoint3DY="79.9">
+                                             <matrix>
+                                                  <Matrix tx="18" ty="80"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.25" y="-0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Tumbnail loader" name="eloader" centerPoint3DX="109.25" centerPoint3DY="223.5">
+                                             <matrix>
+                                                  <Matrix a="1.416259765625" d="1.4088134765625" tx="45.75" ty="136.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="44.85" y="60.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Expandor" name="exp" centerPoint3DX="109.7" centerPoint3DY="279.4">
+                                             <matrix>
+                                                  <Matrix tx="109.7" ty="279.4"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
-                                             <filters>
-                                                  <GlowFilter blurX="6" blurY="6" color="#FFFFFF" inner="true" strength="2.72"/>
-                                                  <AdjustColorFilter hue="159"/>
-                                             </filters>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
@@ -2321,7 +2352,7 @@ function givepage(e:Event):void {
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[stop();// lavandaria, fazer criar novo se não existente, se coisas estão undefined no edit vão para inicio, se a imagem estiver em branco; em vez de esperar para carregar as coisas dos nomes , fazer "var blabla;" em vez de var blabla=0;
-number=1;//y=81 e 151.35
+number=1;
 var dateinterval:Number=0;
 var dateactuale:Date = new Date();
 var tronco:Array = new Array();
@@ -2339,10 +2370,16 @@ var dateundefined:Date=new Date(dateactuale.fullYear-1,dateactuale.month,dateact
 var percbackup=0;
 var colorselectbackup:Array=[];
 var editmode=false;
+var expandmode=true;
+var expandjustsel=true;
+var expnumb=0;
 var datechack:Array=[date.daynumbs,date.monthnumbs,date.yearnumbs];
 tblank.visible=false;
 pblank.visible=false;
 notsaved.visible=false;
+shold.visible=false;
+sloader.visible=false;
+exp.visible=false;
 if (changesnotsaved==true) {
 	notsaved.visible=true;
 }
@@ -2524,6 +2561,7 @@ function givelabelscomb(e:Event):void {
 		ploader.number=this["CombBackup"][11];
 		cloader.number=this["CombBackup"][12];
 		eloader.number=this["CombBackup"][13];
+		sloader.number=this["CombBackup"][19];
 		if (this["CombBackup"][14]=="tloader"&&numberselected!=394) {
 			tloader.number=numberselected;
 		} else if (this["CombBackup"][14]=="ploader"&&numberselected!=394) {
@@ -2532,11 +2570,19 @@ function givelabelscomb(e:Event):void {
 			cloader.number=numberselected;
 		} else if (this["CombBackup"][14]=="eloader"&&numberselected!=394) {
 			eloader.number=numberselected;
+		} else if (this["CombBackup"][14]=="sloader"&&numberselected!=394) {
+			sloader.number=numberselected;
 		}
 		thold.thisselected=this["CombBackup"][15];
 		phold.thisselected=this["CombBackup"][16];
 		chold.thisselected=this["CombBackup"][17];
 		ehold.thisselected=this["CombBackup"][18];
+		shold.thisselected=this["CombBackup"][20];
+		if (this["CombBackup"][21]==true) {
+			expandmode=false;
+			expandjustsel=true;
+			expnumb=6;
+		}
 		this["CombBackup"]=undefined;
 		numberselected=0;
 		checkrandom.waitingforchoice=false;
@@ -2595,10 +2641,15 @@ function editesquares(e:Event):void {
 		ploader.thisselected=false;
 		cloader.thisselected=false;
 		eloader.thisselected=false;
+		if (expandmode==true) {
+			sloader.thisselected=false;
+			sloader.editablee=true;
+		}
 		tloader.editablee=true;
 		ploader.editablee=true;
 		cloader.editablee=true;
 		eloader.editablee=true;
+		exp.visible=true;
 		editmode=true;
 		this.addEventListener(Event.ENTER_FRAME, editestuff);
 	} else if (editmode==true) {
@@ -2606,6 +2657,10 @@ function editesquares(e:Event):void {
 		ploader.editablee=false;
 		cloader.editablee=false;
 		eloader.editablee=false;
+		if (expandmode==true) {
+			sloader.editablee=false;
+		}
+		exp.visible=false;
 		editmode=false;
 		this.removeEventListener(Event.ENTER_FRAME, editestuff);
 	}
@@ -2614,12 +2669,13 @@ function editesquares(e:Event):void {
 function editestuff(e:Event):void {
 	//trace(tloader.thisselected,ploader.thisselected,cloader.thisselected,eloader.thisselected);
 	if (tloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"tloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected,sloader.number,shold.thisselected,expandmode];
 		this["GalActualArray"]="Tronco";
 		tloader.out=true;
 		ploader.out=true;
 		cloader.out=true;
 		eloader.out=true;
+		sloader.out=true;
 		backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
 		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
 		this.removeEventListener(Event.ENTER_FRAME, editestuff);
@@ -2627,12 +2683,13 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (ploader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"ploader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected,sloader.number,shold.thisselected,expandmode];
 		this["GalActualArray"]="Pernas";
 		tloader.out=true;
 		ploader.out=true;
 		cloader.out=true;
 		eloader.out=true;
+		sloader.out=true;
 		backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
 		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
 		this.removeEventListener(Event.ENTER_FRAME, editestuff);
@@ -2640,12 +2697,13 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (cloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"cloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected,sloader.number,shold.thisselected,expandmode];
 		this["GalActualArray"]="Calçado";
 		tloader.out=true;
 		ploader.out=true;
 		cloader.out=true;
 		eloader.out=true;
+		sloader.out=true;
 		backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
 		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
 		this.removeEventListener(Event.ENTER_FRAME, editestuff);
@@ -2653,18 +2711,88 @@ function editestuff(e:Event):void {
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
 	} else if (eloader.thisselected==true) {
-		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected];
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"eloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected,sloader.number,shold.thisselected,expandmode];
 		this["GalActualArray"]="Casaco";
 		tloader.out=true;
 		ploader.out=true;
 		cloader.out=true;
 		eloader.out=true;
+		sloader.out=true;
 		backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
 		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
 		this.removeEventListener(Event.ENTER_FRAME, editestuff);
 		this.removeEventListener(Event.ENTER_FRAME, loadalle);
 		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
 		gotoAndStop(1, "Gallery");
+	} else if (sloader.thisselected==true) {
+		this["CombBackup"]=[date.daynumbs,date.monthnumbs,date.yearnumbs,slider.val.text,check1.thischecked,check2.thischecked,check3.thischecked,check4.thischecked,checkrandom.thischecked,seasonslider.thischecked,tloader.number,ploader.number,cloader.number,eloader.number,"sloader",thold.thisselected,phold.thisselected,chold.thisselected,ehold.thisselected,sloader.number,shold.thisselected,expandmode];
+		this["GalActualArray"]="Second";
+		this["GalActualArrayUSED"]=[tloader.number,ploader.number,cloader.number,eloader.number];
+		tloader.out=true;
+		ploader.out=true;
+		cloader.out=true;
+		eloader.out=true;
+		sloader.out=true;
+		backbtn.removeEventListener(MouseEvent.CLICK, returncombine);
+		this.removeEventListener(Event.ENTER_FRAME, givelabelscomb);
+		this.removeEventListener(Event.ENTER_FRAME, editestuff);
+		this.removeEventListener(Event.ENTER_FRAME, loadalle);
+		this.removeEventListener(Event.ENTER_FRAME, generatecomb);
+		gotoAndStop(1, "Gallery");
+	}
+}
+
+exp.addEventListener(MouseEvent.CLICK, expandbtn);
+function expandbtn(e:MouseEvent):void {
+	if (expandmode==false) {
+		expandjustsel=true;
+	} else if (expandmode==true) {
+		expandjustsel=true;
+	}
+}
+
+addEventListener(Event.ENTER_FRAME, expandfunct);
+function expandfunct(e:Event):void {
+	if (expandjustsel==true) {
+		if (expandmode==false) {//Opening
+			if (expnumb>=6) {
+				expandjustsel=false;
+				shold.visible=true;
+				sloader.visible=true;
+				if (editmode==true) {
+					sloader.thisselected=false;
+					sloader.editablee=true;
+				}
+				ehold.y=206.95;
+				eloader.y=136.6;
+				exp.gotoAndStop(2);
+				exp.y=279.4;
+				expandmode=true;
+			} else {
+				expnumb+=1;
+				eloader.y=81+((expnumb*expnumb*55.6)/36);
+				ehold.y=151.35+((expnumb*expnumb*55.6)/36);
+				exp.y=223.8+((expnumb*expnumb*55.6)/36);
+			}
+		} else if (expandmode==true) {//Closing
+			shold.visible=false;
+			sloader.visible=false;
+			sloader.editablee=false;
+			if (expnumb<=0) {
+				expandjustsel=false;
+				ehold.y=151.35;
+				eloader.y=81;
+				exp.gotoAndStop(1);
+				exp.y=223.8;
+				expnumb=0;
+				expandmode=false;
+			} else {
+				expnumb-=1;
+				eloader.y=81+((expnumb*expnumb*55.6)/36);
+				ehold.y=151.35+((expnumb*expnumb*55.6)/36);
+				exp.y=223.8+((expnumb*expnumb*55.6)/36);
+			}
+		}
 	}
 }
 
@@ -2706,10 +2834,10 @@ function savefinale(e:Event):void {
 	gotoAndStop(1, "Save");
 }
 
-metbtn.addEventListener(MouseEvent.CLICK, meteor);
+/*metbtn.addEventListener(MouseEvent.CLICK, meteor);
 function meteor(e:Event):void {
-	navigateToURL(new URLRequest("https://www.google.pt/search?q=meteorologia"), '_self');
-}
+navigateToURL(new URLRequest("https://www.google.pt/search?q=meteorologia"), '_self');
+}*/
 
 backbtn.addEventListener(MouseEvent.CLICK, returncombine);
 function returncombine(e:Event):void {

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1444505024" lastUniqueIdentifier="20">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1455757076" lastUniqueIdentifier="20">
   <timeline>
     <DOMTimeline name="Gallery Page">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="ini3" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini3" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-181.3"/>
                   </matrix>
@@ -22,7 +22,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini2" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini2" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-181.3"/>
                   </matrix>
@@ -38,7 +38,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini1" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini1" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-181.3"/>
                   </matrix>
@@ -54,7 +54,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini4" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini4" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-181.3"/>
                   </matrix>
@@ -70,7 +70,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini7" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini7" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-61.3"/>
                   </matrix>
@@ -86,7 +86,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini6" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini6" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-61.3"/>
                   </matrix>
@@ -102,7 +102,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini5" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini5" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-61.3"/>
                   </matrix>
@@ -118,7 +118,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini8" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini8" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-61.3"/>
                   </matrix>
@@ -134,7 +134,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini11" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini11" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="58.7"/>
                   </matrix>
@@ -150,7 +150,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini10" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini10" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="58.7"/>
                   </matrix>
@@ -166,7 +166,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini9" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini9" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="58.7"/>
                   </matrix>
@@ -182,7 +182,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ini12" width="78.6" height="78.6" isSelectable="false">
+                <DOMDynamicText name="ini12" selected="true" width="78.6" height="78.6" isSelectable="false">
                   <matrix>
                     <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="58.7"/>
                   </matrix>
@@ -222,7 +222,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" centerPoint3DX="-154.45" centerPoint3DY="-125.45">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" selected="true" centerPoint3DX="-154.45" centerPoint3DY="-125.45">
                   <matrix>
                     <Matrix tx="-239.55" ty="-183.5"/>
                   </matrix>
@@ -318,7 +318,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini0" selected="true" centerPoint3DX="307.3" centerPoint3DY="-100.8">
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini0" centerPoint3DX="307.3" centerPoint3DY="-100.8">
                   <matrix>
                     <Matrix a="0.82208251953125" d="0.81298828125" tx="270" ty="-150"/>
                   </matrix>

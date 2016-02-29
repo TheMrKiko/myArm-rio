@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1446649169" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tumbnail loader" itemID="54937c5c-000007b4" lastModified="1456333310" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Tumbnail loader">
       <layers>
-        <DOMLayer name="Editable" color="#FF4F4F" autoNamed="false">
+        <DOMLayer name="Editable" color="#FF4F4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -29,7 +29,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Text" color="#808080" locked="true" autoNamed="false">
+        <DOMLayer name="Text" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -45,6 +45,22 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="datee" fontRenderingMode="standard" width="50" height="17.9" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="38" ty="2.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="11" bitmapSize="220" face="ArialNarrow" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="1" strength="1.42"/>
+                  </filters>
                 </DOMDynamicText>
               </elements>
             </DOMFrame>
@@ -115,14 +131,19 @@ var out=false;
 editablelayer.visible=false;
 delbtn.visible=false;
 var awaiting=true;
+var monthnamess:Array=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Aug","Set","Out","Nov","Dez"];
 
 this.addEventListener(Event.ENTER_FRAME, waitfornumber);
 function waitfornumber(e:Event):void {
 	awaiting=true;
 	this.alpha=1;
+	datee.text="";
 	if (this.number!=undefined&&this.number!=0) {
-		if (root["show"+this.number]==0){
+		if (root["show"+this.number]==0) {
 			this.alpha=0.35;
+		}
+		if (root["CombBackup"]!=undefined) {
+			datee.text=root["lastdate"+this.number][0]+" "+monthnamess[root["lastdate"+this.number][1]];
 		}
 		thisnumber=this.number;
 		awaiting=false;
