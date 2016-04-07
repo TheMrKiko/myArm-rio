@@ -1,0 +1,1081 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gallery Page" itemID="5494bd2f-0000001d" lastModified="1455757076" lastUniqueIdentifier="20">
+  <timeline>
+    <DOMTimeline name="Gallery Page">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="ini3" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-181.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini2" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-181.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini1" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-181.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini4" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-181.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini7" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="-61.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini6" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="-61.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini5" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="-61.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini8" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="-61.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini11" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="22.65" ty="58.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini10" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-107.35" ty="58.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini9" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="-237.35" ty="58.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini12" selected="true" width="78.6" height="78.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="152.65" ty="58.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="38.65"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="ini0" selected="true" width="64.85" height="225.5" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.08927917480469" d="1.08927917480469" tx="272.2" ty="-147.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.35" y="110.45"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="13" bitmapSize="260" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini1" selected="true" centerPoint3DX="-154.45" centerPoint3DY="-125.45">
+                  <matrix>
+                    <Matrix tx="-239.55" ty="-183.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini2" centerPoint3DX="-24.55" centerPoint3DY="-125.5">
+                  <matrix>
+                    <Matrix tx="-109.55" ty="-183.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini3" centerPoint3DX="105.45" centerPoint3DY="-125.5">
+                  <matrix>
+                    <Matrix tx="20.45" ty="-183.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini5" centerPoint3DX="-154.55" centerPoint3DY="-5.5">
+                  <matrix>
+                    <Matrix tx="-239.55" ty="-63.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini4" centerPoint3DX="235.45" centerPoint3DY="-125.5">
+                  <matrix>
+                    <Matrix tx="150.45" ty="-183.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini6" centerPoint3DX="-24.55" centerPoint3DY="-5.5">
+                  <matrix>
+                    <Matrix tx="-109.55" ty="-63.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini7" centerPoint3DX="105.45" centerPoint3DY="-5.5">
+                  <matrix>
+                    <Matrix tx="20.45" ty="-63.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini8" centerPoint3DX="235.45" centerPoint3DY="-5.5">
+                  <matrix>
+                    <Matrix tx="150.45" ty="-63.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini9" centerPoint3DX="-154.55" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="-239.55" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini10" centerPoint3DX="-24.55" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="-109.55" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini11" centerPoint3DX="105.45" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="20.45" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini12" centerPoint3DX="235.45" centerPoint3DY="114.5">
+                  <matrix>
+                    <Matrix tx="150.45" ty="56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Tumbnail loader" name="mini0" centerPoint3DX="307.3" centerPoint3DY="-100.8">
+                  <matrix>
+                    <Matrix a="0.82208251953125" d="0.81298828125" tx="270" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.35" y="59.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Actions" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+var number=1;
+var page=1;
+var pagechanged=false;
+var thingselected=0;
+var itemsarray:Array=[];
+var onedit;
+var objecto=0;
+var objecto2=0;
+var obj_var=0;
+var targ_var=0;
+var statuse="Waiting";
+var notrep=false;
+var pagetotal;
+var changenumber=0;
+var changenumbernamea=0;
+var changenumbernameb=0;
+var changenumber2=0;
+var changenumbername2a=0;
+var changenumbername2b=0;
+var thissituation=0;
+var endedpage=false;
+
+var mouseposx=0;
+var mouseposy=0;
+var objposx=0;
+var objposy=0;
+var targposx=0;
+var targposy=0;
+var swapbackup1=0;
+var swapbackup2=0;
+var swapbackup3=0;
+var swapbackup4=0;
+this["tmini0"]=0;
+this["tini0"]=0;
+this["tni0"]=0;
+mini0.number=0;
+
+for (var pp=1; pp<=pagetotal; pp++) {
+	this["tin"+pp]=[0];
+	for (var ppn=1; ppn<=12; ppn++) {
+		this["tin"+pp].push(ppn+12*(pp-1));
+		this["tini"+(ppn+12*(pp-1))]=(ppn+12*(pp-1));
+		if (ppn+12*(pp-1)==this.numbertotal){
+			break;
+		}
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, loadall1);
+function loadall1(e:Event):void {
+	trace(number);
+	if (this.number>=12*(page-1)+1 && this.number<=12*page && this.number<=this.numbertotal) {
+		if (onedit==true&&this["tmini"+this.number]!=undefined) {
+			this["mini"+PageFunc2(this.number)].number=this["tin"+page][PageFunc2(this.number)];
+		} else {
+			this["mini"+PageFunc2(this.number)].number=this.itemsarray[this.number-1];
+		}
+		this["mini"+PageFunc2(this.number)].showname=true;
+		if (this["tmini"+this.number]==undefined) {
+			this["tmini"+this.number]=this.number;
+			this["tini"+this.number]=this.number;
+			this["tni"+this.number]=this.number-12*(page-1);
+		}
+		if (this["tni"+this.number]!=0) {
+			this["mini"+PageFunc2(this.number)].x=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].x;
+			this["mini"+PageFunc2(this.number)].y=this["ini"+PageFunc2(this["tmini"+this["tin"+page][PageFunc2(this.number)]])].y;
+		}
+		trace("adding...");//12*(page) é o fim da página
+		if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
+			/*for (var ef=1+12*(page-1); ef<=12*page; ef++) {
+				if (this["tmini"+ef]==undefined) {
+					this["tmini"+ef]=ef;
+					this["tini"+ef]=ef;
+					this["tni"+ef]=ef-12*(page-1);
+				}
+			}*/
+			trace("finish!");//12*(page-1)+1 é o início da página
+			this.removeEventListener(Event.ENTER_FRAME, loadall1);
+			endedpage=true;
+		} else {
+			number=number+1;
+		}
+	} else if (this.number<=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página anterior
+		number=number+1;
+		trace("not this...");
+	} else if (this.itemsarray.length==0){
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, pagechangedf);
+function pagechangedf(e:Event):void {
+	if (pagechanged==true) {
+		pagechanged=false;
+		for (var c=1; c<=12; c++) {
+			this["ini"+c].visible=false;
+		}
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+		number=12*(page-1)+1;
+		this.addEventListener(Event.ENTER_FRAME, loadall1);
+	}
+	if (mini1.thisselected==true){thingselected=mini1.number;mini1.thisselected=false;}
+	if (mini2.thisselected==true){thingselected=mini2.number;mini2.thisselected=false;}
+	if (mini3.thisselected==true){thingselected=mini3.number;mini3.thisselected=false;}
+	if (mini4.thisselected==true){thingselected=mini4.number;mini4.thisselected=false;}
+	if (mini5.thisselected==true){thingselected=mini5.number;mini5.thisselected=false;}
+	if (mini6.thisselected==true){thingselected=mini6.number;mini6.thisselected=false;}
+	if (mini7.thisselected==true){thingselected=mini7.number;mini7.thisselected=false;}
+	if (mini8.thisselected==true){thingselected=mini8.number;mini8.thisselected=false;}
+	if (mini9.thisselected==true){thingselected=mini9.number;mini9.thisselected=false;}
+	if (mini10.thisselected==true){thingselected=mini10.number;mini10.thisselected=false;}
+	if (mini11.thisselected==true){thingselected=mini11.number;mini11.thisselected=false;}
+	if (mini12.thisselected==true){thingselected=mini12.number;mini12.thisselected=false;}
+	if (thingselected!=0) {
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+		this.removeEventListener(Event.ENTER_FRAME, pagechangedf);
+		for (var i=1; i<=12; i++) {
+			this["mini"+i].out=true;
+		}
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, dragfunc);
+function dragfunc(e:Event):void {
+	if (this.onedit==true&&statuse=="Waiting") {
+		if (notrep==true) {
+			for (var tr=0; tr<=12; tr++) {
+				this["ini"+tr].removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+			}
+			notrep=false;
+		}
+		ini1.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini2.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini3.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini4.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini5.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini6.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini7.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini8.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini9.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini10.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini11.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini12.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini0.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+	}
+	if (this.onedit==true&&statuse=="Dragging") {
+		ini1.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini2.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini3.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini4.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini5.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini6.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini7.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini8.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini9.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini10.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini11.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini12.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini0.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+	}
+	if (objecto!=0) {
+		objecto.x=objposx+(mouseX-mouseposx);
+		objecto.y=objposy+(mouseY-mouseposy);
+	}
+	if (this.onedit==true&&(ini1.visible!=true||ini2.visible!=true||ini3.visible!=true||ini4.visible!=true||ini5.visible!=true||ini6.visible!=true||ini7.visible!=true||ini8.visible!=true||ini9.visible!=true||ini10.visible!=true||ini11.visible!=true||ini12.visible!=true)) {
+		for (var a=1; a<=12; a++) {
+			this["ini"+a].visible=true;
+			if (PageFunc(a)==this["numbertotal"]) {
+				break;
+			}
+		}
+	}
+	if (this.onedit!=true&&(ini1.visible!=false||ini2.visible!=false||ini3.visible!=false||ini4.visible!=false||ini5.visible!=false||ini6.visible!=false||ini7.visible!=false||ini8.visible!=false||ini9.visible!=false||ini10.visible!=false||ini11.visible!=false||ini12.visible!=false)) {
+		for (var b=1; b<=12; b++) {
+			this["ini"+b].visible=false;
+		}
+	}
+	if (changenumber!=0) {
+		if (changenumbernamea.awaiting==true) {
+			changenumbernameb.number=changenumber;
+			changenumber=0;
+			changenumbernamea=0;
+			changenumbernameb=0;
+		}
+	}
+	if (changenumber2!=0) {
+		if (changenumbername2a.awaiting==true) {
+			changenumbername2b.number=changenumber2;
+			changenumber2=0;
+			changenumbername2a=0;
+			changenumbername2b=0;
+		}
+	}
+}
+
+function dragfunction(e:Event):void {
+	if (this["tini"+PageFunc(Number(e.target.name.slice(3)))]!=0) {
+		objecto=this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]];
+		mouseposx=mouseX;
+		mouseposy=mouseY;
+		objposx=objecto.x;
+		objposy=objecto.y;
+		targposx=e.target.x;
+		targposy=e.target.y;
+		statuse="Dragging";
+		notrep=true;
+		//trace(objecto.name, "number="+objecto.number, "contem="+this["t"+e.target.name], "casa="+this["t"+objecto.name]);
+		stage.addEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	}
+	e.target.removeEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+}
+
+function targetfunction(e:Event):void {
+	stage.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	if (objecto.name=="mini0") {
+		if (e.target.name!="ini0") {
+			if (this["mini"+this["tni"+this["tini"+PageFunc(Number(e.target.name.slice(3)))]]].number==0) {
+				//Largar mini0 num spot vazio
+				thissituation=1;
+				targ_var=e.target;
+				obj_var=mini0;
+				objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto2.x=targ_var.x;
+				objecto2.y=targ_var.y;
+			} else {
+				//Largar mini0 num spot com alguém
+				thissituation=2;
+				targ_var=e.target;
+				obj_var=mini0;
+				objecto2=this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]];
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+			}
+		} else if (e.target.name=="ini0") {
+			//Largar mini0 no mesmo spot
+			thissituation=3;
+			mini0.x=ini0.x;
+			mini0.y=ini0.y;
+			objecto=0;
+			thissituation=0;
+			statuse="Waiting";
+			notrep=true;
+			return;
+			e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		}
+	} else if (objecto.name!="mini0") {
+		if (e.target.name=="ini0") {
+			if (mini0.number!=0) {
+				//Largar alguém no ini0 com alguém
+				thissituation=4;
+				targ_var=e.target;
+				obj_var=objecto;
+				objecto2=mini0;
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto.x=objposx;
+				objecto.y=objposy;
+			} else if (mini0.number==0) {
+				//Largar alguém no ini0 vazio
+				thissituation=5;
+				mini0.x=ini0.x;
+				mini0.y=ini0.y;
+				objecto.x=objposx;
+				objecto.y=objposy;
+				obj_var=objecto;
+				targ_var=ini0;
+			}
+		} else {
+			//Não relacionado com o ini0 ou mini0
+			thissituation=6;
+			obj_var=objecto;
+			targ_var=e.target;
+		}
+		trace(thissituation);
+	}
+	swapbackup1=this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]];//Casa onde está o que moveu
+	swapbackup2=this["tmini"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]];//Casa alvo
+	swapbackup3=this["tini"+PageFunc(Number(targ_var.name.slice(3)))];//Quem está na casa alvo
+	swapbackup4=this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]];//Quem moveu
+	if (targ_var.name!="ini0"&&this["tini"+this["tmini"+PageFunc(Number(obj_var.name.slice(4)))]]!=0) {
+		obj_var.x=targ_var.x;
+		obj_var.y=targ_var.y;
+		if (this["tini"+PageFunc(Number(targ_var.name.slice(3)))]!=0) {
+			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].x=targposx;
+			this["mini"+this["tni"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]].y=targposy;
+		}
+	}
+	this["tmini"+this["tini"+PageFunc(Number(targ_var.name.slice(3)))]]=swapbackup1;
+	this["tini"+this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]]=swapbackup3;
+	this["tmini"+this["tin"+page][Number(obj_var.name.slice(4))]]=swapbackup2;
+	this["tini"+PageFunc(Number(targ_var.name.slice(3)))]=swapbackup4;
+	if (thissituation==1) {
+		var safe1=mini0.number;//é o objecto2.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto2;
+		mini0.number=0;
+		TinAll(0);
+		this["tin"+page][Number(objecto2.name.slice(4))]=safe1;
+		this["tni"+safe1]=Number(objecto2.name.slice(4));
+		this["tni0"]=0;
+		safe1=0;
+		thissituation=0;
+	} else if (thissituation==2) {
+		var safe2a=mini0.number;//é o objecto2.number
+		var safe2b=objecto2.number;//é o mini0.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto2;
+		changenumber=objecto2.number;
+		changenumbernamea=objecto2;
+		changenumbernameb=mini0;
+		mini0.number=0;
+		objecto2.number=0;
+		TinAll(safe2b);
+		this["tin"+page][Number(objecto2.name.slice(4))]=safe2a;
+		this["tni"+safe2a]=Number(objecto2.name.slice(4));
+		this["tni"+safe2b]=0;
+		safe2a=0;
+		safe2b=0;
+		thissituation=0;
+	} else if (thissituation==4) {
+		var safe4a=mini0.number;//é o objecto.number
+		var safe4b=objecto.number;//é o mini0.number
+		changenumber2=mini0.number;
+		changenumbername2a=mini0;
+		changenumbername2b=objecto;
+		changenumber=objecto.number;
+		changenumbernamea=objecto;
+		changenumbernameb=mini0;
+		mini0.number=0;
+		objecto.number=0;
+		TinAll(safe4b);
+		this["tin"+page][Number(objecto.name.slice(4))]=safe4a;
+		this["tni"+safe4a]=Number(objecto.name.slice(4));
+		this["tni"+safe4b]=0;
+		safe4a=0;
+		safe4b=0;
+		thissituation=0;
+	} else if (thissituation==5) {
+		this["tni0"]=Number(obj_var.name.slice(4));
+		this["tni"+obj_var.number]=0;
+		TinAll(obj_var.number);
+		this["tin"+page][Number(obj_var.name.slice(4))]=0;
+		mini0.number=obj_var.number;
+		obj_var.number=0;
+		thissituation=0;
+	}
+	objecto=0;
+	objecto2=0;
+	obj_var=0;
+	targ_var=0;
+	statuse="Waiting";
+	notrep=true;
+	this.removeEventListener(Event.ENTER_FRAME, targetfunction);
+	e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+}
+
+function dropfunction(e:Event):void {
+	if (statuse!="Waiting") {
+		objecto.x=objposx;
+		objecto.y=objposy;
+		objecto=0;
+		statuse="Waiting";
+		notrep=true;
+		e.target.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	}
+}
+
+function PageFunc(intpage:int):int {
+	if (intpage==0) {
+		return (0);
+	} else {
+		return (intpage+12*(page-1));
+	}
+}
+
+function PageFunc2(intpage:int):int {
+	if (intpage==0) {
+		return (0);
+	} else if (int(intpage/12)-intpage/12==0) {
+		return (intpage-12*(int(intpage/12)-1));
+	} else {
+		return (intpage-12*(int(intpage/12)));
+	}
+}
+
+function TinAll(intnumb:int):void {
+	for (var tp=1; tp<=pagetotal; tp++) {
+		this["tin"+tp][0]=intnumb;
+	}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Backup" color="#9933CC" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*stop();
+var number=1;
+var page=1;
+var pagechanged=false;
+var thingselected=0;
+var itemsarray:Array=[];
+var onedit=false;
+var objecto=0;
+var obj_var=0;
+var targ_var=0;
+var statuse="Waiting";
+var notrep=false;
+var visrep=false;
+var changenumber=0;
+var changenumbername=0;
+var changenumber2=0;
+var changenumbername2=0;
+
+var mouseposx=0;
+var mouseposy=0;
+var objposx=0;
+var objposy=0;
+var targposx=0;
+var targposy=0;
+var swapbackup1=0;
+var swapbackup2=0;
+var swapbackup3=0;
+var swapbackup4=0;
+this["tmini0"]=0;
+this["tini0"]=0;
+this["tni0"]=0;
+mini0.number=0;
+
+this.addEventListener(Event.ENTER_FRAME, loadall1);
+function loadall1(e:Event):void {
+	trace(number);
+	if (this.number>=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página certa
+		if (onedit==true&&this["tmini"+this.number]!=undefined){
+			this["mini"+(this.number-12*(page-1))].number=this["tni"+this.number]
+		} else {
+			this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
+		}
+		this["mini"+(this.number-12*(page-1))].showname=true;
+		////this["mini"+(this.number-12*(page-1))].thisgalpage=page;
+		if (this["tmini"+this.number]==undefined) {
+			this["tmini"+this.number]=this.number;
+			this["tini"+this.number]=this.number;
+			this["tni"+this.number]=this.number;
+		}
+		if (this["tmini"+this.number]-12*(page-1)!=0){
+		this["mini"+(this.number-12*(page-1))].x=this["ini"+(this["tmini"+this.number]-12*(page-1))].x;
+		this["mini"+(this.number-12*(page-1))].y=this["ini"+(this["tmini"+this.number]-12*(page-1))].y;
+		}
+		trace("adding...");//12*(page) é o fim da página
+		number=number+1;
+	} else if ((this.numbertotal>=12*page && this.number==12*page) || (this.numbertotal<12*page && this.number==this.numbertotal)) {
+		if (onedit==true&&this["tmini"+this.number]!=undefined){
+			this["mini"+(this.number-12*(page-1))].number=this["tni"+this.number]
+		} else {
+			this["mini"+(this.number-12*(page-1))].number=this.itemsarray[this.number-1];
+		}
+		this["mini"+(this.number-12*(page-1))].showname=true;
+		////this["mini"+(this.number-12*(page-1))].thisgalpage=page;
+		if (this["tmini"+this.number]==undefined) {
+			this["tmini"+this.number]=this.number;
+			this["tini"+this.number]=this.number;
+			this["tni"+this.number]=this.number;
+		}
+		for (var ef=1+12*(page-1); ef<=12*page; ef++) {
+			if (this["tmini"+ef]==undefined) {
+				this["tmini"+ef]=ef;
+				this["tini"+ef]=ef;
+				this["ini"+ef]=ef;
+			}
+		}
+		if (this["tmini"+this.number]-12*(page-1)!=0){
+			//this["mini"+(this.number-12*(page-1))].x=this["ini"+(this["tmini"+this.number]-12*(page-1))].x
+			trace(this["tmini"+this.number]);
+			//this["mini"+(this.number-12*(page-1))].y=this["ini"+(this["tmini"+this.number]-12*(page-1))].y;
+		}
+		trace("finish!");//12*(page-1)+1 é o início da página
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+	} else if (this.number<=12*(page-1)+1 && this.number<12*page && this.number<this.numbertotal) {//Está na página anterior
+		number=number+1;
+		trace("not this...");
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, pagechangedf);
+function pagechangedf(e:Event):void {
+	if (pagechanged==true) {
+		pagechanged=false;
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+		number=12*(page-1)+1;
+		this.addEventListener(Event.ENTER_FRAME, loadall1);
+	}
+	if (mini1.thisselected==true){thingselected=mini1.number;mini1.thisselected=false;}
+	if (mini2.thisselected==true){thingselected=mini2.number;mini2.thisselected=false;}
+	if (mini3.thisselected==true){thingselected=mini3.number;mini3.thisselected=false;}
+	if (mini4.thisselected==true){thingselected=mini4.number;mini4.thisselected=false;}
+	if (mini5.thisselected==true){thingselected=mini5.number;mini5.thisselected=false;}
+	if (mini6.thisselected==true){thingselected=mini6.number;mini6.thisselected=false;}
+	if (mini7.thisselected==true){thingselected=mini7.number;mini7.thisselected=false;}
+	if (mini8.thisselected==true){thingselected=mini8.number;mini8.thisselected=false;}
+	if (mini9.thisselected==true){thingselected=mini9.number;mini9.thisselected=false;}
+	if (mini10.thisselected==true){thingselected=mini10.number;mini10.thisselected=false;}
+	if (mini11.thisselected==true){thingselected=mini11.number;mini11.thisselected=false;}
+	if (mini12.thisselected==true){thingselected=mini12.number;mini12.thisselected=false;}
+	if (thingselected!=0) {
+		this.removeEventListener(Event.ENTER_FRAME, loadall1);
+		this.removeEventListener(Event.ENTER_FRAME, pagechangedf);
+		for (var i=1; i<=12; i++) {
+			this["mini"+i].out=true;
+		}
+	}
+}
+
+this.addEventListener(Event.ENTER_FRAME, dragfunc);
+function dragfunc(e:Event):void {
+	if (this.onedit==true&&statuse=="Waiting") {
+		if (notrep==true) {
+			trace("está aqui, onde está o que está aqui, número do que está aqui")
+			for (var tr=0; tr<=12; tr++) {
+				this["ini"+tr].text=this["tini"+(tr+12*(page-1))]+" "+this["tmini"+this["tini"+(tr+12*(page-1))]]+" "+this["mini"+(this["tini"+(tr+12*(page-1))]-12*(page-1))].number
+				this["ini"+tr].removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+			}
+			notrep=false;
+		}
+		ini1.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini2.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini3.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini4.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini5.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini6.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini7.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini8.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini9.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini10.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini11.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini12.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+		ini0.addEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+	}
+	if (this.onedit==true&&statuse=="Dragging") {
+		ini1.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini2.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini3.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini4.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini5.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini6.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini7.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini8.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini9.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini10.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini11.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini12.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		ini0.addEventListener(MouseEvent.MOUSE_UP, targetfunction);
+	}
+	if (objecto!=0) {
+		objecto.x=objposx+(mouseX-mouseposx);
+		objecto.y=objposy+(mouseY-mouseposy);
+	}
+	if (this.onedit==true&&(ini1.visible!=true||ini2.visible!=true||ini3.visible!=true||ini4.visible!=true||ini5.visible!=true||ini6.visible!=true||ini7.visible!=true||ini8.visible!=true||ini9.visible!=true||ini10.visible!=true||ini11.visible!=true||ini12.visible!=true)) {
+		for (var a=1; a<=12; a++) {
+			this["ini"+a].visible=true;
+			if (a+12*(page-1)==this["numbertotal"]){
+				break;
+			}
+		}
+	}
+	if (this.onedit==false&&(ini1.visible!=false||ini2.visible!=false||ini3.visible!=false||ini4.visible!=false||ini5.visible!=false||ini6.visible!=false||ini7.visible!=false||ini8.visible!=false||ini9.visible!=false||ini10.visible!=false||ini11.visible!=false||ini12.visible!=false)) {
+		for (var b=1; b<=12; b++) {
+			this["ini"+b].visible=false;
+		}
+	}
+	if (changenumber!=0){
+		if (changenumbername.awaiting==true){
+			changenumbername.number=changenumber;
+			changenumber=0;
+			changenumbername=0;
+		}
+		trace("cheking")
+	}
+	if (changenumber2!=0){
+		if (changenumbername2.awaiting==true){
+			changenumbername2.number=changenumber2;
+			changenumber2=0;
+			changenumbername2=0;
+		}
+		trace("cheking2")
+	}
+	if (visrep==true){
+		/*if (changenumbername2.awaiting==true){
+			changenumbername2.number=changenumber2;
+			changenumber2=0;
+			changenumbername2=0;
+		}* /
+		visrep=false;
+	}
+}
+
+function dragfunction(e:Event):void {
+	if (this["tini"+(Number(e.target.name.slice(3))+12*(page-1))]!=0){
+		if (e.target.name!="ini0"){
+			objecto=this["mini"+(Number(this["tini"+(Number(e.target.name.slice(3))+12*(page-1))])-12*(page-1))];
+		} else {
+			objecto=mini0;
+		}
+		//setChildIndex(objecto, 14)
+		mouseposx=mouseX;
+		mouseposy=mouseY;
+		objposx=objecto.x;
+		objposy=objecto.y;
+		targposx=e.target.x;
+		targposy=e.target.y;
+		statuse="Dragging";
+		notrep=true;
+		trace(objecto.name, "number="+objecto.number, "contem="+this["t"+e.target.name], "casa="+this["t"+objecto.name]);
+		stage.addEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	}
+	e.target.removeEventListener(MouseEvent.MOUSE_DOWN, dragfunction);
+}
+
+function targetfunction(e:Event):void {
+	//
+	obj_var=objecto;
+	targ_var=e.target;
+	//
+if (objecto.name=="mini0"){
+	if (e.target.name!="ini0"){
+		if (this["mini"+(Number(this["tini"+(Number(e.target.name.slice(3))+12*(page-1))])-12*(page-1))].number==0){
+			//
+		} else {
+			objecto=0;
+			statuse="Waiting";
+			notrep=true;
+			e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+		} 
+	} else if (e.target.name=="ini0"){
+		//
+	} 
+} else if (objecto.name!="mini0"){
+	if (e.target.name=="ini0"){
+		if (mini0.number!=0){
+			//
+		} else if (mini0.number==0){
+			objecto.x=objposx
+			objecto.y=objposy
+			this["tni0"]=objecto.number
+			this["tni"+objecto.number]=0
+			mini0.number=objecto.number
+			objecto.number=0
+			obj_var=objecto
+			targ_var=ini0
+		}
+	} else {
+		obj_var=objecto;
+		targ_var=e.target;
+	}
+}
+	swapbackup1=this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))];//Casa onde está o que moveu
+	swapbackup2=this["tmini"+this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]];//Casa alvo
+	swapbackup3=this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))];//Quem está na casa alvo
+	swapbackup4=this["tini"+this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))]];//Quem moveu
+	
+	trace(swapbackup1,swapbackup2,swapbackup3,swapbackup4)
+	//this["t"+objecto.name]=this["tmini"+this["t"+e.target.name]];
+	//this["t"+e.target.name]=this["tini"+this["t"+objecto.name]];
+	if (e.target.name!="ini0"&&this["tini"+this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))]]!=0){
+		objecto.x=e.target.x;
+		objecto.y=e.target.y;
+		if (Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1))!=0){
+			this["mini"+(Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1)))].x=targposx;
+			this["mini"+(Number(this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]-12*(page-1)))].y=targposy;
+		}
+	}
+	this["tini"+this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))]]=swapbackup3;
+	this["tmini"+(Number(obj_var.name.slice(4))+12*(page-1))]=swapbackup2;
+	this["tmini"+this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]]=swapbackup1;
+	this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]=swapbackup4;
+	
+	/*if (targ_var.name=="ini0"&&objecto.name=="mini0"){
+		mini0.x=ini0.x
+		mini0.y=ini0.y
+	} else if (targ_var.name=="ini0"){
+		objecto.x=objposx;
+		objecto.y=objposy;
+		mini0.x=ini0.x
+		mini0.y=ini0.y
+		objecto.visible=false;
+		mini0.number=0;
+		mini0.number=this["mini"+this["tini"+(Number(targ_var.name.slice(3))+12*(page-1))]].number
+	} else if (objecto.name=="mini0"){
+		mini0.x=ini0.x
+		mini0.y=ini0.y
+		this["mini"+(Number(swapbackup3-12*(page-1)))].x=e.target.x
+		this["mini"+(Number(swapbackup3-12*(page-1)))].y=e.target.y
+		
+		if (swapbackup3==0){
+			
+		} else {
+			changenumbername=mini0;
+			changenumber=this["mini"+(Number(swapbackup3-12*(page-1)))].number;
+			changenumbername2=this["mini"+(Number(swapbackup1-12*(page-1)))];
+			changenumber2=mini0.number;
+			mini0.number=0;
+			trace(this["mini"+(Number(swapbackup1-12*(page-1)))].number)
+			this["mini"+(Number(swapbackup1-12*(page-1)))].number=0;
+			this["mini"+(Number(swapbackup3-12*(page-1)))].number=0;
+			//this["mini"+(Number(swapbackup3-12*(page-1)))].x=this["mini"+(Number(swapbackup1-12*(page-1)))].x
+			//this["mini"+(Number(swapbackup3-12*(page-1)))].y=this["mini"+(Number(swapbackup1-12*(page-1)))].y
+			//this["mini"+(Number(swapbackup1-12*(page-1)))].x=e.target.x
+			//this["mini"+(Number(swapbackup1-12*(page-1)))].y=e.target.y
+			
+		}
+	} 
+	* /
+	objecto=0;
+	statuse="Waiting";
+	notrep=true;
+	e.target.removeEventListener(MouseEvent.MOUSE_UP, targetfunction);
+}
+
+function dropfunction(e:Event):void {
+	if (statuse!="Waiting") {
+		objecto.x=objposx;
+		objecto.y=objposy;
+		objecto=0;
+		statuse="Waiting";
+		notrep=true;
+		e.target.removeEventListener(MouseEvent.MOUSE_UP, dropfunction);
+	}
+}*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

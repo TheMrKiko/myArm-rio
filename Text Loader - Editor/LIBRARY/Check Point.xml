@@ -1,0 +1,106 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Point" itemID="54a8742d-000002e3" lastModified="1441580905" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Check Point">
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtlabel" fontRenderingMode="standard" width="69.25" height="17.9" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="21.75" ty="3.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#737373"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Check Button Assets/Check Only" name="checkpoint" centerPoint3DX="7.5" centerPoint3DY="12.5">
+                  <transformationPoint>
+                    <Point x="7.5" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+var thischecked=0;
+var waitingforchoice=true;
+var justselected=true;
+var mousepressed=false;
+checkpoint.dot.visible=false;
+var thislabel="";
+if (this.name=="checkrandom") {
+	thischecked=1;
+}
+
+checkpoint.addEventListener(MouseEvent.MOUSE_OUT, mouseoutdot);
+function mouseoutdot(e:Event):void {
+	checkpoint.out.gotoAndStop(1);
+}
+
+checkpoint.addEventListener(MouseEvent.MOUSE_DOWN, mousedowndot);
+function mousedowndot(e:Event):void {
+	checkpoint.out.gotoAndStop(3);
+}
+
+checkpoint.addEventListener(MouseEvent.MOUSE_UP, mouseupdot);
+function mouseupdot(e:Event):void {
+	 mousepressed=true;
+	if (thischecked==0) {
+		thischecked=1;
+		justselected=true;
+		checkpoint.dot.visible=true;
+	} else if (thischecked==1) {
+		thischecked=0;
+		justselected=true;
+		checkpoint.dot.visible=false;
+	}
+	checkpoint.out.gotoAndStop(2);
+}
+
+checkpoint.addEventListener(MouseEvent.MOUSE_OVER, mouseoverdot);
+function mouseoverdot(e:Event):void {
+	checkpoint.out.gotoAndStop(2);
+}
+
+this.addEventListener(Event.ENTER_FRAME, givetxt);
+function givetxt(e:Event):void {
+	txtlabel.text=thislabel;
+	if (thischecked==1&&justselected==true) {
+		justselected=false;
+		mousepressed=false;
+		checkpoint.dot.visible=true;
+	}
+	if (thischecked==0&&justselected==true) {
+		justselected=false;
+		mousepressed=false;
+		checkpoint.dot.visible=false;
+	}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Check Button Assets/Dot" itemID="54a87311-0000029b" lastModified="1428871831">
+  <timeline>
+    <DOMTimeline name="Dot">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0223388671875" d="0.0223388671875"/>
+                        </matrix>
+                        <GradientEntry color="#808080" ratio="0"/>
+                        <GradientEntry color="#666666" ratio="0.705882352941177"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!248 -248[350 -145 350 0!350 0[350 145 248 248!248 248[145 350 0 350!0 350[-146 350 -249 248!-249 248[-350 145 -350 0!-350 0[-350 -145 -249 -248!-249 -248[-146 -350 0 -350!0 -350[145 -350 248 -248"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

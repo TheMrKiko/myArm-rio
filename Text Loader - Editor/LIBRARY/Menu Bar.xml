@@ -1,0 +1,635 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu Bar" itemID="5496f917-00000912" lastModified="1438556194">
+  <timeline>
+    <DOMTimeline name="Menu Bar" currentFrame="1">
+      <layers>
+        <DOMLayer name="Menu" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Menumain" name="bar" centerPoint3DX="76" centerPoint3DY="16.55">
+                  <matrix>
+                    <Matrix tx="76" ty="16.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="DownCell" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell1" centerPoint3DX="94.55" centerPoint3DY="45.05">
+                  <matrix>
+                    <Matrix tx="94.55" ty="45.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell2" centerPoint3DX="94.55" centerPoint3DY="69">
+                  <matrix>
+                    <Matrix tx="94.55" ty="69"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell3" centerPoint3DX="94.5" centerPoint3DY="92.95">
+                  <matrix>
+                    <Matrix tx="94.5" ty="92.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell4" centerPoint3DX="94.5" centerPoint3DY="116.9">
+                  <matrix>
+                    <Matrix tx="94.5" ty="116.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell5" centerPoint3DX="94.5" centerPoint3DY="140.85">
+                  <matrix>
+                    <Matrix tx="94.5" ty="140.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell6" centerPoint3DX="94.5" centerPoint3DY="164.8">
+                  <matrix>
+                    <Matrix tx="94.5" ty="164.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell7" centerPoint3DX="94.55" centerPoint3DY="188.85">
+                  <matrix>
+                    <Matrix tx="94.55" ty="188.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menu Bar Assets/Downcell" name="cell8" centerPoint3DX="94.55" centerPoint3DY="212.8">
+                  <matrix>
+                    <Matrix tx="94.55" ty="212.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript offsets="1054,1026">
+                <script><![CDATA[stop();
+var labels:Array=new Array();
+var choice="";
+var choicedefined=false;
+var allselected="cell1";
+var menustatus="close";
+var cellnumber=8;
+var firsttime=true;
+var labelslength=0;
+var waitingforchoice=false;
+cell1.thisselected=true;
+cell1.gotoAndStop(4);
+cell1.visible=false;
+cell2.visible=false;
+cell3.visible=false;
+cell4.visible=false;
+cell5.visible=false;
+cell6.visible=false;
+cell7.visible=false;
+cell8.visible=false;
+
+this.addEventListener(Event.ENTER_FRAME, waitforarray);
+function waitforarray(e:Event):void {
+	if (labels.length!=0) {
+		labelslength=labels.length;
+		this.addEventListener(Event.ENTER_FRAME, checkchanged);
+		if (choicedefined==false) {
+			choice=labels[0];
+			bar.maintext.text=labels[0];
+		} else {
+			bar.maintext.text=choice;
+		}
+		this["cell"+labels.length+"visibility"]=true;
+		if (labels.length>8) {
+			this["cell"+this.cellnumber+"visibility"]=true;
+		}
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		this.addEventListener(Event.ENTER_FRAME, checkvisibles);
+	}
+}
+
+function checkchanged(e:Event):void {
+	if (labelslength!=labels.length) {
+		if (choicedefined==false) {
+			choice=0;
+			cell1.thisselected=true;
+			cell1.gotoAndStop(4);
+		}
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		allselected="cell1";
+		firsttime=true;
+		bar.barmousein=true;
+		labelslength=labels.length;
+		this.menustatus="close";
+		this.cellnumber=8;
+		this["cell1visibility"]=false;
+		this["cell2visibility"]=false;
+		this["cell3visibility"]=false;
+		this["cell4visibility"]=false;
+		this["cell5visibility"]=false;
+		this["cell6visibility"]=false;
+		this["cell7visibility"]=false;
+		this["cell8visibility"]=false;
+		this.removeEventListener(Event.ENTER_FRAME, whichselect);
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		this.removeEventListener(Event.ENTER_FRAME, checkvisibles);
+		this.removeEventListener(MouseEvent.CLICK, openmenu);
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this.addEventListener(Event.ENTER_FRAME, waitforarray);
+	}
+}
+
+function checkvisibles(e:Event):void {
+	for (cellnumber=8; cellnumber>1; cellnumber--) {
+		if (this["cell"+this.cellnumber+"visibility"]==true) {
+			this["cell"+(this.cellnumber-1)+"visibility"]=true;
+		} else {
+			this["cell"+this.cellnumber+"visibility"]=false;
+		}
+	}
+	this.removeEventListener(Event.ENTER_FRAME, checkvisibles);
+	this.addEventListener(Event.ENTER_FRAME, whichselect);
+	this.addEventListener(MouseEvent.CLICK, openmenu);
+	this.cellnumber=1;
+	waitingforchoice=true;
+}
+
+function openmenu(e:Event):void {
+	if (choicedefined==true) {
+		choicedefined=false;
+	}
+	if (this.menustatus=="close") {
+		this.menustatus="open";
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this.addEventListener(Event.ENTER_FRAME, givevisibles);
+	} else if (this.menustatus=="open") {
+		this.menustatus="close";
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.addEventListener(Event.ENTER_FRAME, takevisibles);
+	}
+}
+
+function givevisibles(e:Event):void {
+	if (this.cellnumber==labels.length) {
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		if (this["cell"+this.cellnumber+"visibility"]==true) {
+			this["cell"+this.cellnumber].visible=true;
+			this["cell"+this.cellnumber].textbox.text=labels[this.cellnumber-1];
+		}
+	} else if (this["cell"+this.cellnumber+"visibility"]==true) {
+		this["cell"+this.cellnumber].visible=true;
+		this["cell"+this.cellnumber].textbox.text=labels[this.cellnumber-1];
+		this.cellnumber=this.cellnumber+1;
+		firsttime=false;
+	} else {
+		this["cell"+this.cellnumber].visible=false;
+		this.cellnumber=this.cellnumber+1;
+	}
+}
+
+function takevisibles(e:Event):void {
+	if (this["cell"+(this.cellnumber)]<8) {
+		if (this["cell"+(this.cellnumber+1)].visible==true) {
+			this.cellnumber=8;
+		}
+	}
+	if (this.cellnumber==1) {
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this["cell"+this.cellnumber].visible=false;
+	} else {
+		this["cell"+this.cellnumber].visible=false;
+		this.cellnumber=this.cellnumber-1;
+	}
+}
+
+function whichselect(e:Event):void {
+	if (firsttime!=true) {
+		if (this[allselected].textbox.text!="") {
+			bar.maintext.text=this[allselected].textbox.text;
+		}
+	}
+	if (bar.barmousein==false&&cell1.cellmousein==false&&cell2.cellmousein==false&&cell3.cellmousein==false&&cell4.cellmousein==false&&cell5.cellmousein==false&&cell6.cellmousein==false&&cell7.cellmousein==false&&cell8.cellmousein==false) {
+		menustatus="close";
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.addEventListener(Event.ENTER_FRAME, takevisibles);
+	}
+	if (cell1.justselected==true) {
+		allselected="cell1";
+	}
+	if (cell2.justselected==true) {
+		allselected="cell2";
+	}
+	if (cell3.justselected==true) {
+		allselected="cell3";
+	}
+	if (cell4.justselected==true) {
+		allselected="cell4";
+	}
+	if (cell5.justselected==true) {
+		allselected="cell5";
+	}
+	if (cell6.justselected==true) {
+		allselected="cell6";
+	}
+	if (cell7.justselected==true) {
+		allselected="cell7";
+	}
+	if (cell8.justselected==true) {
+		allselected="cell8";
+	}
+	if (allselected!="cell1"&&cell1.thisselected==true) {
+		cell1.thisselected=false;
+		cell1.gotoAndStop(1);
+	}
+	if (allselected!="cell2"&&cell2.thisselected==true) {
+		cell2.thisselected=false;
+		cell2.gotoAndStop(1);
+	}
+	if (allselected!="cell3"&&cell3.thisselected==true) {
+		cell3.thisselected=false;
+		cell3.gotoAndStop(1);
+	}
+	if (allselected!="cell4"&&cell4.thisselected==true) {
+		cell4.thisselected=false;
+		cell4.gotoAndStop(1);
+	}
+	if (allselected!="cell5"&&cell5.thisselected==true) {
+		cell5.thisselected=false;
+		cell5.gotoAndStop(1);
+	}
+	if (allselected!="cell6"&&cell6.thisselected==true) {
+		cell6.thisselected=false;
+		cell6.gotoAndStop(1);
+	}
+	if (allselected!="cell7"&&cell7.thisselected==true) {
+		cell7.thisselected=false;
+		cell7.gotoAndStop(1);
+	}
+	if (allselected!="cell8"&&cell8.thisselected==true) {
+		cell8.thisselected=false;
+		cell8.gotoAndStop(1);
+	}
+	if (choicedefined==true) {
+		if (choice==labels[0]&&cell1.thisselected==false) {//1
+			allselected="cell1";
+			cell1.thisselected=true;
+			cell1.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[1]&&cell2.thisselected==false) {//2
+			allselected="cell2";
+			cell2.thisselected=true;
+			cell2.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[2]&&cell3.thisselected==false) {//3
+			allselected="cell3";
+			cell3.thisselected=true;
+			cell3.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[3]&&cell4.thisselected==false) {//4
+			allselected="cell4";
+			cell4.thisselected=true;
+			cell4.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[4]&&cell5.thisselected==false) {//5
+			allselected="cell5";
+			cell5.thisselected=true;
+			cell5.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[5]&&cell6.thisselected==false) {//6
+			allselected="cell6";
+			cell6.thisselected=true;
+			cell6.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[6]&&cell7.thisselected==false) {//7
+			allselected="cell7";
+			cell7.thisselected=true;
+			cell7.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[7]&&cell8.thisselected==false) {//8
+			allselected="cell8";
+			cell8.thisselected=true;
+			cell8.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+	} else {
+		choice=bar.maintext.text;
+	}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Actions Backup" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*stop();
+var labels:Array=new Array();
+var choice="";
+var choicedefined=false;
+var allselected="cell1";
+var menustatus="close";
+var cellnumber=8;
+var firsttime=true;
+var labelslength=0;
+cell1.thisselected=true;
+cell1.gotoAndStop(4);
+cell1.visible=false;
+cell2.visible=false;
+cell3.visible=false;
+cell4.visible=false;
+cell5.visible=false;
+cell6.visible=false;
+cell7.visible=false;
+cell8.visible=false;
+
+this.addEventListener(Event.ENTER_FRAME, waitforarray);
+function waitforarray(e:Event):void {
+	if (labels.length!=0) {
+		labelslength=labels.length;
+		this.addEventListener(Event.ENTER_FRAME, checkchanged);
+		if (choicedefined==false) {
+			choice=labels[0];
+			bar.maintext.text=labels[0];
+		} else {
+			bar.maintext.text=choice;
+		}
+		this["cell"+labels.length+"visibility"]=true;
+		if (labels.length>8) {
+			this["cell"+this.cellnumber+"visibility"]=true;
+		}
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		this.addEventListener(Event.ENTER_FRAME, checkvisibles);
+	}
+}
+
+function checkchanged(e:Event):void {
+	if (labelslength!=labels.length) {
+		if (choicedefined==false) {
+			choice=0;
+			cell1.thisselected=true;
+			cell1.gotoAndStop(4);
+		}
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		allselected="cell1";
+		firsttime=true;
+		bar.barmousein=true;
+		labelslength=labels.length;
+		this.menustatus="close";
+		this.cellnumber=8;
+		this["cell1visibility"]=false;
+		this["cell2visibility"]=false;
+		this["cell3visibility"]=false;
+		this["cell4visibility"]=false;
+		this["cell5visibility"]=false;
+		this["cell6visibility"]=false;
+		this["cell7visibility"]=false;
+		this["cell8visibility"]=false;
+		this.removeEventListener(Event.ENTER_FRAME, whichselect);
+		this.removeEventListener(Event.ENTER_FRAME, waitforarray);
+		this.removeEventListener(Event.ENTER_FRAME, checkvisibles);
+		this.removeEventListener(MouseEvent.CLICK, openmenu);
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this.addEventListener(Event.ENTER_FRAME, waitforarray);
+	}
+}
+
+function checkvisibles(e:Event):void {
+	if (this.cellnumber==1) {
+		this.removeEventListener(Event.ENTER_FRAME, checkvisibles);
+		this.addEventListener(Event.ENTER_FRAME, whichselect);
+		this.addEventListener(MouseEvent.CLICK, openmenu);
+		this.cellnumber=1;
+	} else if (this["cell"+this.cellnumber+"visibility"]==true) {
+		this.cellnumber=this.cellnumber-1;
+		this["cell"+this.cellnumber+"visibility"]=true;
+	} else {
+		this["cell"+this.cellnumber+"visibility"]=false;
+		this.cellnumber=this.cellnumber-1;
+	}
+}
+
+function openmenu(e:Event):void {
+	if (choicedefined==true) {
+		choicedefined=false;
+	}
+	if (this.menustatus=="close") {
+		this.menustatus="open";
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this.addEventListener(Event.ENTER_FRAME, givevisibles);
+	} else if (this.menustatus=="open") {
+		this.menustatus="close";
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.addEventListener(Event.ENTER_FRAME, takevisibles);
+	}
+}
+
+function givevisibles(e:Event):void {
+	if (this.cellnumber==labels.length) {
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		if (this["cell"+this.cellnumber+"visibility"]==true) {
+			this["cell"+this.cellnumber].visible=true;
+			this["cell"+this.cellnumber].textbox.text=labels[this.cellnumber-1];
+		}
+	} else if (this["cell"+this.cellnumber+"visibility"]==true) {
+		this["cell"+this.cellnumber].visible=true;
+		this["cell"+this.cellnumber].textbox.text=labels[this.cellnumber-1];
+		this.cellnumber=this.cellnumber+1;
+		firsttime=false;
+
+	} else {
+		this["cell"+this.cellnumber].visible=false;
+		this.cellnumber=this.cellnumber+1;
+	}
+}
+
+function takevisibles(e:Event):void {
+	if (this["cell"+(this.cellnumber)]<8) {
+		if (this["cell"+(this.cellnumber+1)].visible==true) {
+			this.cellnumber=8;
+		}
+	}
+	if (this.cellnumber==1) {
+		this.removeEventListener(Event.ENTER_FRAME, takevisibles);
+		this["cell"+this.cellnumber].visible=false;
+	} else {
+		this["cell"+this.cellnumber].visible=false;
+		this.cellnumber=this.cellnumber-1;
+	}
+}
+
+function whichselect(e:Event):void {
+	if (firsttime!=true) {
+		if (this[allselected].textbox.text!="") {
+			bar.maintext.text=this[allselected].textbox.text;
+		}
+	}
+	if (bar.barmousein==false&&cell1.cellmousein==false&&cell2.cellmousein==false&&cell3.cellmousein==false&&cell4.cellmousein==false&&cell5.cellmousein==false&&cell6.cellmousein==false&&cell7.cellmousein==false&&cell8.cellmousein==false) {
+		menustatus="close";
+		this.removeEventListener(Event.ENTER_FRAME, givevisibles);
+		this.addEventListener(Event.ENTER_FRAME, takevisibles);
+	}
+	if (cell1.justselected==true) {
+		allselected="cell1";
+	}
+	if (cell2.justselected==true) {
+		allselected="cell2";
+	}
+	if (cell3.justselected==true) {
+		allselected="cell3";
+	}
+	if (cell4.justselected==true) {
+		allselected="cell4";
+	}
+	if (cell5.justselected==true) {
+		allselected="cell5";
+	}
+	if (cell6.justselected==true) {
+		allselected="cell6";
+	}
+	if (cell7.justselected==true) {
+		allselected="cell7";
+	}
+	if (cell8.justselected==true) {
+		allselected="cell8";
+	}
+	if (allselected!="cell1"&&cell1.thisselected==true) {
+		cell1.thisselected=false;
+		cell1.gotoAndStop(1);
+	}
+	if (allselected!="cell2"&&cell2.thisselected==true) {
+		cell2.thisselected=false;
+		cell2.gotoAndStop(1);
+	}
+	if (allselected!="cell3"&&cell3.thisselected==true) {
+		cell3.thisselected=false;
+		cell3.gotoAndStop(1);
+	}
+	if (allselected!="cell4"&&cell4.thisselected==true) {
+		cell4.thisselected=false;
+		cell4.gotoAndStop(1);
+	}
+	if (allselected!="cell5"&&cell5.thisselected==true) {
+		cell5.thisselected=false;
+		cell5.gotoAndStop(1);
+	}
+	if (allselected!="cell6"&&cell6.thisselected==true) {
+		cell6.thisselected=false;
+		cell6.gotoAndStop(1);
+	}
+	if (allselected!="cell7"&&cell7.thisselected==true) {
+		cell7.thisselected=false;
+		cell7.gotoAndStop(1);
+	}
+	if (allselected!="cell8"&&cell8.thisselected==true) {
+		cell8.thisselected=false;
+		cell8.gotoAndStop(1);
+	}
+	if (choicedefined==true) {
+		if (choice==labels[0]&&cell1.thisselected==false) {//1
+			allselected="cell1";
+			cell1.thisselected=true;
+			cell1.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[1]&&cell2.thisselected==false) {//2
+			allselected="cell2";
+			cell2.thisselected=true;
+			cell2.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[2]&&cell3.thisselected==false) {//3
+			allselected="cell3";
+			cell3.thisselected=true;
+			cell3.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[3]&&cell4.thisselected==false) {//4
+			allselected="cell4";
+			cell4.thisselected=true;
+			cell4.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[4]&&cell5.thisselected==false) {//5
+			allselected="cell5";
+			cell5.thisselected=true;
+			cell5.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[5]&&cell6.thisselected==false) {//6
+			allselected="cell6";
+			cell6.thisselected=true;
+			cell6.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[6]&&cell7.thisselected==false) {//7
+			allselected="cell7";
+			cell7.thisselected=true;
+			cell7.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+		if (choice==labels[7]&&cell8.thisselected==false) {//8
+			allselected="cell8";
+			cell8.thisselected=true;
+			cell8.gotoAndStop(4);
+			bar.maintext.text=choice;
+		}
+	} else {
+		choice=bar.maintext.text;
+	}
+}*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

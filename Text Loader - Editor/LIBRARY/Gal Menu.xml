@@ -1,0 +1,167 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Gal Menu" itemID="550761bb-00000035" lastModified="1441578793">
+  <timeline>
+    <DOMTimeline name="Gal Menu">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn" name="cscbtn" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="-30.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="btn" name="trcbtn" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="-8.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="btn" name="pnbtn" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="13.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="btn" name="calbtn" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.416702270507813" d="0.416702270507813" tx="160.95" ty="35.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="183" height="29.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-91.5" ty="-14.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Galeria</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="26" face="Arial-BoldMT" fillColor="#FF9900"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="183" height="20.1" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="-42"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Casaco</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" face="Arial-BoldMT" fillColor="#FF9900"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="183" height="20.1" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="-20"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Tronco</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" face="Arial-BoldMT" fillColor="#FF9900"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="183" height="20.1" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Pernas</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" face="Arial-BoldMT" fillColor="#FF9900"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="183" height="20.1" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="24"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Calçado</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" face="Arial-BoldMT" fillColor="#FF9900"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var main:MovieClip=this.parent as MovieClip;
+
+cscbtn.addEventListener(MouseEvent.CLICK,fcscbtn);
+function fcscbtn(e:Event):void {
+	root["GalActualArray"]="Casaco";
+	cscbtn.removeEventListener(MouseEvent.CLICK,fcscbtn);
+	main.gotoAndStop(1, "Gallery");
+}
+
+trcbtn.addEventListener(MouseEvent.CLICK,ftrcbtn);
+function ftrcbtn(e:Event):void {
+	root["GalActualArray"]="Tronco";
+	trcbtn.removeEventListener(MouseEvent.CLICK,ftrcbtn);
+	main.gotoAndStop(1, "Gallery");
+}
+
+pnbtn.addEventListener(MouseEvent.CLICK,fpnbtn);
+function fpnbtn(e:Event):void {
+	root["GalActualArray"]="Pernas";
+	pnbtn.removeEventListener(MouseEvent.CLICK,fpnbtn);
+	main.gotoAndStop(1, "Gallery");
+}
+
+calbtn.addEventListener(MouseEvent.CLICK,fcalbtn);
+function fcalbtn(e:Event):void {
+	root["GalActualArray"]="Calçado";
+	calbtn.removeEventListener(MouseEvent.CLICK,fcalbtn);
+	main.gotoAndStop(1, "Gallery");
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

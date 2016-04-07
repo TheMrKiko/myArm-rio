@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Arrows" itemID="54aad5b1-0000002c" lastModified="1420483020" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Arrows">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Arrows Assets/Left Arrow" name="leftaw">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Arrows Assets/Right Arrow" name="rightaw" centerPoint3DX="46">
+                  <matrix>
+                    <Matrix tx="46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var leftpressed=false;
+var rightpressed=false;
+
+rightaw.addEventListener(MouseEvent.CLICK, rightp);
+function rightp(e:Event):void {
+	rightpressed=true;
+}
+
+leftaw.addEventListener(MouseEvent.CLICK, leftp);
+function leftp(e:Event):void {
+	leftpressed=true;
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

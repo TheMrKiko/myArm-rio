@@ -1,0 +1,498 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Row" itemID="56ddd83a-00000049" lastModified="1459892762" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Row">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="itembox" width="96" height="66" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-348" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Nome</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="18" bitmapSize="360" face="Arial-BoldMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="typebox" width="111" height="26.05">
+                  <matrix>
+                    <Matrix tx="-238" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Tronco</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="subtypebox" width="111" height="26.05">
+                  <matrix>
+                    <Matrix tx="-238" ty="4.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Camisola</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="color0box" width="26" height="26.05">
+                  <matrix>
+                    <Matrix tx="-113" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="color2box" width="26" height="26.05">
+                  <matrix>
+                    <Matrix tx="-113" ty="4.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="color1box" width="26" height="26.05">
+                  <matrix>
+                    <Matrix tx="-73" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="color3box" width="26" height="26.05">
+                  <matrix>
+                    <Matrix tx="-73" ty="4.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="stylebox" width="41" height="26.05">
+                  <matrix>
+                    <Matrix tx="-33" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>50</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMInputText name="deltadaysbox" width="41" height="26.05">
+                  <matrix>
+                    <Matrix tx="-33" ty="4.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>7</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText name="seasonbox" width="26" height="26.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="202" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>-1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="showbox" width="26" height="26.05">
+                  <matrix>
+                    <Matrix tx="202" ty="4.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMSymbolInstance libraryItemName="Date Insertor" name="lastdatebox" centerPoint3DX="74.1" centerPoint3DY="-22.35">
+                  <matrix>
+                    <Matrix a="1.138427734375" d="1.36029052734375" tx="20" ty="-37.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="11.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="numberbox" width="26.5" height="26.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="242" ty="-35.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="23" bitmapSize="460" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="imgbox" width="91.5" height="26.05" lineType="multiline">
+                  <matrix>
+                    <Matrix a="1.05235290527344" tx="242.1" ty="4.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.75" y="13"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>img.png</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="15" bitmapSize="300" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMSymbolInstance libraryItemName="Date Insertor" name="lastdateoldbox" centerPoint3DX="74.1" centerPoint3DY="17.65">
+                  <matrix>
+                    <Matrix a="1.138427734375" d="1.36029052734375" tx="20" ty="2.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="11.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="btn" name="savebtn" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.624725341796875" d="0.624740600585938" tx="325.5" ty="-22.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="btn" name="changebtn" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.416488647460938" d="0.41650390625" tx="290.5" ty="-27.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Greencheck" name="greenx" centerPoint3DX="290.5" centerPoint3DY="-11.55">
+                  <matrix>
+                    <Matrix tx="290.5" ty="-11.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText width="26" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-113" ty="-9.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>azul</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="27" height="19.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-73.5" ty="-9.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>castanho</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="26" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-113" ty="30.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>escuro</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="26" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-73" ty="30.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>claro</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="41" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-33" ty="-9.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="41" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-33" ty="30.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>dias</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="seastxt" width="26" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="202" ty="-9.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>verão</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText width="26" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="202" ty="30.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>visível</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="8" bitmapSize="160" face="ArialNarrow" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var number;///o % é há quanto tempo não uso, comparado com hj
+var waiting=true;
+var seasons=["verão","ambos","inverno"];
+var out=false;
+var closee=false;
+var lastdate_bk;
+var lastdateold_bk;
+this.visible=false;
+
+addEventListener(Event.ENTER_FRAME, rowfunct);
+function rowfunct(e:Event):void {
+	seastxt.text=seasons[Number(seasonbox.text)+1];
+	if (this.waiting==true) {
+		if (this.number!=undefined&&this.number!=0) {
+			trace("give "+this.number);
+			this.visible=true;
+			numberbox.text=String(this.number);
+			itembox.text=root["item"+this.number];
+			typebox.text=root["type"+this.number];
+			subtypebox.text=root["subtype"+this.number];
+			color0box.text=root["color"+this.number][0];
+			color1box.text=root["color"+this.number][1];
+			color2box.text=root["color"+this.number][2];
+			color3box.text=root["color"+this.number][3];
+			stylebox.text=root["style"+this.number];
+			deltadaysbox.text=root["deltadays"+this.number];
+			lastdatebox.daynumbs=Number(root["lastdate"+this.number][0]);
+			lastdatebox.monthnumbs=Number(root["lastdate"+this.number][1]);
+			lastdatebox.yearnumbs=Number(root["lastdate"+this.number][2]);
+			lastdateoldbox.daynumbs=Number(root["lastdateold"+this.number][0]);
+			lastdateoldbox.monthnumbs=Number(root["lastdateold"+this.number][1]);
+			lastdateoldbox.yearnumbs=Number(root["lastdateold"+this.number][2]);
+			seasonbox.text=root["season"+this.number];
+			showbox.text=root["show"+this.number];
+			imgbox.text=root["img"+this.number];
+			this.waiting=false;
+		} else {
+			this.visible=false;
+			numberbox.text="0";
+			itembox.text="";
+			typebox.text="";
+			subtypebox.text="";
+			color0box.text="0";
+			color1box.text="0";
+			color2box.text="0";
+			color3box.text="0";
+			stylebox.text="";
+			deltadaysbox.text="";
+			lastdatebox.daynumbs=1;
+			lastdatebox.monthnumbs=0;
+			lastdatebox.yearnumbs=2016;
+			lastdate_bk=0;
+			lastdateoldbox.daynumbs=1;
+			lastdateoldbox.monthnumbs=0;
+			lastdateoldbox.yearnumbs=2016;
+			lastdateold_bk=0;
+			seasonbox.text="0";
+			showbox.text="1";
+			imgbox.text="";
+		}
+	} else {
+		this.visible=true;
+	}
+	if (this.out==true) {
+		this.out=false;
+		this.number=undefined;
+		this.waiting=true;
+	}
+	if (root["greenv"+this.number]==true) {
+		greenx.visible=true;
+	} else {
+		greenx.visible=false;
+	}
+	if (this.closee==true) {
+		seasonbox.removeEventListener(MouseEvent.CLICK, seasoni);
+		this.removeEventListener(MouseEvent.CLICK, rights);
+		changebtn.removeEventListener(MouseEvent.CLICK, changething);
+		removeEventListener(Event.ENTER_FRAME, rowfunct);
+		savebtn.removeEventListener(MouseEvent.CLICK, savesingle);
+		this.closee="yes";
+	}
+}
+
+changebtn.addEventListener(MouseEvent.CLICK, changething);
+function changething(e:MouseEvent):void {
+	var lastdate_2=new Date(Number(lastdatebox.yearnumbs),Number(lastdatebox.monthnumbs),Number(lastdatebox.daynumbs),0,0,0,0);
+	var lastdate_=lastdate_2.getTime()-(lastdate_2.getTimezoneOffset()*60000);
+	var lastdateold_2=new Date(Number(lastdateoldbox.yearnumbs),Number(lastdateoldbox.monthnumbs),Number(lastdateoldbox.daynumbs),0,0,0,0);
+	var lastdateold_=lastdateold_2.getTime()-(lastdateold_2.getTimezoneOffset()*60000);
+	if (lastdate_!=lastdate_bk||lastdateold_!=lastdateold_bk) {
+		lastdate_bk=lastdate_;
+		lastdateold_bk=lastdateold_;
+		var dateinterval=Math.abs(lastdate_-lastdateold_)/(1000*60*60*24);
+		deltadaysbox.text=dateinterval;
+	}
+}
+
+savebtn.addEventListener(MouseEvent.CLICK, savesingle);
+function savesingle(e:MouseEvent):void {
+	root["item"+this.number]=itembox.text;
+	root["type"+this.number]=typebox.text;
+	root["subtype"+this.number]=subtypebox.text;
+	root["color"+this.number]=[];
+	root["color"+this.number].push(color0box.text);
+	root["color"+this.number].push(color1box.text);
+	root["color"+this.number].push(color2box.text);
+	root["color"+this.number].push(color3box.text);
+	root["style"+this.number]=stylebox.text;
+	root["season"+this.number]=seasonbox.text;
+	root["lastdate"+this.number]=[];
+	root["lastdate"+this.number].push(lastdatebox.daynumbs);
+	root["lastdate"+this.number].push(lastdatebox.monthnumbs);
+	root["lastdate"+this.number].push(lastdatebox.yearnumbs);
+	root["lastdateold"+this.number]=[];
+	root["lastdateold"+this.number].push(lastdateoldbox.daynumbs);
+	root["lastdateold"+this.number].push(lastdateoldbox.monthnumbs);
+	root["lastdateold"+this.number].push(lastdateoldbox.yearnumbs);
+	root["deltadays"+this.number]=deltadaysbox.text;
+	root["show"+this.number]=showbox.text;
+	root["img"+this.number]=imgbox.text;
+	root["greenv"+this.number]=true;
+	trace("Item "+this.number);
+	trace(root["item"+this.number]);
+	trace(root["type"+this.number]);
+	trace(root["subtype"+this.number]);
+	trace(root["color"+this.number]);
+	trace((root["style"+this.number])+"%");
+	trace(root["season"+this.number]);
+	trace(root["lastdate"+this.number]);
+	trace(root["lastdateold"+this.number]);
+	trace((root["deltadays"+this.number])+" dias");
+	trace(root["show"+this.number]);
+	trace(root["img"+this.number]);
+}
+
+seasonbox.addEventListener(MouseEvent.CLICK, seasoni);
+function seasoni(e:MouseEvent):void {
+	seasonbox.text=String(Number(seasonbox.text)+1);
+	if (Number(seasonbox.text)>1) {
+		seasonbox.text="-1";
+	}
+}
+
+this.addEventListener(MouseEvent.CLICK, rights);
+function rights(e:MouseEvent):void {
+	if (e.target.name!="savebtn") {
+		root["greenv"+this.number]=false;
+	}
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

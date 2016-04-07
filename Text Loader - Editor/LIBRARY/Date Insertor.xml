@@ -1,0 +1,201 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Date Insertor" itemID="54bbf553-00000030" lastModified="1457989675" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="Date Insertor">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Date Assets/Date Arrows" name="dayarr" centerPoint3DX="17.35" centerPoint3DY="-2.75">
+                  <matrix>
+                    <Matrix tx="22.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Date Assets/Date Arrows" name="montharr" centerPoint3DX="67.3" centerPoint3DY="-2.7">
+                  <matrix>
+                    <Matrix tx="72.7" ty="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Date Assets/Date Arrows" name="yeararr" centerPoint3DX="127.25" centerPoint3DY="-2.7">
+                  <matrix>
+                    <Matrix tx="132.65" ty="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Date Assets/weekover" name="weekover" blendMode="lighten" centerPoint3DX="74.65" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix tx="74.65" ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="daytxt" fontRenderingMode="standard" width="18" height="18" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>01</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="monthtxt" fontRenderingMode="standard" width="28.95" height="18" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="42.05" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Jan</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="yeartxt" fontRenderingMode="standard" width="38.45" height="18" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="92.05" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>2016</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="16" bitmapSize="320" face="ArialMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var daynumbs=1;
+var monthnumbs=0;
+var yearnumbs=2016;
+var monthnames:Array=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Aug","Set","Out","Nov","Dez"];
+var waitingforchoice=true;
+var leapnumb=29;
+var thisdate:Date=new Date();
+
+this.addEventListener(Event.ENTER_FRAME, changeshit);
+function changeshit(e:Event):void {
+	thisdate=new Date(yearnumbs,monthnumbs,daynumbs);
+	if (dayarr.uppressed==true) {
+		daynumbs=daynumbs+1;
+		dayarr.uppressed=false;
+	}
+	if (dayarr.downpressed==true) {
+		daynumbs=daynumbs-1;
+		dayarr.downpressed=false;
+	}
+	if (dayarr.uplongpressed==true) {
+		daynumbs=daynumbs+7;
+		dayarr.uplongpressed=false;
+	}
+	if (dayarr.downlongpressed==true) {
+		daynumbs=daynumbs-7;
+		dayarr.downlongpressed=false;
+	}
+	if (montharr.uppressed==true) {
+		monthnumbs=monthnumbs+1;
+		montharr.uppressed=false;
+	}
+	if (montharr.downpressed==true) {
+		monthnumbs=monthnumbs-1;
+		montharr.downpressed=false;
+	}
+	if (yeararr.uppressed==true) {
+		yearnumbs=yearnumbs+1;
+		yeararr.uppressed=false;
+	}
+	if (yeararr.downpressed==true) {
+		yearnumbs=yearnumbs-1;
+		yeararr.downpressed=false;
+	}
+	if (daynumbs>leapnumb&&monthnumbs==1) {
+		monthnumbs=monthnumbs+1;
+		daynumbs=daynumbs-leapnumb;
+	}
+	if (daynumbs>30 && (monthnumbs==3 || monthnumbs==5 || monthnumbs==8 || monthnumbs==10)) {
+		monthnumbs=monthnumbs+1;
+		daynumbs=daynumbs-30;
+	}
+	if (daynumbs>31 && (monthnumbs==0 || monthnumbs==2 || monthnumbs==4 || monthnumbs==6 || monthnumbs==7 || monthnumbs==9 || monthnumbs==11)) {
+		monthnumbs=monthnumbs+1;
+		daynumbs=daynumbs-31;
+	}
+	if (daynumbs<=0) {
+		if (monthnumbs-1==1) {
+			daynumbs=leapnumb+daynumbs;
+		} else if (monthnumbs-1==3||monthnumbs-1==5||monthnumbs-1==8||monthnumbs-1==10) {
+			daynumbs=30+daynumbs;
+		} else if (monthnumbs-1==0||monthnumbs-1==2||monthnumbs-1==4||monthnumbs-1==6||monthnumbs-1==7||monthnumbs-1==9||monthnumbs-1==11) {
+			daynumbs=31+daynumbs;
+		} else if (monthnumbs==0) {
+			daynumbs=31+daynumbs;
+		}
+		monthnumbs=monthnumbs-1;
+	}
+	if (monthnumbs>=12) {
+		yearnumbs=yearnumbs+1;
+		monthnumbs=0;
+	}
+	if (monthnumbs<0) {
+		yearnumbs=yearnumbs-1;
+		monthnumbs=11;
+	}
+	if ((yearnumbs-2000)%4 == 0) {
+		leapnumb=29;
+	} else {
+		leapnumb=28;
+	}
+	if (new Date(yearnumbs,monthnumbs,daynumbs).getDay()==0||new Date(yearnumbs,monthnumbs,daynumbs).getDay()==6) {
+		weekover.visible=true;
+	} else {
+		weekover.visible=false;
+	}
+	daytxt.text=daynumbs;
+	monthtxt.text=monthnames[monthnumbs];
+	yeartxt.text=yearnumbs;
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
